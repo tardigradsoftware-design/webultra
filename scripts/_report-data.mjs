@@ -1,4 +1,4 @@
-import { readFileSync } from "node:fs"
+import { readFileSync, readdirSync } from "node:fs"
 
 /**
  * Rapor betigi icin hafif okuyucu: src/data/services.ts satir satir taranir ve
@@ -69,12 +69,11 @@ export const services = found.filter((s) => s.slug && s.title)
  * services.ts bu kayıtları çalışma zamanında "pilot" yapar; rapor da aynı
  * kaynaktan okusun diye burada dosyalardan taranır.
  */
-const contentFiles = [
-  "src/data/pilot-contents.ts",
-  "src/data/pilot-contents-2.ts",
-  "src/data/service-contents-web.ts",
-  "src/data/service-contents-web-2.ts",
-]
+const contentFiles = readdirSync("src/data")
+  .filter((f) => /contents.*\.ts$/.test(f))
+  .map((f) => `src/data/${f}`)
+
+/** Elle yazılmış içerik dosyalarındaki üst seviye slug anahtarları. */
 const handWritten = new Set()
 for (const f of contentFiles) {
   let t
