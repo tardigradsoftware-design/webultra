@@ -1,6 +1,8 @@
 import type { Service, ServiceContent } from "@/types/content"
 import { pilotContents } from "@/data/pilot-contents"
 import { pilotContents2 } from "@/data/pilot-contents-2"
+import { webContents } from "@/data/service-contents-web"
+import { webContents2 } from "@/data/service-contents-web-2"
 
 /**
  * 43 hizmet — tek kaynak.
@@ -37,6 +39,7 @@ export const services: Service[] = [
     icon: "Building2",
     status: "index",
     related: ["kurumsal-web-sitesi", "urun-tanitim-sitesi", "landing-page", "kurumsal-email"],
+    cityPriority: ["istanbul", "ankara", "izmir", "bursa"],
   },
   {
     no: "03",
@@ -51,6 +54,7 @@ export const services: Service[] = [
     icon: "Rocket",
     status: "index",
     related: ["kurumsal-web-sitesi", "form-basvuru-sistemi", "ai-icerik-araclar", "teknik-seo"],
+    cityPriority: ["istanbul", "ankara", "izmir", "antalya"],
   },
   {
     no: "04",
@@ -80,6 +84,7 @@ export const services: Service[] = [
     icon: "Package",
     status: "index",
     related: ["e-ticaret-sitesi", "urun-tedarikci-yonetimi", "teklif-hazirlama-sistemi", "kurumsal-web-sitesi"],
+    cityPriority: ["istanbul", "izmir", "bursa", "gaziantep"],
   },
   {
     no: "06",
@@ -94,6 +99,7 @@ export const services: Service[] = [
     icon: "Images",
     status: "index",
     related: ["kurumsal-web-sitesi", "landing-page", "mvp-startup-urunu", "teknik-seo"],
+    cityPriority: ["istanbul", "ankara", "izmir"],
   },
   {
     no: "07",
@@ -122,6 +128,7 @@ export const services: Service[] = [
     icon: "RefreshCw",
     status: "index",
     related: ["kurumsal-web-sitesi", "teknik-seo", "hosting-yedekleme", "seo-uyumlu-sayfa-mimarisi"],
+    cityPriority: ["istanbul", "kocaeli", "ankara", "izmir"],
   },
   {
     no: "09",
@@ -625,6 +632,8 @@ export const services: Service[] = [
 export const pilotContentsBySlug: Record<string, ServiceContent> = {
   ...pilotContents,
   ...pilotContents2,
+  ...webContents,
+  ...webContents2,
 }
 
 for (const svc of services) {

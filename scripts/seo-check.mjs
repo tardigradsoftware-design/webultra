@@ -194,7 +194,9 @@ const services = rows.filter((r) => r.route.startsWith("/hizmetler/") && r.route
 const summary = {
   pages: rows.length,
   servicePages: services.length,
-  pilotPages: services.filter((r) => r.ldTypes.includes("FAQPage")).length,
+  pagesWithFaq: services.filter((r) => r.ldTypes.includes("FAQPage")).length,
+  indexablePages: rows.filter((r) => !r.robots.includes("noindex")).length,
+  handWrittenServicePages: services.filter((r) => !r.robots.includes("noindex")).length,
   avgServiceWords: Math.round(services.reduce((a, r) => a + r.words, 0) / Math.max(1, services.length)),
   maxServiceWords: Math.max(0, ...services.map((r) => r.words)),
   minServiceWords: Math.min(...services.map((r) => r.words)),

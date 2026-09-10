@@ -42,7 +42,18 @@ import {
   Warehouse,
   Workflow,
   type LucideIcon,
-} from "lucide-react"
+  Briefcase,
+  CalendarClock,
+  Filter,
+  Layers,
+  Megaphone,
+  Phone,
+  ShieldCheck,
+  Target,
+  TrendingUp,
+  Camera,
+  Palette,
+  Settings2,} from "lucide-react"
 
 /** Hizmet/veri dosyalarındaki ikon adlarını bileşene çevirir (string → component). */
 export const iconRegistry: Record<string, LucideIcon> = {
@@ -88,6 +99,18 @@ export const iconRegistry: Record<string, LucideIcon> = {
   Users,
   Warehouse,
   Workflow,
+  Briefcase,
+  CalendarClock,
+  Filter,
+  Layers,
+  Megaphone,
+  Phone,
+  ShieldCheck,
+  Target,
+  TrendingUp,
+  Camera,
+  Palette,
+  Settings2,
 }
 
 export function getIcon(name?: string): LucideIcon {

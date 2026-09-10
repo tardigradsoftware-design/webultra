@@ -63,4 +63,29 @@ for (const raw of lines) {
 }
 
 export const services = found.filter((s) => s.slug && s.title)
+
+/**
+ * Elle yazılmış içerik dosyalarındaki üst seviye slug anahtarları.
+ * services.ts bu kayıtları çalışma zamanında "pilot" yapar; rapor da aynı
+ * kaynaktan okusun diye burada dosyalardan taranır.
+ */
+const contentFiles = [
+  "src/data/pilot-contents.ts",
+  "src/data/pilot-contents-2.ts",
+  "src/data/service-contents-web.ts",
+  "src/data/service-contents-web-2.ts",
+]
+const handWritten = new Set()
+for (const f of contentFiles) {
+  let t
+  try {
+    t = readFileSync(f, "utf8")
+  } catch {
+    continue
+  }
+  for (const m of t.matchAll(/^ {2}"([a-z0-9-]+)":\s*\{/gm)) handWritten.add(m[1])
+}
+
+for (const s of services) if (handWritten.has(s.slug)) s.status = "pilot"
+
 export const pilotServiceSlugs = services.filter((s) => s.status === "pilot").map((s) => s.slug)

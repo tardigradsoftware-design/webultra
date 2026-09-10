@@ -26,7 +26,7 @@ const byKind = (r) => {
 }
 
 const md = []
-md.push(`# Tardigrad Software — FAZ 1 Uygulama Raporu
+md.push(`# Tardigrad Software — Uygulama Raporu (Faz 1 + Faz 2 grup 1)
 
 > Bu rapor \`npm run report\` betiğiyle üretilir: build çıktısındaki HTML'den
 > title/description/kelime/schema/görsel/link metrikleri okunur, veri katmanıyla eşleştirilir.
@@ -77,6 +77,21 @@ md.push(`
 - JSON-LD olmayan sayfa: ${audit.summary.pagesWithoutJsonLd}
 - Hizmet sayfaları kelime sayısı (ana içerik): min ${audit.summary.minServiceWords} / ortalama ${audit.summary.avgServiceWords} / maks ${audit.summary.maxServiceWords}
 - Uyarı listesi: ${audit.problems.length ? "\n" + audit.problems.map((p) => `  - ${p}`).join("\n") : "yok ✓"}
+
+## 2c. Faz 2 içerik durumu (hizmet bazında)
+
+| # | Hizmet | Slug | Kategori | İçerik modu | Durum |
+|---:|---|---|---|---|---|`)
+
+for (const svc of services) {
+  const hand = pilotServiceSlugs.includes(svc.slug)
+  md.push(
+    `| ${svc.no} | ${svc.title} | \`${svc.slug}\` | ${svc.category} | ${hand ? "elle yazıldı" : "şablon (content-factory)"} | ${hand ? "index, follow" : "noindex, follow (Faz 2)"} |`,
+  )
+}
+
+md.push(`
+Elle yazılan hizmet sayısı: **${pilotServiceSlugs.length}/${services.length}**. Pilot olmayanlar yayında ama indekslenmiyor; içerik yazıldıkça \`src/data/service-contents-*.ts\` dosyalarına eklenir ve otomatik olarak indekslenir hâle gelir (ayrı bir config gerekmez).
 
 ## 3. Pilot hizmet sayfaları (elle yazılmış içerik)
 
