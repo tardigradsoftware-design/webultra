@@ -243,3 +243,24 @@ Faz 1 sayfa sayısı: **11** · Görsel: **8** · shadcn primitive: **13** · Pi
 4. **Lokal SEO:** Faz 1'de `10 il` linkli ama sayfalar kapalı (önerim) → yoksa 10 il sayfasını da Faz 1'e alayım mı?
 
 > **Onay verirsen** ("OK, Faz 1") doğrudan 9. maddedeki sırayla kurmaya başlıyorum.
+
+---
+
+# 11. ONAYLANAN KARARLAR (uygulamaya esas)
+
+| # | Konu | Karar |
+|---|---|---|
+| 1 | Font | Başlıklar **Geist 600-700**, gövde **Inter Variable 400-500** — `geist` npm + `@fontsource-variable/inter` (self-hosted). `next/font/google` bu Next sürümünde Geist barındırmıyor. |
+| 2 | Görsel | **8 görsel Faz 1'de üretildi**, her biri için 2 aday → seçim alındı. Beyaz zemin + lacivert UI, WebP 1280px (q82), PNG kaynakları `public/images/_src/` (gitignore). |
+| 3 | Form | **Gerçek Resend** gönderimi (`RESEND_API_KEY` env'de). Gönderim kanalı hata verirse talep `data/leads.jsonl`'e yazılır ve kullanıcıya başarı döner. |
+| 4 | Lokal SEO | **10 il sayfası Faz 1'e alındı** → ek olarak 5 pilot hizmet × 10 il = 50 şehir varyantı. Faz 1 toplamı: 109 statik sayfa / 71 indekslenebilir URL. |
+
+## Uygulama notları (build sonrası)
+
+- **sitemap/robots:** `next-sitemap` yerine Next 14 native `src/app/sitemap.ts` + `src/app/robots.ts`. Tek kaynak `src/data/*` olduğu için drift ve postbuild adımı yok; dev ve prod aynı davranır.
+- **Medya sorgusu/izin:** `next dev` çıktı izole olması için `distDir=.next-dev`, `next build` `.next` kullanır → preview açıkken build alınabilir. `allowedDevOrigins: ["*.e2b.app"]` ile sandbox host'u reddedilmez.
+- **38 hizmet sayfası:** iskelet + meta + schema + iç linkler + görsel fallback'i yayında, gövde metni `src/lib/content-factory.ts` ile kategori tohumlarından üretiliyor; **Faz 2'ye kadar `noindex, follow`** ve sitemap'te değil.
+- **Logo:** SVG'ler gelmedi → `public/logo-placeholder.svg`, `public/icon.svg`, `src/components/site/logo.tsx` içinde `LOGO SVG BURAYA` işaretçileri duruyor; Organization şeması `/logo-placeholder.svg`'yu gösteriyor.
+- **Doğrulama:** `npx tsc --noEmit` ✓ · `npx next lint` ✓ (0 uyarı) · `npx next build` ✓ 116 sayfa · `node scripts/seo-check.mjs` ✓ (0 uyarı: title ≤60, description 128-158, JSON-LD parse, kırık iç link 0, WebP/alt/width-height, koyu tema yok) · `node scripts/check-desc-endings.mjs` ✓.
+- **Bekleyen:** Resend alan adı (`tardigradsoftware.com`) doğrulanmadığı için bu ortamda e-posta `application_error` dönüyor → yedek log devrede. Üretim öncesi SPF/DKIM/DMARC eklenip `RESEND_FROM` bu domaine alınmalı.
+- Detaylı envanter: **`docs/FAZ-1-RAPOR.md`** (tüm URL'ler + meta'lar + görsel yerleri), ham veri: `docs/seo-audit.json`, `docs/meta-dokum.txt`.
