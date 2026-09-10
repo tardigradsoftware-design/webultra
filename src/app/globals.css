@@ -1,0 +1,154 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+  Tardigrad Software — tasarım tokenları (shadcn/ui CSS variable deseni, v2 registry)
+  KATI KURAL: yalnızca AÇIK tema. .dark bloğu bilinçli olarak yok.
+  Renk paleti: beyaz #FFFFFF · slate-50 #F8FAFC · lacivert #0F2A44 / #1E3A5F
+                cyan #06B6D4 (vurgu) · yeşil #10B981 (onay) · slate metin/border
+*/
+@layer base {
+  :root {
+    color-scheme: light;
+
+    --background: 0 0% 100%;
+    --surface: 210 40% 98%;
+    --foreground: 222 47% 11%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 222 47% 11%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222 47% 11%;
+
+    /* lacivert #0F2A44 */
+    --primary: 209 64% 16%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 210 40% 98%;
+    --secondary-foreground: 215 28% 27%;
+
+    --muted: 210 40% 98%;
+    --muted-foreground: 215 16% 47%;
+
+    /* cyan #06B6D4 — yalnızca mikro vurgu */
+    --accent: 189 94% 43%;
+    --accent-foreground: 209 64% 16%;
+
+    /* yeşil #10B981 — yalnızca onay/metrik */
+    --success: 160 84% 39%;
+    --success-foreground: 0 0% 100%;
+
+    --destructive: 0 72% 42%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 214 32% 91%;
+    --input: 214 32% 91%;
+    --ring: 209 64% 16%;
+
+    --radius: 0.75rem;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  html {
+    -webkit-text-size-adjust: 100%;
+    scroll-behavior: smooth;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+  }
+
+  body {
+    @apply bg-white font-sans text-[15px] leading-relaxed text-foreground antialiased md:text-base;
+    text-rendering: optimizeLegibility;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    @apply font-heading font-semibold tracking-tight text-[#0F172A];
+    text-wrap: balance;
+  }
+
+  ::selection {
+    background: hsl(var(--primary));
+    color: #fff;
+  }
+
+  :focus-visible {
+    @apply outline-none ring-2 ring-ring ring-offset-2 ring-offset-white;
+  }
+}
+
+@layer components {
+  /* Bölüm 1: ferah, çok boşluklu kurumsal ritim */
+  .section {
+    @apply py-16 md:py-24;
+  }
+
+  .section-alt {
+    @apply bg-surface;
+  }
+
+  .kicker {
+    @apply font-mono text-xs uppercase tracking-[0.14em] text-slate-500;
+  }
+
+  .prose-service {
+    @apply text-[17px] leading-8 text-slate-700;
+  }
+  .prose-service p + p {
+    @apply mt-5;
+  }
+  .prose-service strong {
+    @apply font-semibold text-[#0F172A];
+  }
+  .prose-service a {
+    @apply font-medium text-primary underline decoration-slate-300 underline-offset-4 transition-colors hover:decoration-primary;
+  }
+
+  .link-underline {
+    @apply underline decoration-slate-300 decoration-1 underline-offset-4 transition-colors hover:decoration-[#0F2A44];
+  }
+
+  /* Hero arkasındaki ağ/grid deseni — opacity 0.03 (KATI KURAL) */
+  .grid-pattern {
+    background-image: linear-gradient(to right, rgba(15, 42, 68, 0.55) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(15, 42, 68, 0.55) 1px, transparent 1px);
+    background-size: 56px 56px;
+    opacity: 0.03;
+    mask-image: radial-gradient(ellipse 80% 60% at 70% 0%, #000 40%, transparent 100%);
+  }
+
+  /* Görsel olmayan hizmet kartları için CSS mockup (beyaz + lacivert) */
+  .css-mockup {
+    @apply relative overflow-hidden rounded-xl border border-[#E2E8F0] bg-white shadow-card;
+  }
+  .css-mockup-bar {
+    @apply h-2 rounded-full bg-slate-200;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .shadow-hairline {
+    box-shadow: 0 0 0 1px hsl(var(--border));
+  }
+}
+
+/* Sonner (toast) — beyaz/lacivert tema */
+:root {
+  --toast-bg: #ffffff;
+}

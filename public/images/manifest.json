@@ -1,0 +1,61 @@
+{
+  "generatedAt": "2026-09-10T13:31:26.556Z",
+  "images": [
+    {
+      "file": "/images/hero/hero-kurumsal-dijital-donusum-paneli.webp",
+      "width": 1280,
+      "height": 800,
+      "kb": 15,
+      "source": "images/_src/hero-kurumsal-dijital-donusum-paneli.png"
+    },
+    {
+      "file": "/images/services/ai-chatbot-musteri-destek-sohbet-paneli.webp",
+      "width": 1280,
+      "height": 720,
+      "kb": 30,
+      "source": "images/_src/ai-chatbot-musteri-destek-sohbet-paneli.png"
+    },
+    {
+      "file": "/images/services/crm-musteri-iliskileri-yonetim-paneli.webp",
+      "width": 1280,
+      "height": 720,
+      "kb": 17,
+      "source": "images/_src/crm-musteri-iliskileri-yonetim-paneli.png"
+    },
+    {
+      "file": "/images/services/e-ticaret-sitesi-urun-katalog-sepet.webp",
+      "width": 1280,
+      "height": 720,
+      "kb": 29,
+      "source": "images/_src/e-ticaret-sitesi-urun-katalog-sepet.png"
+    },
+    {
+      "file": "/images/services/kurumsal-web-sitesi-tasarim-mockup.webp",
+      "width": 1280,
+      "height": 720,
+      "kb": 17,
+      "source": "images/_src/kurumsal-web-sitesi-tasarim-mockup.png"
+    },
+    {
+      "file": "/images/services/teknik-seo-arama-motori-buyume-grafigi.webp",
+      "width": 1280,
+      "height": 720,
+      "kb": 33,
+      "source": "images/_src/teknik-seo-arama-motori-buyume-grafigi.png"
+    },
+    {
+      "file": "/images/shared/dijital-donusum-excel-den-webe.webp",
+      "width": 1280,
+      "height": 720,
+      "kb": 10,
+      "source": "images/_src/dijital-donusum-excel-den-webe.png"
+    },
+    {
+      "file": "/images/shared/surec-9-adim-akisi.webp",
+      "width": 1280,
+      "height": 720,
+      "kb": 18,
+      "source": "images/_src/surec-9-adim-akisi.png"
+    }
+  ]
+}
