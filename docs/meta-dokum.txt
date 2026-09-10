@@ -1,0 +1,138 @@
+## /
+   title (54 kr): Tardigrad Software | Kurumsal Web, Özel Yazılım ve SEO
+   desc  (149 kr): Kurumsal web sitesi, özel yazılım, SaaS, e-ticaret ve SEO hizmetlerini tek elden yürüten Türkiye geneli teknoloji firması. 43 hizmet, 9 adımlı süreç.
+   h1  : Türkiye geneli 43 hizmetle dijital dönüşüm
+   canonical: https://tardigradsoftware.com/ | robots: index, follow
+
+## /hizmetler/
+   title (42 kr): Hizmetler (43 Başlık) | Tardigrad Software
+   desc  (153 kr): Tardigrad Software hizmet listesi: kurumsal web sitesi, e-ticaret, CRM, SaaS, teknik ve lokal SEO, API entegrasyonu, AI chatbot dahil 43 başlık. Türkiye.
+   h1  : 43 hizmetle dijital işlerinizi tek elden kurun
+   canonical: https://tardigradsoftware.com/hizmetler/ | robots: index, follow
+
+## /hizmetler/kurumsal-web-sitesi/
+   title (40 kr): Kurumsal Web Sitesi | Tardigrad Software
+   desc  (156 kr): Kurumsal web sitesi tasarımı ve geliştirmesi: hızlı, mobil öncelikli ve SEO uyumlu. Talep üreten sayfa mimarisi, yönetim paneli. Türkiye geneli çalışıyoruz.
+   h1  : Kurumsal Web Sitesi Nedir? Firmanızı Satışa Dönüştüren Site
+   canonical: https://tardigradsoftware.com/hizmetler/kurumsal-web-sitesi/ | robots: index, follow
+
+## /hizmetler/e-ticaret-sitesi/
+   title (37 kr): E-Ticaret Sitesi | Tardigrad Software
+   desc  (155 kr): E-ticaret sitesi kurulumu: katalog, varyant, sepet, sanal POS, kargo ve pazaryeri senkronu. Komisyon ödemeden kendi altyapınızda satış; stok tek kaynaktan.
+   h1  : E-Ticaret Sitesi Kurulumu: Kendi Altyapınızda Satış
+   canonical: https://tardigradsoftware.com/hizmetler/e-ticaret-sitesi/ | robots: index, follow
+
+## /hizmetler/crm/
+   title (24 kr): CRM | Tardigrad Software
+   desc  (157 kr): Kuruma özel CRM: müşteri, fırsat, teklif ve saha ziyareti takibi. WhatsApp ve e-posta entegrasyonuyla tüm iletişim tek kayıtta toplanır; satış hattı panelde.
+   h1  : CRM Nedir? Müşteri İlişkilerini Tek Kayıttan Yönetmek
+   canonical: https://tardigradsoftware.com/hizmetler/crm/ | robots: index, follow
+
+## /hizmetler/teknik-seo/
+   title (31 kr): Teknik SEO | Tardigrad Software
+   desc  (147 kr): Teknik SEO: Core Web Vitals, indeksleme ve tarama bütçesi, URL/canonical mimarisi, schema ve log analizi. Düzeltmeleri kod tarafında biz uygularız.
+   h1  : Teknik SEO Nedir? Sitenin Altyapısını Arama Motoruna Hazırlamak
+   canonical: https://tardigradsoftware.com/hizmetler/teknik-seo/ | robots: index, follow
+
+## /hizmetler/ai-chatbot/
+   title (31 kr): AI Chatbot | Tardigrad Software
+   desc  (150 kr): AI chatbot geliştirme: kurumsal bilgi tabanına bağlı (RAG) yanıt, insan devri, WhatsApp/web kanal ve raporlama. Tekrarlayan soruları otomatikleştirin.
+   h1  : AI Chatbot Nedir? Kurumsal Bilgiyle Çalışan Dijital Asistan
+   canonical: https://tardigradsoftware.com/hizmetler/ai-chatbot/ | robots: index, follow
+
+## /surec/
+   title (54 kr): Nasıl Çalışıyoruz? 9 Adımlı Süreç | Tardigrad Software
+   desc  (152 kr): Tardigrad Software'in 9 adımlı teslim süreci: analiz, strateji, UI/UX, geliştirme, SEO kurulumu, test, canlıya çıkış, ölçüm ve bakım. Her adımda yazılı.
+   h1  : Dokuz adım; her birinin bir çıktısı, bir onayı var
+   canonical: https://tardigradsoftware.com/surec/ | robots: index, follow
+
+## /hakkimizda/
+   title (31 kr): Hakkımızda | Tardigrad Software
+   desc  (151 kr): Tardigrad Software; kurumsal web, özel yazılım, SaaS, SEO ve IT/AI işlerini tek ekiple yürüten Türkiye merkezli teknoloji firması. 43 hizmet, 9 adımlı.
+   h1  : Yazılım, tasarım ve görünürlüğü tek ekipte toplayan bir dönüşüm firmasıyız
+   canonical: https://tardigradsoftware.com/hakkimizda/ | robots: index, follow
+
+## /iletisim/
+   title (45 kr): İletişim ve Teklif Formu | Tardigrad Software
+   desc  (155 kr): Tardigrad Software iletişim: kurumsal web sitesi, özel yazılım, SaaS, SEO ve AI chatbot talepleriniz için form, e-posta ve WhatsApp. 24 saat içinde yazılı.
+   h1  : Projenizi Konuşalım
+   canonical: https://tardigradsoftware.com/iletisim/ | robots: index, follow
+
+## /kvkk/
+   title (45 kr): KVKK ve Aydınlatma Metni | Tardigrad Software
+   desc  (158 kr): Tardigrad Software KVKK aydınlatma metni: iletişim formu ve teklif sürecinde işlenen kişisel veriler, amaçlar, aktarım, saklama süresi ve ilgili kişi hakları.
+   h1  : Kişisel verilerin korunması ve aydınlatma metni
+   canonical: https://tardigradsoftware.com/kvkk/ | robots: index, follow
+
+## /sehir/istanbul/
+   title (46 kr): İstanbul Yazılım, Web Sitesi ve SEO Hizmetleri
+   desc  (156 kr): İstanbul ve ilçelerinde kurumsal web sitesi, özel yazılım, e-ticaret ve SEO hizmetleri. finans ve holding merkezleri, perakende ve e-ticaret başlıkları öne.
+   h1  : İstanbul için kurumsal yazılım, web sitesi ve SEO
+   canonical: https://tardigradsoftware.com/sehir/istanbul/ | robots: index, follow
+
+## /sehir/ankara/
+   title (44 kr): Ankara Yazılım, Web Sitesi ve SEO Hizmetleri
+   desc  (156 kr): Ankara ve ilçelerinde kurumsal web sitesi, özel yazılım, e-ticaret ve SEO hizmetleri. savunma ve teknoloji geliştirme bölgeleri, kamu ve yüklenici firmalar.
+   h1  : Ankara için kurumsal yazılım, web sitesi ve SEO
+   canonical: https://tardigradsoftware.com/sehir/ankara/ | robots: index, follow
+
+## /sehir/izmir/
+   title (43 kr): İzmir Yazılım, Web Sitesi ve SEO Hizmetleri
+   desc  (149 kr): İzmir ve ilçelerinde kurumsal web sitesi, özel yazılım, e-ticaret ve SEO hizmetleri. ihracatçı üretim firmaları, tarım ve gıda işleme başlıkları öne.
+   h1  : İzmir için kurumsal yazılım, web sitesi ve SEO
+   canonical: https://tardigradsoftware.com/sehir/izmir/ | robots: index, follow
+
+## /sehir/bursa/
+   title (43 kr): Bursa Yazılım, Web Sitesi ve SEO Hizmetleri
+   desc  (148 kr): Bursa ve ilçelerinde kurumsal web sitesi, özel yazılım, e-ticaret ve SEO hizmetleri. otomotiv ve yan sanayi, tekstil üretimi başlıkları öne çıkıyor.
+   h1  : Bursa için kurumsal yazılım, web sitesi ve SEO
+   canonical: https://tardigradsoftware.com/sehir/bursa/ | robots: index, follow
+
+## /sehir/antalya/
+   title (45 kr): Antalya Yazılım, Web Sitesi ve SEO Hizmetleri
+   desc  (156 kr): Antalya ve ilçelerinde kurumsal web sitesi, özel yazılım, e-ticaret ve SEO hizmetleri. turizm ve konaklama, tarım ve sera başlıkları öne çıkıyor; Tardigrad.
+   h1  : Antalya için kurumsal yazılım, web sitesi ve SEO
+   canonical: https://tardigradsoftware.com/sehir/antalya/ | robots: index, follow
+
+## /sehir/kocaeli/
+   title (45 kr): Kocaeli Yazılım, Web Sitesi ve SEO Hizmetleri
+   desc  (149 kr): Kocaeli ve ilçelerinde kurumsal web sitesi, özel yazılım, e-ticaret ve SEO hizmetleri. ağır sanayi ve kimya, OSB'lerde üretim başlıkları öne çıkıyor.
+   h1  : Kocaeli için kurumsal yazılım, web sitesi ve SEO
+   canonical: https://tardigradsoftware.com/sehir/kocaeli/ | robots: index, follow
+
+## /sehir/gaziantep/
+   title (47 kr): Gaziantep Yazılım, Web Sitesi ve SEO Hizmetleri
+   desc  (151 kr): Gaziantep ve ilçelerinde kurumsal web sitesi, özel yazılım, e-ticaret ve SEO hizmetleri. halı ve tekstil üretimi, gıda ve fıstık işleme başlıkları öne.
+   h1  : Gaziantep için kurumsal yazılım, web sitesi ve SEO
+   canonical: https://tardigradsoftware.com/sehir/gaziantep/ | robots: index, follow
+
+## /sehir/konya/
+   title (43 kr): Konya Yazılım, Web Sitesi ve SEO Hizmetleri
+   desc  (148 kr): Konya ve ilçelerinde kurumsal web sitesi, özel yazılım, e-ticaret ve SEO hizmetleri. tarım makineleri, gıda ve unlu mamuller başlıkları öne çıkıyor.
+   h1  : Konya için kurumsal yazılım, web sitesi ve SEO
+   canonical: https://tardigradsoftware.com/sehir/konya/ | robots: index, follow
+
+## /sehir/adana/
+   title (43 kr): Adana Yazılım, Web Sitesi ve SEO Hizmetleri
+   desc  (151 kr): Adana ve ilçelerinde kurumsal web sitesi, özel yazılım, e-ticaret ve SEO hizmetleri. tarım ve çiftçilik, gıda sanayi başlıkları öne çıkıyor; Tardigrad.
+   h1  : Adana için kurumsal yazılım, web sitesi ve SEO
+   canonical: https://tardigradsoftware.com/sehir/adana/ | robots: index, follow
+
+## /sehir/kayseri/
+   title (45 kr): Kayseri Yazılım, Web Sitesi ve SEO Hizmetleri
+   desc  (153 kr): Kayseri ve ilçelerinde kurumsal web sitesi, özel yazılım, e-ticaret ve SEO hizmetleri. mobilya ve dekorasyon, havacılık ve savunma sanayi başlıkları öne.
+   h1  : Kayseri için kurumsal yazılım, web sitesi ve SEO
+   canonical: https://tardigradsoftware.com/sehir/kayseri/ | robots: index, follow
+
+## /hizmet/kurumsal-web-sitesi/istanbul/
+   title (51 kr): Kurumsal Web Sitesi — İstanbul | Tardigrad Software
+   desc  (157 kr): Kurumsal web sitesi hizmeti İstanbul için: Markanızı anlatan, talep üreten, hız ve SEO hedeflerini karşılayan kurumsal site — Marmara bölgesi. İl/ilçe sayfa.
+   h1  : Kurumsal Web Sitesi — İstanbul
+   canonical: https://tardigradsoftware.com/hizmet/kurumsal-web-sitesi/istanbul/ | robots: index, follow
+
+## /hizmet/crm/antalya/
+   title (34 kr): CRM — Antalya | Tardigrad Software
+   desc  (154 kr): CRM hizmeti Antalya için: Satış hattınızı ve müşteri geçmişini tek panelde toplayan özel CRM — Akdeniz bölgesi. İl/ilçe sayfa ailesi ve ölçüm planı dâhil.
+   h1  : CRM — Antalya
+   canonical: https://tardigradsoftware.com/hizmet/crm/antalya/ | robots: index, follow
+

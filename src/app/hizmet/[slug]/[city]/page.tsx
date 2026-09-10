@@ -79,7 +79,7 @@ export default async function ServiceCityPage({
         h2: `${city.name} firmaları için ${service.title.toLowerCase()}`,
         paragraphs: [
           variant.intro,
-          `${city.note} Bu tablo, ${service.primaryKeyword} işinin ${city.name}'de neden diğer illerden farklı önceliklendiğini açıklıyor.`,
+          `${city.note} Bu tablo, ${service.primaryKeyword} işinin ${city.name} ilinde neden diğer illerden farklı önceliklendiğini açıklıyor.`,
           `Ön analizde ${city.name} ve ${city.districts.slice(0, 3).join(", ")} için hedef sorguları, rakip sitelerin sayfa yapısını ve yerel rekabetin derinliğini birlikte çıkarıyoruz.`,
         ],
         bullets: [
@@ -179,7 +179,7 @@ export default async function ServiceCityPage({
       <Section alt>
         <SectionHeading
           kicker="İç linkler"
-          title={`${city.name}'da birlikte planlanan hizmetler`}
+          title={`${city.name} için birlikte planlanan hizmetler`}
           lead={`${city.name} işletmelerinde ${service.title.toLowerCase()} işi tek başına kalmıyor; aşağıdaki başlıklarla birlikte planlandığında toplam etki büyüyor.`}
         />
         <div className="mt-8">

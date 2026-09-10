@@ -71,7 +71,7 @@ export const cities: City[] = [
     plate: 27,
     region: "Güneydoğu Anadolu",
     districts: ["Şahinbey", "Şehitkamil", "Nizip", "İslahiye", "Oğuzeli"],
-    economy: ["halı ve tekstil üretimi", "gıda ve fıstıki işlemeleri", "ihracat", "toptan ticaret"],
+    economy: ["halı ve tekstil üretimi", "gıda ve fıstık işleme", "ihracat", "toptan ticaret"],
     note:
       "İhracatçı üreticiler için ürün kataloğu, bayi portalı ve teklif yönetimi; bölgesel rakiplerin SEO olgunluğu düşük.",
   },

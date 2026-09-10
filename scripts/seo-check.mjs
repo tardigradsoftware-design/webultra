@@ -137,6 +137,7 @@ for (const f of htmlFiles) {
     route,
     titleLen: titleText.length,
     title: titleText,
+    description: desc,
     descLen: desc.length,
     canonical,
     robots,
@@ -159,7 +160,11 @@ for (const f of htmlFiles) {
   const isService = route.startsWith("/hizmetler/") && route !== "/hizmetler/"
   if (titleText.length === 0) problems.push(`${route}: title yok`)
   if (titleText.length > 62) problems.push(`${route}: title ${titleText.length} kr (>60) — "${titleText}"`)
-  if (desc.length < 140) problems.push(`${route}: description ${desc.length} kr (hedef 150-160)`)
+  const descMin = route.startsWith("/hizmet/") ? 120 : 128
+  if (desc.length < descMin) problems.push(`${route}: description ${desc.length} kr (hedef ${descMin}-158)`)
+  const lastWord = desc.replace(/\.$/, "").split(/\s+/).pop() ?? ""
+  if (desc.length > 148 && /^(ve|ile|tek|için|bir|veya|olarak|dahi|kadar)$/i.test(lastWord))
+    problems.push(`${route}: description cümle ortasında kesilmiş gibi (…"${desc.slice(-30)}")`)
   if (desc.length > 168) problems.push(`${route}: description ${desc.length} kr (uzun)`)
   if (!canonical) problems.push(`${route}: canonical yok`)
   if (!og.image) problems.push(`${route}: og:image yok`)

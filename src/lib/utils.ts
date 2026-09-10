@@ -111,3 +111,52 @@ export function formatPhoneE164(raw: string): string | null {
   if (digits.length === 10) return `+90${digits}`
   return null
 }
+
+/**
+ * Metni en fazla `max` karaktere sığdırır; cümle ortasında kesmez.
+ * İki aday kesim noktasından (son cümle sınırı / son tam kelime) uzun olanı seçer,
+ * böylece SERP için ayrılan alan boş kalmaz.
+ */
+export function fitText(text: string, max = 158): string {
+  const t = text.trim().replace(/\s+/g, " ")
+  const period = (v: string) => `${v.replace(/[,;:.\-\s]+$/, "").trim()}.`
+  if (t.length <= max) return period(t)
+
+  const window = t.slice(0, max - 1)
+  const lastSpace = window.lastIndexOf(" ")
+  const wordCut = lastSpace > max * 0.55 ? window.slice(0, lastSpace) : ""
+
+  const sentenceEnd = Math.max(
+    window.lastIndexOf(". "),
+    window.lastIndexOf("! "),
+    window.lastIndexOf("? "),
+  )
+  const sentenceCut = sentenceEnd > max * 0.55 ? window.slice(0, sentenceEnd + 1).trim() : ""
+
+  const best = [sentenceCut, wordCut].filter(Boolean).sort((a, b) => b.length - a.length)[0]
+  if (!best) return period(window.trim())
+  // bağlaçla bitmesin: "… ve." → "…"
+  return period(best.replace(/(\s+)(ve|ile|i\u00e7in|veya|ile|ancak|yani|de|da)\s*$/i, ""))
+}
+
+/**
+ * Başlık kırpma: marka uzantısını önce düşürür, kelime sınırında keser.
+ * Başlıklar nokta ile bitmez — clampText yerine bu kullanılır.
+ */
+export function fitTitle(text: string, max = 60, brand = "Tardigrad Software"): string {
+  const t = text.trim().replace(/\s+/g, " ")
+  if (t.length <= max) return t
+  const noBrand = t.replace(new RegExp(`\\s*\\|\\s*${brand.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}$`, "i"), "")
+  if (noBrand.length <= max) return noBrand.trim()
+  const w = noBrand.slice(0, max - 1)
+  const sp = w.lastIndexOf(" ")
+  const cut = sp > max * 0.6 ? w.slice(0, sp) : w
+  return cut.replace(/[,;:\-|]+$/, "").trim()
+}
+
+/** Türkçe liste birleştirme: "a, b ve c" */
+export function joinList(items: string[], connector = " ve "): string {
+  const list = items.filter(Boolean)
+  if (list.length <= 1) return list[0] ?? ""
+  return `${list.slice(0, -1).join(", ")}${connector}${list[list.length - 1]}`
+}

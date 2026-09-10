@@ -32,7 +32,7 @@ export async function generateMetadata({ params }: { params: { slug: string } })
     title: `${city.name} Yazılım, Web Sitesi ve SEO Hizmetleri`,
     description:
       `${city.name} ve ilçelerinde kurumsal web sitesi, özel yazılım, e-ticaret ve SEO hizmetleri. ` +
-      `${city.economy.slice(0, 2).join(" ve ")} öne çıkıyor; Tardigrad Software ${city.name} firmalarına Türkiye geneli modelle çalışır.`,
+      `${city.economy.slice(0, 2).join(", ")} başlıkları öne çıkıyor; Tardigrad Software ${city.name} firmalarına Türkiye geneli modelle çalışır.`,
     path: url("sehir", city.slug),
     keywords: [
       `${city.name} web tasarım`,
@@ -71,7 +71,7 @@ export default function CityPage({ params }: { params: { slug: string } }) {
                 <MapPin className="h-3.5 w-3.5" /> {city.region} Bölgesi · {city.plate} plaka
               </p>
               <h1 className="mt-4 text-[30px] font-semibold leading-[1.15] tracking-tight text-[#0F2A44] sm:text-[38px]">
-                {city.name}'da kurumsal yazılım, web sitesi ve SEO
+                {city.name} için kurumsal yazılım, web sitesi ve SEO
               </h1>
               <p className="mt-5 max-w-2xl text-[17px] leading-8 text-slate-700">
                 {city.name} için hizmetler; {services.length} başlığın tamamını{" "}

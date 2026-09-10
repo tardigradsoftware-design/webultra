@@ -58,6 +58,19 @@ for (const r of rows) {
 }
 
 md.push(`
+### 2b. İndekslenebilir URL'ler — meta değerleri (sitemap'teki ${71} kayıt)
+
+| URL | Title | Description |
+|---|---|---|`)
+
+const idx = rows.filter((r) => !r.robots.includes("noindex"))
+for (const r of idx) {
+  md.push(`| \`${r.route}\` | ${r.title} | ${r.description ?? ""} |`)
+}
+
+md.push(`
+Şablon (FAZ 2) hizmet sayfalarının tam meta listesi: \`docs/seo-audit.json\` ve \`docs/meta-dokum.txt\`.
+
 **Özet metrikler:** ${JSON.stringify(audit.summary, null, 0)}
 
 - Kırık iç link: ${audit.summary.brokenLinks}

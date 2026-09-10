@@ -1,0 +1,7 @@
+.next
+.next-dev
+node_modules
+public/images
+package-lock.json
+docs/FAZ-1-RAPOR.md
+docs/meta-dokum.txt

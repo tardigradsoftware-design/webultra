@@ -1,6 +1,6 @@
 import type { Metadata } from "next"
 import { site } from "@/data/site"
-import { absoluteUrl, clampText } from "@/lib/utils"
+import { absoluteUrl, clampText, fitText, fitTitle } from "@/lib/utils"
 
 export const DEFAULT_OG_WIDTH = 1200
 export const DEFAULT_OG_HEIGHT = 630
@@ -22,8 +22,8 @@ export interface BuildMetadataInput {
 export function buildMetadata(input: BuildMetadataInput): Metadata {
   // Marka uzantısı kuralı: "{Sayfa Başlığı} | Tardigrad Software", 60 kr'ı aşarsa kısalt
   const withBrand = input.title.includes(" | ") ? input.title : `${input.title} | ${site.name}`
-  const title = clampText(withBrand, 60)
-  const description = clampText(input.description, 158)
+  const title = fitTitle(withBrand, 60)
+  const description = fitText(input.description, 158)
   const canonical = input.path === "/" ? "/" : input.path
   const pageUrl = absoluteUrl(canonical)
 

@@ -2,7 +2,7 @@ import type { ServiceContent, Service, FaqItem, IconBullet } from "@/types/conte
 import { categoryById } from "@/data/categories"
 import { processSteps } from "@/data/process"
 import { site } from "@/data/site"
-import { capitalize, hashString, pick } from "@/lib/utils"
+import { capitalize, fitText, hashString, pick } from "@/lib/utils"
 
 /**
  * İçerik üretici (content-factory).
@@ -249,9 +249,11 @@ export function buildCityServiceContent(service: Service, cityName: string, regi
   const title = `${service.title} — ${cityName}`
   return {
     title,
-    description:
-      `${capitalize(kw(service))} hizmeti ${cityName} ve çevresi için: ${service.cardText} ` +
-      `Yerel rekabet, il/ilçe aramaları ve ${region} pazarının beklentileri gözetilerek planlanır. ${site.name}, Türkiye geneli çalışır.`,
+    description: fitText(
+      `${capitalize(kw(service))} hizmeti ${cityName} için: ` +
+      `${service.cardText.replace(/\.$/, "")} — ${region} bölgesi. İl/ilçe sayfa ailesi ve ölçüm planı dâhil.`,
+      158,
+    ),
     intro:
       `${cityName} firmaları için ${kw(service)} işi, genel Türkiye planından farklı iki noktada yoğunlaşır: ` +
       `yerel aramalarda görünürlük ve şehirdeki karar vericilerin beklentisi. Sayfa yapısını, örnek olayları ve ` +

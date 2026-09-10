@@ -14,7 +14,7 @@ export async function generateMetadata(): Promise<Metadata> {
   return buildMetadata({
     title: `Hizmetler (${services.length} Başlık)`,
     description:
-      `Tardigrad Software hizmet listesi: kurumsal web sitesi, e-ticaret, CRM, iş takip, SaaS, teknik SEO, lokal SEO, API entegrasyonu, AI chatbot ve dijital dönüşüm dahil ${services.length} başlık. Türkiye geneli, tek fiyat ve tek takvim modeli ile.`,
+      `Tardigrad Software hizmet listesi: kurumsal web sitesi, e-ticaret, CRM, SaaS, teknik ve lokal SEO, API entegrasyonu, AI chatbot dahil ${services.length} başlık. Türkiye geneli, tek fiyat.`,
     path: url("hizmetler"),
     keywords: ["yazılım hizmetleri", "web tasarım hizmetleri", "kurumsal yazılım", "SEO hizmetleri"],
   })

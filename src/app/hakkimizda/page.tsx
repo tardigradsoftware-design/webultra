@@ -49,7 +49,7 @@ export default function HakkimizdaPage() {
           <BreadcrumbNav items={[{ name: "Ana Sayfa", href: "/" }, { name: "Hakkımızda" }]} />
           <div className="mt-8 grid gap-10 lg:grid-cols-[1.15fr_1fr] lg:gap-14">
             <div>
-              <p className="kicker">{site.address.district}/{site.address.city} · {site.founded}'den beri</p>
+              <p className="kicker">{site.address.district}/{site.address.city} · {site.founded} yılından bu yana</p>
               <h1 className="mt-4 text-[30px] font-semibold leading-[1.15] tracking-tight text-[#0F2A44] sm:text-[38px]">
                 Yazılım, tasarım ve görünürlüğü tek ekipte toplayan bir dönüşüm firmasıyız
               </h1>

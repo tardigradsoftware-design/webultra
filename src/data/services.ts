@@ -17,7 +17,7 @@ export const services: Service[] = [
     primaryKeyword: "kurumsal web sitesi",
     secondaryKeywords: ["kurumsal web sitesi hizmeti", "firma web sitesi", "kurumsal internet sitesi"],
     shortDescription:
-      "Kurumsal web sitesi tasarımı ve geliştirmesi: hızlı, mobil öncelikli ve SEO uyumlu. Talep üreten sayfa mimarisi, yönetim paneli, Türkiye geneli.",
+      "Kurumsal web sitesi tasarımı ve geliştirmesi: hızlı, mobil öncelikli ve SEO uyumlu. Talep üreten sayfa mimarisi, yönetim paneli. Türkiye geneli çalışıyoruz.",
     cardText: "Markanızı anlatan, talep üreten, hız ve SEO hedeflerini karşılayan kurumsal site.",
     icon: "Globe",
     status: "pilot",
@@ -60,7 +60,7 @@ export const services: Service[] = [
     primaryKeyword: "e-ticaret sitesi",
     secondaryKeywords: ["e-ticaret web sitesi kurulumu", "online satış sitesi"],
     shortDescription:
-      "E-ticaret sitesi kurulumu: katalog, varyant, sepet, sanal POS, kargo ve pazaryeri senkronu. Komisyon ödemeden kendi altyapınızda satın; stok ve fiyat tek.",
+      "E-ticaret sitesi kurulumu: katalog, varyant, sepet, sanal POS, kargo ve pazaryeri senkronu. Komisyon ödemeden kendi altyapınızda satış; stok tek kaynaktan.",
     cardText: "Kendi ürün kataloğunuzla, komisyon oranlarına sıkışmadan satış yapacağınız site.",
     icon: "ShoppingBag",
     status: "pilot",
@@ -89,7 +89,7 @@ export const services: Service[] = [
     primaryKeyword: "portfolyo sitesi",
     secondaryKeywords: ["portfolyo web sitesi", "kişisel portfolio sitesi"],
     shortDescription:
-      "Portfolyo web sitesi: proje vitrini, filtreli galeri, hakkında ve iletişim katmanı. Tasarımcı, mimar ve serbest çalışanlar için hızlı yayın Tek fiyat, tek.",
+      "Portfolyo web sitesi: proje vitrini, filtreli galeri, vaka anlatımı ve teklif formu. Tasarımcı, mimar ve ajanslar için çalışan bir iş geçmişi sayfası.",
     cardText: "İşlerinizi güvenle sergileyen, az metinle çok şey anlatan kişisel site.",
     icon: "Images",
     status: "index",
@@ -216,7 +216,7 @@ export const services: Service[] = [
     primaryKeyword: "personel yönetim sistemi",
     secondaryKeywords: ["personel takip sistemi", "kullanıcı yönetimi"],
     shortDescription:
-      "Personel ve kullanıcı yönetimi: rol/yetki matrisi, izin ve devamsızlık, özlük kayıtları, onboarding ve audit log. Yetki dağınıklığını bitirir Tek fiyat, tek.",
+      "Personel ve kullanıcı yönetimi: rol ve yetki matrisi, özlük bilgileri, izin ve puantaj kayıtları, giriş denetimi. Yetki dağınıklığı tek panelde biter.",
     cardText: "Kimin neyi görebileceğini netleştiren rol bazlı kullanıcı yönetimi.",
     icon: "IdCard",
     status: "index",
@@ -230,7 +230,7 @@ export const services: Service[] = [
     primaryKeyword: "yönetim paneli",
     secondaryKeywords: ["admin panel", "yönetim paneli geliştirme"],
     shortDescription:
-      "Yönetim paneli geliştirme: içerik, kullanıcı, sipariş ve ayar yönetimi; rol bazlı yetki, log ve raporlama. Ajansa bağımlılığı bitiren arayüz Tek fiyat, tek.",
+      "Yönetim paneli geliştirme: içerik, kullanıcı, ayar ve rapor ekranları tek arayüzde. Yetki bazlı erişim ve hızlı veri girişiyle işler panele taşınır.",
     cardText: "İşletmenizi kod yazmadan yönetmenizi sağlayan panel katmanı.",
     icon: "LayoutDashboard",
     status: "index",
@@ -342,7 +342,7 @@ export const services: Service[] = [
     primaryKeyword: "dashboard",
     secondaryKeywords: ["online dashboard", "veri görselleştirme"],
     shortDescription:
-      "Dashboard geliştirme: veri kaynaklarını birleştiren panolar, anlık metrikler, filtre ve drill-down. Yönetim kurulu tek ekrandan karar verir Tek fiyat, tek.",
+      "Dashboard geliştirme: veri kaynaklarını birleştiren yönetişim ekranları, anlık metrikler ve alarm eşikleri. Yönetici kararını kurulu tek ekrandan verir.",
     cardText: "Karmaşık veriyi okunur, tıklanabilir ve karar verilebilir ekrana çevirir.",
     icon: "LineChart",
     status: "index",
@@ -356,7 +356,7 @@ export const services: Service[] = [
     primaryKeyword: "MVP geliştirme",
     secondaryKeywords: ["startup web uygulaması", "hızlı ürün geliştirme"],
     shortDescription:
-      "MVP geliştirme: tek akış, net hedef, 6-10 haftada yayına çıkan web ürünü. Yatırımcı demosu ve ilk kullanıcı geri bildirimi için hazır altyapı Tek fiyat, tek.",
+      "MVP geliştirme: tek akış, net hedef, 6-10 haftada canlı ürün. Yatırımcı sunumu, kullanıcı onayı ve ilk dağıtım için hazır altyapı birlikte gelir.",
     cardText: "Fikri ölçülebilir bir ürüne çeviren, gereksiz kapsamı kesen MVP sprinti.",
     icon: "Zap",
     status: "index",
@@ -511,7 +511,7 @@ export const services: Service[] = [
     primaryKeyword: "Vercel",
     secondaryKeywords: ["Vercel deployment", "Next.js Vercel"],
     shortDescription:
-      "Vercel yayın hattı: preview ortamı, otomatik deploy, ortam değişkenleri, alan adı ve edge yapılandırma. Her PR ayrı önizleme, her merge canlı Tek fiyat, tek.",
+      "Vercel yayın hattı: preview ortamı, otomatik deploy, ortam değişkenleri ve domain yönetimi. Her pull request ayrı önizleme, her merge canlıya çıkış alır.",
     cardText: "Next.js projelerinde kontrollü, geri alınabilir ve hızlı yayın akışı.",
     icon: "Upload",
     status: "index",
@@ -525,7 +525,7 @@ export const services: Service[] = [
     primaryKeyword: "Supabase",
     secondaryKeywords: ["Supabase kurulumu", "PostgreSQL"],
     shortDescription:
-      "Supabase ve PostgreSQL kurulumu: şema tasarımı, row level security, auth, depolama ve yedekleme. Uygulamanızın veri omurgasını sağlam kurun Tek fiyat, tek.",
+      "Supabase ve PostgreSQL kurulumu: şema tasarımı, satır bazlı güvenlik politikaları, kimlik doğrulama ve dosya deposu. Veri omurgası baştan sağlam kurulur.",
     cardText: "Auth, depolama ve satır bazlı güvenlikle hazır veri katmanı.",
     icon: "Database",
     status: "index",
@@ -567,7 +567,7 @@ export const services: Service[] = [
     primaryKeyword: "CRM entegrasyonu",
     secondaryKeywords: ["ödeme entegrasyonu", "WhatsApp API"],
     shortDescription:
-      "Ödeme, WhatsApp Business API ve CRM entegrasyonu: sanal POS, sipariş bildirimleri, şablon mesajlar ve satış kaydının otomatik oluşması. Sohbet, tahsilat ve.",
+      "Ödeme, WhatsApp Business API ve CRM entegrasyonu: sanal POS, sipariş bildirimleri, şablon mesajlar ve satış kaydının otomatik oluşması. Tek akış, tek kayıt.",
     cardText: "Sohbeti, tahsilatı ve kaydı aynı akışta birleştiren entegrasyon.",
     icon: "MessageCircle",
     status: "index",
@@ -610,7 +610,7 @@ export const services: Service[] = [
     primaryKeyword: "dijital dönüşüm",
     secondaryKeywords: ["dijital dönüşüm danışmanlığı", "dijitalleşme"],
     shortDescription:
-      "Dijital dönüşüm: süreç envanteri, önceliklendirme, Excel'den panele geçiş planı ve ekip adaptasyonu. Yazılımdan önce karar netliği sağlanır Tek fiyat, tek.",
+      "Dijital dönüşüm: süreç envanteri, önceliklendirme ve yol haritası. Excel, WhatsApp ve telefon trafiğinden ölçülebilir sistemlere geçişi adım adım planlıyoruz.",
     cardText: "Kağıt ve tabloda yaşayan işleri ölçülebilir sistemlere çevirir.",
     icon: "Compass",
     status: "index",
