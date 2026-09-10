@@ -3,6 +3,8 @@ import { pilotContents } from "@/data/pilot-contents"
 import { pilotContents2 } from "@/data/pilot-contents-2"
 import { webContents } from "@/data/service-contents-web"
 import { webContents2 } from "@/data/service-contents-web-2"
+import { yazilimContents } from "@/data/service-contents-yazilim"
+import { yazilimContents2 } from "@/data/service-contents-yazilim-2"
 
 /**
  * 43 hizmet — tek kaynak.
@@ -114,6 +116,7 @@ export const services: Service[] = [
     icon: "CalendarCheck",
     status: "index",
     related: ["form-basvuru-sistemi", "musteri-paneli", "raporlama-sistemi", "odeme-whatsapp-crm-entegrasyonu"],
+    cityPriority: ["istanbul", "ankara", "izmir", "antalya"],
   },
   {
     no: "08",
@@ -158,6 +161,7 @@ export const services: Service[] = [
     icon: "Contact",
     status: "index",
     related: ["crm", "personel-kullanici-yonetimi", "raporlama-sistemi", "musteri-paneli"],
+    cityPriority: ["istanbul", "ankara", "izmir", "kocaeli"],
   },
   {
     no: "11",
@@ -172,6 +176,7 @@ export const services: Service[] = [
     icon: "FileText",
     status: "index",
     related: ["proforma-siparis-yonetimi", "crm", "urun-tedarikci-yonetimi", "raporlama-sistemi"],
+    cityPriority: ["istanbul", "bursa", "kocaeli", "ankara"],
   },
   {
     no: "12",
@@ -186,6 +191,7 @@ export const services: Service[] = [
     icon: "ClipboardList",
     status: "index",
     related: ["stok-yonetimi", "teklif-hazirlama-sistemi", "e-ticaret-sitesi", "api-entegrasyonu"],
+    cityPriority: ["istanbul", "kocaeli", "bursa", "izmir"],
   },
   {
     no: "13",
@@ -200,6 +206,7 @@ export const services: Service[] = [
     icon: "Warehouse",
     status: "index",
     related: ["urun-tedarikci-yonetimi", "proforma-siparis-yonetimi", "raporlama-sistemi", "e-ticaret-sitesi"],
+    cityPriority: ["istanbul", "kocaeli", "bursa", "adana"],
   },
   {
     no: "14",
@@ -214,6 +221,7 @@ export const services: Service[] = [
     icon: "Boxes",
     status: "index",
     related: ["stok-yonetimi", "urun-tanitim-sitesi", "teklif-hazirlama-sistemi", "api-entegrasyonu"],
+    cityPriority: ["istanbul", "bursa", "kayseri", "konya"],
   },
   {
     no: "15",
@@ -634,6 +642,8 @@ export const pilotContentsBySlug: Record<string, ServiceContent> = {
   ...pilotContents2,
   ...webContents,
   ...webContents2,
+  ...yazilimContents,
+  ...yazilimContents2,
 }
 
 for (const svc of services) {

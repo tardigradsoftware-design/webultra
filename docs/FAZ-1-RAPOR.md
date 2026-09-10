@@ -14,11 +14,11 @@
 | Font | Başlıklar Geist (600-700) · gövde Inter Variable (400-500) — self-hosted, `next/font` + `@fontsource-variable/inter` |
 | Logo | **BEKLENİYOR** → `public/logo-placeholder.svg` ve `public/icon.svg` içinde `LOGO SVG BURAYA` işaretçisi |
 | Build | `npx next build` hatasız · lint + tip kontrolü build'e bağlı |
-| Sayfa sayısı | 159 statik HTML (5 pilot hizmet + 38 şablon hizmet + 10 il + 50 hizmet×il + 6 kurumsal/dizin) |
+| Sayfa sayısı | 219 statik HTML (5 pilot hizmet + 38 şablon hizmet + 10 il + 50 hizmet×il + 6 kurumsal/dizin) |
 
 ## 2. URL envanteri
 
-Toplam: **159 yayına hazır route** · sitemap'te **71** URL (pilot + kurumsal + lokal; şablon hizmetler FAZ 2'ye kadar `noindex`).
+Toplam: **219 yayına hazır route** · sitemap'te **71** URL (pilot + kurumsal + lokal; şablon hizmetler FAZ 2'ye kadar `noindex`).
 
 | Rota | Tür | Title (kr) | Desc (kr) | Kelime | Görsel | İç link | SSS | JSON-LD | robots |
 |---|---|---:|---:|---:|---:|---:|---:|---|---|
@@ -84,6 +84,16 @@ Toplam: **159 yayına hazır route** · sitemap'te **71** URL (pilot + kurumsal 
 | `/hizmet/landing-page/kayseri/` | Hizmet × İl | 43 | 151 | 1674 | 0 | 62 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
 | `/hizmet/landing-page/kocaeli/` | Hizmet × İl | 43 | 155 | 1672 | 0 | 63 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
 | `/hizmet/landing-page/konya/` | Hizmet × İl | 41 | 156 | 1677 | 0 | 62 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
+| `/hizmet/musteri-yonetim-sistemi/adana/` | Hizmet × İl | 52 | 157 | 1619 | 0 | 62 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
+| `/hizmet/musteri-yonetim-sistemi/ankara/` | Hizmet × İl | 53 | 154 | 1620 | 0 | 63 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
+| `/hizmet/musteri-yonetim-sistemi/antalya/` | Hizmet × İl | 54 | 152 | 1618 | 0 | 63 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
+| `/hizmet/musteri-yonetim-sistemi/bursa/` | Hizmet × İl | 52 | 157 | 1617 | 0 | 63 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
+| `/hizmet/musteri-yonetim-sistemi/gaziantep/` | Hizmet × İl | 56 | 149 | 1618 | 0 | 62 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
+| `/hizmet/musteri-yonetim-sistemi/istanbul/` | Hizmet × İl | 55 | 153 | 1624 | 0 | 63 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
+| `/hizmet/musteri-yonetim-sistemi/izmir/` | Hizmet × İl | 52 | 153 | 1623 | 0 | 63 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
+| `/hizmet/musteri-yonetim-sistemi/kayseri/` | Hizmet × İl | 54 | 155 | 1620 | 0 | 62 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
+| `/hizmet/musteri-yonetim-sistemi/kocaeli/` | Hizmet × İl | 54 | 152 | 1617 | 0 | 63 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
+| `/hizmet/musteri-yonetim-sistemi/konya/` | Hizmet × İl | 52 | 153 | 1622 | 0 | 62 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
 | `/hizmet/portfoy-sitesi/adana/` | Hizmet × İl | 43 | 157 | 1532 | 0 | 60 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
 | `/hizmet/portfoy-sitesi/ankara/` | Hizmet × İl | 44 | 152 | 1532 | 0 | 61 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
 | `/hizmet/portfoy-sitesi/antalya/` | Hizmet × İl | 45 | 150 | 1530 | 0 | 61 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
@@ -94,6 +104,46 @@ Toplam: **159 yayına hazır route** · sitemap'te **71** URL (pilot + kurumsal 
 | `/hizmet/portfoy-sitesi/kayseri/` | Hizmet × İl | 45 | 153 | 1532 | 0 | 60 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
 | `/hizmet/portfoy-sitesi/kocaeli/` | Hizmet × İl | 45 | 150 | 1529 | 0 | 61 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
 | `/hizmet/portfoy-sitesi/konya/` | Hizmet × İl | 43 | 151 | 1534 | 0 | 60 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
+| `/hizmet/proforma-siparis-yonetimi/adana/` | Hizmet × İl | 56 | 152 | 1600 | 0 | 60 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
+| `/hizmet/proforma-siparis-yonetimi/ankara/` | Hizmet × İl | 57 | 156 | 1602 | 0 | 61 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
+| `/hizmet/proforma-siparis-yonetimi/antalya/` | Hizmet × İl | 58 | 154 | 1600 | 0 | 61 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
+| `/hizmet/proforma-siparis-yonetimi/bursa/` | Hizmet × İl | 56 | 152 | 1598 | 0 | 61 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
+| `/hizmet/proforma-siparis-yonetimi/gaziantep/` | Hizmet × İl | 60 | 157 | 1600 | 0 | 60 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
+| `/hizmet/proforma-siparis-yonetimi/istanbul/` | Hizmet × İl | 59 | 155 | 1606 | 0 | 61 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
+| `/hizmet/proforma-siparis-yonetimi/izmir/` | Hizmet × İl | 56 | 154 | 1605 | 0 | 61 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
+| `/hizmet/proforma-siparis-yonetimi/kayseri/` | Hizmet × İl | 58 | 157 | 1602 | 0 | 60 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
+| `/hizmet/proforma-siparis-yonetimi/kocaeli/` | Hizmet × İl | 58 | 154 | 1599 | 0 | 61 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
+| `/hizmet/proforma-siparis-yonetimi/konya/` | Hizmet × İl | 56 | 155 | 1604 | 0 | 60 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
+| `/hizmet/rezervasyon-basvuru-sistemi/adana/` | Hizmet × İl | 59 | 154 | 1624 | 0 | 63 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
+| `/hizmet/rezervasyon-basvuru-sistemi/ankara/` | Hizmet × İl | 60 | 151 | 1625 | 0 | 64 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
+| `/hizmet/rezervasyon-basvuru-sistemi/antalya/` | Hizmet × İl | 40 | 156 | 1624 | 0 | 64 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
+| `/hizmet/rezervasyon-basvuru-sistemi/bursa/` | Hizmet × İl | 59 | 154 | 1622 | 0 | 64 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
+| `/hizmet/rezervasyon-basvuru-sistemi/gaziantep/` | Hizmet × İl | 42 | 155 | 1624 | 0 | 63 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
+| `/hizmet/rezervasyon-basvuru-sistemi/istanbul/` | Hizmet × İl | 41 | 157 | 1630 | 0 | 64 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
+| `/hizmet/rezervasyon-basvuru-sistemi/izmir/` | Hizmet × İl | 59 | 150 | 1628 | 0 | 64 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
+| `/hizmet/rezervasyon-basvuru-sistemi/kayseri/` | Hizmet × İl | 40 | 152 | 1625 | 0 | 63 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
+| `/hizmet/rezervasyon-basvuru-sistemi/kocaeli/` | Hizmet × İl | 40 | 156 | 1623 | 0 | 64 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
+| `/hizmet/rezervasyon-basvuru-sistemi/konya/` | Hizmet × İl | 59 | 157 | 1628 | 0 | 63 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
+| `/hizmet/stok-yonetimi/adana/` | Hizmet × İl | 42 | 149 | 1638 | 0 | 62 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
+| `/hizmet/stok-yonetimi/ankara/` | Hizmet × İl | 43 | 153 | 1640 | 0 | 62 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
+| `/hizmet/stok-yonetimi/antalya/` | Hizmet × İl | 44 | 151 | 1638 | 0 | 61 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
+| `/hizmet/stok-yonetimi/bursa/` | Hizmet × İl | 42 | 149 | 1636 | 0 | 62 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
+| `/hizmet/stok-yonetimi/gaziantep/` | Hizmet × İl | 46 | 156 | 1639 | 0 | 61 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
+| `/hizmet/stok-yonetimi/istanbul/` | Hizmet × İl | 45 | 152 | 1644 | 0 | 62 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
+| `/hizmet/stok-yonetimi/izmir/` | Hizmet × İl | 42 | 154 | 1644 | 0 | 62 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
+| `/hizmet/stok-yonetimi/kayseri/` | Hizmet × İl | 44 | 154 | 1640 | 0 | 62 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
+| `/hizmet/stok-yonetimi/kocaeli/` | Hizmet × İl | 44 | 151 | 1637 | 0 | 62 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
+| `/hizmet/stok-yonetimi/konya/` | Hizmet × İl | 42 | 152 | 1642 | 0 | 61 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
+| `/hizmet/teklif-hazirlama-sistemi/adana/` | Hizmet × İl | 53 | 154 | 1547 | 0 | 61 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
+| `/hizmet/teklif-hazirlama-sistemi/ankara/` | Hizmet × İl | 54 | 151 | 1548 | 0 | 62 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
+| `/hizmet/teklif-hazirlama-sistemi/antalya/` | Hizmet × İl | 55 | 156 | 1547 | 0 | 62 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
+| `/hizmet/teklif-hazirlama-sistemi/bursa/` | Hizmet × İl | 53 | 154 | 1545 | 0 | 62 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
+| `/hizmet/teklif-hazirlama-sistemi/gaziantep/` | Hizmet × İl | 57 | 155 | 1547 | 0 | 61 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
+| `/hizmet/teklif-hazirlama-sistemi/istanbul/` | Hizmet × İl | 56 | 157 | 1553 | 0 | 62 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
+| `/hizmet/teklif-hazirlama-sistemi/izmir/` | Hizmet × İl | 53 | 150 | 1551 | 0 | 62 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
+| `/hizmet/teklif-hazirlama-sistemi/kayseri/` | Hizmet × İl | 55 | 152 | 1548 | 0 | 61 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
+| `/hizmet/teklif-hazirlama-sistemi/kocaeli/` | Hizmet × İl | 55 | 156 | 1546 | 0 | 62 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
+| `/hizmet/teklif-hazirlama-sistemi/konya/` | Hizmet × İl | 53 | 157 | 1551 | 0 | 61 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
 | `/hizmet/teknik-seo/adana/` | Hizmet × İl | 39 | 158 | 1575 | 2 | 60 | 7 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
 | `/hizmet/teknik-seo/ankara/` | Hizmet × İl | 40 | 156 | 1576 | 2 | 61 | 7 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
 | `/hizmet/teknik-seo/antalya/` | Hizmet × İl | 41 | 154 | 1574 | 2 | 61 | 7 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
@@ -114,6 +164,16 @@ Toplam: **159 yayına hazır route** · sitemap'te **71** URL (pilot + kurumsal 
 | `/hizmet/urun-tanitim-sitesi/kayseri/` | Hizmet × İl | 59 | 150 | 1796 | 0 | 60 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
 | `/hizmet/urun-tanitim-sitesi/kocaeli/` | Hizmet × İl | 59 | 156 | 1795 | 0 | 60 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
 | `/hizmet/urun-tanitim-sitesi/konya/` | Hizmet × İl | 57 | 157 | 1800 | 0 | 60 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
+| `/hizmet/urun-tedarikci-yonetimi/adana/` | Hizmet × İl | 54 | 156 | 1618 | 0 | 61 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
+| `/hizmet/urun-tedarikci-yonetimi/ankara/` | Hizmet × İl | 55 | 153 | 1619 | 0 | 62 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
+| `/hizmet/urun-tedarikci-yonetimi/antalya/` | Hizmet × İl | 56 | 151 | 1617 | 0 | 61 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
+| `/hizmet/urun-tedarikci-yonetimi/bursa/` | Hizmet × İl | 54 | 156 | 1616 | 0 | 62 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
+| `/hizmet/urun-tedarikci-yonetimi/gaziantep/` | Hizmet × İl | 58 | 157 | 1618 | 0 | 61 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
+| `/hizmet/urun-tedarikci-yonetimi/istanbul/` | Hizmet × İl | 57 | 152 | 1623 | 0 | 62 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
+| `/hizmet/urun-tedarikci-yonetimi/izmir/` | Hizmet × İl | 54 | 152 | 1622 | 0 | 62 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
+| `/hizmet/urun-tedarikci-yonetimi/kayseri/` | Hizmet × İl | 56 | 154 | 1619 | 0 | 61 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
+| `/hizmet/urun-tedarikci-yonetimi/kocaeli/` | Hizmet × İl | 56 | 151 | 1616 | 0 | 61 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
+| `/hizmet/urun-tedarikci-yonetimi/konya/` | Hizmet × İl | 54 | 152 | 1621 | 0 | 62 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
 | `/hizmet/web-sitesi-yenileme/adana/` | Hizmet × İl | 43 | 153 | 1718 | 0 | 60 | 7 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
 | `/hizmet/web-sitesi-yenileme/ankara/` | Hizmet × İl | 44 | 157 | 1720 | 0 | 61 | 7 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
 | `/hizmet/web-sitesi-yenileme/antalya/` | Hizmet × İl | 45 | 155 | 1718 | 0 | 61 | 7 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
@@ -147,39 +207,39 @@ Toplam: **159 yayına hazır route** · sitemap'te **71** URL (pilot + kurumsal 
 | `/hizmetler/lokal-seo/` | Hizmet sayfası | 30 | 155 | 1601 | 0 | 52 | 8 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | noindex, follow |
 | `/hizmetler/multi-tenant-uygulama/` | Hizmet sayfası | 42 | 144 | 1590 | 0 | 52 | 8 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | noindex, follow |
 | `/hizmetler/musteri-paneli/` | Hizmet sayfası | 35 | 155 | 1620 | 0 | 53 | 8 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | noindex, follow |
-| `/hizmetler/musteri-yonetim-sistemi/` | Hizmet sayfası | 44 | 143 | 1652 | 0 | 54 | 8 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | noindex, follow |
+| `/hizmetler/musteri-yonetim-sistemi/` | Hizmet sayfası | 44 | 143 | 1720 | 0 | 60 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
 | `/hizmetler/mvp-startup-urunu/` | Hizmet sayfası | 40 | 145 | 1650 | 0 | 52 | 8 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | noindex, follow |
 | `/hizmetler/odeme-whatsapp-crm-entegrasyonu/` | Hizmet sayfası | 56 | 156 | 1668 | 0 | 53 | 8 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | noindex, follow |
 | `/hizmetler/personel-kullanici-yonetimi/` | Hizmet sayfası | 50 | 150 | 1673 | 0 | 53 | 8 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | noindex, follow |
 | `/hizmetler/portfoy-sitesi/` | Hizmet sayfası | 35 | 150 | 1657 | 0 | 58 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
-| `/hizmetler/proforma-siparis-yonetimi/` | Hizmet sayfası | 48 | 147 | 1671 | 0 | 52 | 8 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | noindex, follow |
+| `/hizmetler/proforma-siparis-yonetimi/` | Hizmet sayfası | 48 | 147 | 1683 | 0 | 58 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
 | `/hizmetler/raporlama-sistemi/` | Hizmet sayfası | 38 | 148 | 1606 | 0 | 53 | 8 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | noindex, follow |
-| `/hizmetler/rezervasyon-basvuru-sistemi/` | Hizmet sayfası | 51 | 157 | 1656 | 0 | 55 | 8 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | noindex, follow |
+| `/hizmetler/rezervasyon-basvuru-sistemi/` | Hizmet sayfası | 51 | 157 | 1717 | 0 | 61 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
 | `/hizmetler/saas-platformu/` | Hizmet sayfası | 35 | 146 | 1613 | 0 | 52 | 8 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | noindex, follow |
 | `/hizmetler/schema-org-structured-data/` | Hizmet sayfası | 49 | 151 | 1613 | 0 | 52 | 8 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | noindex, follow |
 | `/hizmetler/seo-danismanligi/` | Hizmet sayfası | 37 | 146 | 1597 | 0 | 54 | 8 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | noindex, follow |
 | `/hizmetler/seo-uyumlu-sayfa-mimarisi/` | Hizmet sayfası | 46 | 154 | 1683 | 0 | 52 | 8 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | noindex, follow |
-| `/hizmetler/stok-yonetimi/` | Hizmet sayfası | 34 | 150 | 1644 | 0 | 53 | 8 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | noindex, follow |
+| `/hizmetler/stok-yonetimi/` | Hizmet sayfası | 34 | 150 | 1722 | 0 | 59 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
 | `/hizmetler/supabase-postgresql/` | Hizmet sayfası | 52 | 153 | 1608 | 0 | 52 | 8 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | noindex, follow |
-| `/hizmetler/teklif-hazirlama-sistemi/` | Hizmet sayfası | 45 | 144 | 1662 | 0 | 53 | 8 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | noindex, follow |
+| `/hizmetler/teklif-hazirlama-sistemi/` | Hizmet sayfası | 45 | 144 | 1630 | 0 | 59 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
 | `/hizmetler/teknik-seo/` | Hizmet sayfası | 31 | 147 | 1686 | 2 | 58 | 7 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
 | `/hizmetler/urun-tanitim-sitesi/` | Hizmet sayfası | 49 | 155 | 1895 | 0 | 58 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
-| `/hizmetler/urun-tedarikci-yonetimi/` | Hizmet sayfası | 46 | 148 | 1677 | 0 | 52 | 8 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | noindex, follow |
+| `/hizmetler/urun-tedarikci-yonetimi/` | Hizmet sayfası | 46 | 148 | 1703 | 0 | 58 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
 | `/hizmetler/vercel-deployment/` | Hizmet sayfası | 38 | 153 | 1584 | 0 | 52 | 8 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | noindex, follow |
 | `/hizmetler/web-sitesi-yenileme/` | Hizmet sayfası | 56 | 145 | 1816 | 0 | 58 | 7 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
 | `/hizmetler/yonetim-paneli/` | Hizmet sayfası | 35 | 148 | 1616 | 0 | 53 | 8 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | noindex, follow |
 | `/iletisim/` | Kurumsal | 45 | 155 | 373 | 0 | 52 | - | Organization+ProfessionalService+WebSite | index, follow |
 | `/kvkk/` | Kurumsal | 45 | 158 | 299 | 0 | 52 | - | Organization+ProfessionalService+WebSite | index, follow |
-| `/sehir/adana/` | Şehir sayfası | 43 | 151 | 744 | 0 | 68 | - | BreadcrumbList+LocalBusiness+Organization+ProfessionalService+WebSite | index, follow |
-| `/sehir/ankara/` | Şehir sayfası | 44 | 156 | 751 | 0 | 68 | - | BreadcrumbList+LocalBusiness+Organization+ProfessionalService+WebSite | index, follow |
-| `/sehir/antalya/` | Şehir sayfası | 45 | 156 | 748 | 0 | 68 | - | BreadcrumbList+LocalBusiness+Organization+ProfessionalService+WebSite | index, follow |
-| `/sehir/bursa/` | Şehir sayfası | 43 | 148 | 746 | 0 | 68 | - | BreadcrumbList+LocalBusiness+Organization+ProfessionalService+WebSite | index, follow |
-| `/sehir/gaziantep/` | Şehir sayfası | 47 | 151 | 745 | 0 | 68 | - | BreadcrumbList+LocalBusiness+Organization+ProfessionalService+WebSite | index, follow |
-| `/sehir/istanbul/` | Şehir sayfası | 46 | 156 | 760 | 0 | 68 | - | BreadcrumbList+LocalBusiness+Organization+ProfessionalService+WebSite | index, follow |
-| `/sehir/izmir/` | Şehir sayfası | 43 | 149 | 756 | 0 | 68 | - | BreadcrumbList+LocalBusiness+Organization+ProfessionalService+WebSite | index, follow |
-| `/sehir/kayseri/` | Şehir sayfası | 45 | 153 | 747 | 0 | 68 | - | BreadcrumbList+LocalBusiness+Organization+ProfessionalService+WebSite | index, follow |
-| `/sehir/kocaeli/` | Şehir sayfası | 45 | 149 | 746 | 0 | 68 | - | BreadcrumbList+LocalBusiness+Organization+ProfessionalService+WebSite | index, follow |
-| `/sehir/konya/` | Şehir sayfası | 43 | 148 | 746 | 0 | 68 | - | BreadcrumbList+LocalBusiness+Organization+ProfessionalService+WebSite | index, follow |
+| `/sehir/adana/` | Şehir sayfası | 43 | 151 | 708 | 0 | 74 | - | BreadcrumbList+LocalBusiness+Organization+ProfessionalService+WebSite | index, follow |
+| `/sehir/ankara/` | Şehir sayfası | 44 | 156 | 715 | 0 | 74 | - | BreadcrumbList+LocalBusiness+Organization+ProfessionalService+WebSite | index, follow |
+| `/sehir/antalya/` | Şehir sayfası | 45 | 156 | 712 | 0 | 74 | - | BreadcrumbList+LocalBusiness+Organization+ProfessionalService+WebSite | index, follow |
+| `/sehir/bursa/` | Şehir sayfası | 43 | 148 | 710 | 0 | 74 | - | BreadcrumbList+LocalBusiness+Organization+ProfessionalService+WebSite | index, follow |
+| `/sehir/gaziantep/` | Şehir sayfası | 47 | 151 | 709 | 0 | 74 | - | BreadcrumbList+LocalBusiness+Organization+ProfessionalService+WebSite | index, follow |
+| `/sehir/istanbul/` | Şehir sayfası | 46 | 156 | 724 | 0 | 74 | - | BreadcrumbList+LocalBusiness+Organization+ProfessionalService+WebSite | index, follow |
+| `/sehir/izmir/` | Şehir sayfası | 43 | 149 | 720 | 0 | 74 | - | BreadcrumbList+LocalBusiness+Organization+ProfessionalService+WebSite | index, follow |
+| `/sehir/kayseri/` | Şehir sayfası | 45 | 153 | 711 | 0 | 74 | - | BreadcrumbList+LocalBusiness+Organization+ProfessionalService+WebSite | index, follow |
+| `/sehir/kocaeli/` | Şehir sayfası | 45 | 149 | 710 | 0 | 74 | - | BreadcrumbList+LocalBusiness+Organization+ProfessionalService+WebSite | index, follow |
+| `/sehir/konya/` | Şehir sayfası | 43 | 148 | 710 | 0 | 74 | - | BreadcrumbList+LocalBusiness+Organization+ProfessionalService+WebSite | index, follow |
 | `/surec/` | Kurumsal | 54 | 152 | 279 | 1 | 52 | - | Organization+ProfessionalService+WebSite | index, follow |
 
 ### 2b. İndekslenebilir URL'ler — meta değerleri (sitemap'teki 71 kayıt)
@@ -248,6 +308,16 @@ Toplam: **159 yayına hazır route** · sitemap'te **71** URL (pilot + kurumsal 
 | `/hizmet/landing-page/kayseri/` | Landing Page — Kayseri | Tardigrad Software | Landing page hizmeti Kayseri için: Reklam trafiğini talebe çeviren, tek amaçlı ve test edilebilir açılış sayfaları — İç Anadolu bölgesi. İl/ilçe sayfa. |
 | `/hizmet/landing-page/kocaeli/` | Landing Page — Kocaeli | Tardigrad Software | Landing page hizmeti Kocaeli için: Reklam trafiğini talebe çeviren, tek amaçlı ve test edilebilir açılış sayfaları — Marmara bölgesi. İl/ilçe sayfa ailesi. |
 | `/hizmet/landing-page/konya/` | Landing Page — Konya | Tardigrad Software | Landing page hizmeti Konya için: Reklam trafiğini talebe çeviren, tek amaçlı ve test edilebilir açılış sayfaları — İç Anadolu bölgesi. İl/ilçe sayfa ailesi. |
+| `/hizmet/musteri-yonetim-sistemi/adana/` | Müşteri Yönetim Sistemi — Adana | Tardigrad Software | Müşteri yönetim sistemi hizmeti Adana için: Müşteri verisini temizleyen, tekrarını engelleyen, ekibe paylaşan sistem — Akdeniz bölgesi. İl/ilçe sayfa ailesi. |
+| `/hizmet/musteri-yonetim-sistemi/ankara/` | Müşteri Yönetim Sistemi — Ankara | Tardigrad Software | Müşteri yönetim sistemi hizmeti Ankara için: Müşteri verisini temizleyen, tekrarını engelleyen, ekibe paylaşan sistem — İç Anadolu bölgesi. İl/ilçe sayfa. |
+| `/hizmet/musteri-yonetim-sistemi/antalya/` | Müşteri Yönetim Sistemi — Antalya | Tardigrad Software | Müşteri yönetim sistemi hizmeti Antalya için: Müşteri verisini temizleyen, tekrarını engelleyen, ekibe paylaşan sistem — Akdeniz bölgesi. İl/ilçe sayfa. |
+| `/hizmet/musteri-yonetim-sistemi/bursa/` | Müşteri Yönetim Sistemi — Bursa | Tardigrad Software | Müşteri yönetim sistemi hizmeti Bursa için: Müşteri verisini temizleyen, tekrarını engelleyen, ekibe paylaşan sistem — Marmara bölgesi. İl/ilçe sayfa ailesi. |
+| `/hizmet/musteri-yonetim-sistemi/gaziantep/` | Müşteri Yönetim Sistemi — Gaziantep | Tardigrad Software | Müşteri yönetim sistemi hizmeti Gaziantep için: Müşteri verisini temizleyen, tekrarını engelleyen, ekibe paylaşan sistem — Güneydoğu Anadolu bölgesi. |
+| `/hizmet/musteri-yonetim-sistemi/istanbul/` | Müşteri Yönetim Sistemi — İstanbul | Tardigrad Software | Müşteri yönetim sistemi hizmeti İstanbul için: Müşteri verisini temizleyen, tekrarını engelleyen, ekibe paylaşan sistem — Marmara bölgesi. İl/ilçe sayfa. |
+| `/hizmet/musteri-yonetim-sistemi/izmir/` | Müşteri Yönetim Sistemi — İzmir | Tardigrad Software | Müşteri yönetim sistemi hizmeti İzmir için: Müşteri verisini temizleyen, tekrarını engelleyen, ekibe paylaşan sistem — Ege bölgesi. İl/ilçe sayfa ailesi. |
+| `/hizmet/musteri-yonetim-sistemi/kayseri/` | Müşteri Yönetim Sistemi — Kayseri | Tardigrad Software | Müşteri yönetim sistemi hizmeti Kayseri için: Müşteri verisini temizleyen, tekrarını engelleyen, ekibe paylaşan sistem — İç Anadolu bölgesi. İl/ilçe sayfa. |
+| `/hizmet/musteri-yonetim-sistemi/kocaeli/` | Müşteri Yönetim Sistemi — Kocaeli | Tardigrad Software | Müşteri yönetim sistemi hizmeti Kocaeli için: Müşteri verisini temizleyen, tekrarını engelleyen, ekibe paylaşan sistem — Marmara bölgesi. İl/ilçe sayfa. |
+| `/hizmet/musteri-yonetim-sistemi/konya/` | Müşteri Yönetim Sistemi — Konya | Tardigrad Software | Müşteri yönetim sistemi hizmeti Konya için: Müşteri verisini temizleyen, tekrarını engelleyen, ekibe paylaşan sistem — İç Anadolu bölgesi. İl/ilçe sayfa. |
 | `/hizmet/portfoy-sitesi/adana/` | Portföy Sitesi — Adana | Tardigrad Software | Portfolyo sitesi hizmeti Adana için: İşlerinizi güvenle sergileyen, az metinle çok şey anlatan kişisel site — Akdeniz bölgesi. İl/ilçe sayfa ailesi ve ölçüm. |
 | `/hizmet/portfoy-sitesi/ankara/` | Portföy Sitesi — Ankara | Tardigrad Software | Portfolyo sitesi hizmeti Ankara için: İşlerinizi güvenle sergileyen, az metinle çok şey anlatan kişisel site — İç Anadolu bölgesi. İl/ilçe sayfa ailesi. |
 | `/hizmet/portfoy-sitesi/antalya/` | Portföy Sitesi — Antalya | Tardigrad Software | Portfolyo sitesi hizmeti Antalya için: İşlerinizi güvenle sergileyen, az metinle çok şey anlatan kişisel site — Akdeniz bölgesi. İl/ilçe sayfa ailesi. |
@@ -258,6 +328,46 @@ Toplam: **159 yayına hazır route** · sitemap'te **71** URL (pilot + kurumsal 
 | `/hizmet/portfoy-sitesi/kayseri/` | Portföy Sitesi — Kayseri | Tardigrad Software | Portfolyo sitesi hizmeti Kayseri için: İşlerinizi güvenle sergileyen, az metinle çok şey anlatan kişisel site — İç Anadolu bölgesi. İl/ilçe sayfa ailesi. |
 | `/hizmet/portfoy-sitesi/kocaeli/` | Portföy Sitesi — Kocaeli | Tardigrad Software | Portfolyo sitesi hizmeti Kocaeli için: İşlerinizi güvenle sergileyen, az metinle çok şey anlatan kişisel site — Marmara bölgesi. İl/ilçe sayfa ailesi. |
 | `/hizmet/portfoy-sitesi/konya/` | Portföy Sitesi — Konya | Tardigrad Software | Portfolyo sitesi hizmeti Konya için: İşlerinizi güvenle sergileyen, az metinle çok şey anlatan kişisel site — İç Anadolu bölgesi. İl/ilçe sayfa ailesi. |
+| `/hizmet/proforma-siparis-yonetimi/adana/` | Proforma / Sipariş Yönetimi — Adana | Tardigrad Software | Sipariş yönetim sistemi hizmeti Adana için: Siparişin her adımını tek ekranda izleten operasyon paneli — Akdeniz bölgesi. İl/ilçe sayfa ailesi ve ölçüm. |
+| `/hizmet/proforma-siparis-yonetimi/ankara/` | Proforma / Sipariş Yönetimi — Ankara | Tardigrad Software | Sipariş yönetim sistemi hizmeti Ankara için: Siparişin her adımını tek ekranda izleten operasyon paneli — İç Anadolu bölgesi. İl/ilçe sayfa ailesi ve ölçüm. |
+| `/hizmet/proforma-siparis-yonetimi/antalya/` | Proforma / Sipariş Yönetimi — Antalya | Tardigrad Software | Sipariş yönetim sistemi hizmeti Antalya için: Siparişin her adımını tek ekranda izleten operasyon paneli — Akdeniz bölgesi. İl/ilçe sayfa ailesi ve ölçüm. |
+| `/hizmet/proforma-siparis-yonetimi/bursa/` | Proforma / Sipariş Yönetimi — Bursa | Tardigrad Software | Sipariş yönetim sistemi hizmeti Bursa için: Siparişin her adımını tek ekranda izleten operasyon paneli — Marmara bölgesi. İl/ilçe sayfa ailesi ve ölçüm. |
+| `/hizmet/proforma-siparis-yonetimi/gaziantep/` | Proforma / Sipariş Yönetimi — Gaziantep | Tardigrad Software | Sipariş yönetim sistemi hizmeti Gaziantep için: Siparişin her adımını tek ekranda izleten operasyon paneli — Güneydoğu Anadolu bölgesi. İl/ilçe sayfa ailesi. |
+| `/hizmet/proforma-siparis-yonetimi/istanbul/` | Proforma / Sipariş Yönetimi — İstanbul | Tardigrad Software | Sipariş yönetim sistemi hizmeti İstanbul için: Siparişin her adımını tek ekranda izleten operasyon paneli — Marmara bölgesi. İl/ilçe sayfa ailesi ve ölçüm. |
+| `/hizmet/proforma-siparis-yonetimi/izmir/` | Proforma / Sipariş Yönetimi — İzmir | Tardigrad Software | Sipariş yönetim sistemi hizmeti İzmir için: Siparişin her adımını tek ekranda izleten operasyon paneli — Ege bölgesi. İl/ilçe sayfa ailesi ve ölçüm planı. |
+| `/hizmet/proforma-siparis-yonetimi/kayseri/` | Proforma / Sipariş Yönetimi — Kayseri | Tardigrad Software | Sipariş yönetim sistemi hizmeti Kayseri için: Siparişin her adımını tek ekranda izleten operasyon paneli — İç Anadolu bölgesi. İl/ilçe sayfa ailesi ve ölçüm. |
+| `/hizmet/proforma-siparis-yonetimi/kocaeli/` | Proforma / Sipariş Yönetimi — Kocaeli | Tardigrad Software | Sipariş yönetim sistemi hizmeti Kocaeli için: Siparişin her adımını tek ekranda izleten operasyon paneli — Marmara bölgesi. İl/ilçe sayfa ailesi ve ölçüm. |
+| `/hizmet/proforma-siparis-yonetimi/konya/` | Proforma / Sipariş Yönetimi — Konya | Tardigrad Software | Sipariş yönetim sistemi hizmeti Konya için: Siparişin her adımını tek ekranda izleten operasyon paneli — İç Anadolu bölgesi. İl/ilçe sayfa ailesi ve ölçüm. |
+| `/hizmet/rezervasyon-basvuru-sistemi/adana/` | Rezervasyon ve Başvuru Sistemi — Adana | Tardigrad Software | Rezervasyon sistemi hizmeti Adana için: Müsaitlik, onay ve hatırlatma akışını otomatikleştiren rezervasyon paneli — Akdeniz bölgesi. İl/ilçe sayfa ailesi. |
+| `/hizmet/rezervasyon-basvuru-sistemi/ankara/` | Rezervasyon ve Başvuru Sistemi — Ankara | Tardigrad Software | Rezervasyon sistemi hizmeti Ankara için: Müsaitlik, onay ve hatırlatma akışını otomatikleştiren rezervasyon paneli — İç Anadolu bölgesi. İl/ilçe sayfa. |
+| `/hizmet/rezervasyon-basvuru-sistemi/antalya/` | Rezervasyon ve Başvuru Sistemi — Antalya | Rezervasyon sistemi hizmeti Antalya için: Müsaitlik, onay ve hatırlatma akışını otomatikleştiren rezervasyon paneli — Akdeniz bölgesi. İl/ilçe sayfa ailesi. |
+| `/hizmet/rezervasyon-basvuru-sistemi/bursa/` | Rezervasyon ve Başvuru Sistemi — Bursa | Tardigrad Software | Rezervasyon sistemi hizmeti Bursa için: Müsaitlik, onay ve hatırlatma akışını otomatikleştiren rezervasyon paneli — Marmara bölgesi. İl/ilçe sayfa ailesi. |
+| `/hizmet/rezervasyon-basvuru-sistemi/gaziantep/` | Rezervasyon ve Başvuru Sistemi — Gaziantep | Rezervasyon sistemi hizmeti Gaziantep için: Müsaitlik, onay ve hatırlatma akışını otomatikleştiren rezervasyon paneli — Güneydoğu Anadolu bölgesi. İl/ilçe. |
+| `/hizmet/rezervasyon-basvuru-sistemi/istanbul/` | Rezervasyon ve Başvuru Sistemi — İstanbul | Rezervasyon sistemi hizmeti İstanbul için: Müsaitlik, onay ve hatırlatma akışını otomatikleştiren rezervasyon paneli — Marmara bölgesi. İl/ilçe sayfa ailesi. |
+| `/hizmet/rezervasyon-basvuru-sistemi/izmir/` | Rezervasyon ve Başvuru Sistemi — İzmir | Tardigrad Software | Rezervasyon sistemi hizmeti İzmir için: Müsaitlik, onay ve hatırlatma akışını otomatikleştiren rezervasyon paneli — Ege bölgesi. İl/ilçe sayfa ailesi. |
+| `/hizmet/rezervasyon-basvuru-sistemi/kayseri/` | Rezervasyon ve Başvuru Sistemi — Kayseri | Rezervasyon sistemi hizmeti Kayseri için: Müsaitlik, onay ve hatırlatma akışını otomatikleştiren rezervasyon paneli — İç Anadolu bölgesi. İl/ilçe sayfa. |
+| `/hizmet/rezervasyon-basvuru-sistemi/kocaeli/` | Rezervasyon ve Başvuru Sistemi — Kocaeli | Rezervasyon sistemi hizmeti Kocaeli için: Müsaitlik, onay ve hatırlatma akışını otomatikleştiren rezervasyon paneli — Marmara bölgesi. İl/ilçe sayfa ailesi. |
+| `/hizmet/rezervasyon-basvuru-sistemi/konya/` | Rezervasyon ve Başvuru Sistemi — Konya | Tardigrad Software | Rezervasyon sistemi hizmeti Konya için: Müsaitlik, onay ve hatırlatma akışını otomatikleştiren rezervasyon paneli — İç Anadolu bölgesi. İl/ilçe sayfa ailesi. |
+| `/hizmet/stok-yonetimi/adana/` | Stok Yönetimi — Adana | Tardigrad Software | Stok yönetim sistemi hizmeti Adana için: Depo, kritik seviye ve hareket geçmişini netleştiren stok altyapısı — Akdeniz bölgesi. İl/ilçe sayfa ailesi. |
+| `/hizmet/stok-yonetimi/ankara/` | Stok Yönetimi — Ankara | Tardigrad Software | Stok yönetim sistemi hizmeti Ankara için: Depo, kritik seviye ve hareket geçmişini netleştiren stok altyapısı — İç Anadolu bölgesi. İl/ilçe sayfa ailesi. |
+| `/hizmet/stok-yonetimi/antalya/` | Stok Yönetimi — Antalya | Tardigrad Software | Stok yönetim sistemi hizmeti Antalya için: Depo, kritik seviye ve hareket geçmişini netleştiren stok altyapısı — Akdeniz bölgesi. İl/ilçe sayfa ailesi. |
+| `/hizmet/stok-yonetimi/bursa/` | Stok Yönetimi — Bursa | Tardigrad Software | Stok yönetim sistemi hizmeti Bursa için: Depo, kritik seviye ve hareket geçmişini netleştiren stok altyapısı — Marmara bölgesi. İl/ilçe sayfa ailesi. |
+| `/hizmet/stok-yonetimi/gaziantep/` | Stok Yönetimi — Gaziantep | Tardigrad Software | Stok yönetim sistemi hizmeti Gaziantep için: Depo, kritik seviye ve hareket geçmişini netleştiren stok altyapısı — Güneydoğu Anadolu bölgesi. İl/ilçe sayfa. |
+| `/hizmet/stok-yonetimi/istanbul/` | Stok Yönetimi — İstanbul | Tardigrad Software | Stok yönetim sistemi hizmeti İstanbul için: Depo, kritik seviye ve hareket geçmişini netleştiren stok altyapısı — Marmara bölgesi. İl/ilçe sayfa ailesi. |
+| `/hizmet/stok-yonetimi/izmir/` | Stok Yönetimi — İzmir | Tardigrad Software | Stok yönetim sistemi hizmeti İzmir için: Depo, kritik seviye ve hareket geçmişini netleştiren stok altyapısı — Ege bölgesi. İl/ilçe sayfa ailesi ve ölçüm. |
+| `/hizmet/stok-yonetimi/kayseri/` | Stok Yönetimi — Kayseri | Tardigrad Software | Stok yönetim sistemi hizmeti Kayseri için: Depo, kritik seviye ve hareket geçmişini netleştiren stok altyapısı — İç Anadolu bölgesi. İl/ilçe sayfa ailesi. |
+| `/hizmet/stok-yonetimi/kocaeli/` | Stok Yönetimi — Kocaeli | Tardigrad Software | Stok yönetim sistemi hizmeti Kocaeli için: Depo, kritik seviye ve hareket geçmişini netleştiren stok altyapısı — Marmara bölgesi. İl/ilçe sayfa ailesi. |
+| `/hizmet/stok-yonetimi/konya/` | Stok Yönetimi — Konya | Tardigrad Software | Stok yönetim sistemi hizmeti Konya için: Depo, kritik seviye ve hareket geçmişini netleştiren stok altyapısı — İç Anadolu bölgesi. İl/ilçe sayfa ailesi. |
+| `/hizmet/teklif-hazirlama-sistemi/adana/` | Teklif Hazırlama Sistemi — Adana | Tardigrad Software | Teklif hazırlama sistemi hizmeti Adana için: Fiyat listesinden tek tıkla markalı teklif üreten, takip eden sistem — Akdeniz bölgesi. İl/ilçe sayfa ailesi. |
+| `/hizmet/teklif-hazirlama-sistemi/ankara/` | Teklif Hazırlama Sistemi — Ankara | Tardigrad Software | Teklif hazırlama sistemi hizmeti Ankara için: Fiyat listesinden tek tıkla markalı teklif üreten, takip eden sistem — İç Anadolu bölgesi. İl/ilçe sayfa. |
+| `/hizmet/teklif-hazirlama-sistemi/antalya/` | Teklif Hazırlama Sistemi — Antalya | Tardigrad Software | Teklif hazırlama sistemi hizmeti Antalya için: Fiyat listesinden tek tıkla markalı teklif üreten, takip eden sistem — Akdeniz bölgesi. İl/ilçe sayfa ailesi. |
+| `/hizmet/teklif-hazirlama-sistemi/bursa/` | Teklif Hazırlama Sistemi — Bursa | Tardigrad Software | Teklif hazırlama sistemi hizmeti Bursa için: Fiyat listesinden tek tıkla markalı teklif üreten, takip eden sistem — Marmara bölgesi. İl/ilçe sayfa ailesi. |
+| `/hizmet/teklif-hazirlama-sistemi/gaziantep/` | Teklif Hazırlama Sistemi — Gaziantep | Tardigrad Software | Teklif hazırlama sistemi hizmeti Gaziantep için: Fiyat listesinden tek tıkla markalı teklif üreten, takip eden sistem — Güneydoğu Anadolu bölgesi. İl/ilçe. |
+| `/hizmet/teklif-hazirlama-sistemi/istanbul/` | Teklif Hazırlama Sistemi — İstanbul | Tardigrad Software | Teklif hazırlama sistemi hizmeti İstanbul için: Fiyat listesinden tek tıkla markalı teklif üreten, takip eden sistem — Marmara bölgesi. İl/ilçe sayfa ailesi. |
+| `/hizmet/teklif-hazirlama-sistemi/izmir/` | Teklif Hazırlama Sistemi — İzmir | Tardigrad Software | Teklif hazırlama sistemi hizmeti İzmir için: Fiyat listesinden tek tıkla markalı teklif üreten, takip eden sistem — Ege bölgesi. İl/ilçe sayfa ailesi. |
+| `/hizmet/teklif-hazirlama-sistemi/kayseri/` | Teklif Hazırlama Sistemi — Kayseri | Tardigrad Software | Teklif hazırlama sistemi hizmeti Kayseri için: Fiyat listesinden tek tıkla markalı teklif üreten, takip eden sistem — İç Anadolu bölgesi. İl/ilçe sayfa. |
+| `/hizmet/teklif-hazirlama-sistemi/kocaeli/` | Teklif Hazırlama Sistemi — Kocaeli | Tardigrad Software | Teklif hazırlama sistemi hizmeti Kocaeli için: Fiyat listesinden tek tıkla markalı teklif üreten, takip eden sistem — Marmara bölgesi. İl/ilçe sayfa ailesi. |
+| `/hizmet/teklif-hazirlama-sistemi/konya/` | Teklif Hazırlama Sistemi — Konya | Tardigrad Software | Teklif hazırlama sistemi hizmeti Konya için: Fiyat listesinden tek tıkla markalı teklif üreten, takip eden sistem — İç Anadolu bölgesi. İl/ilçe sayfa ailesi. |
 | `/hizmet/teknik-seo/adana/` | Teknik SEO — Adana | Tardigrad Software | Teknik SEO hizmeti Adana için: Rapor bırakıp çıkmayan; düzeltmeyi kodda yapan teknik SEO hizmeti — Akdeniz bölgesi. İl/ilçe sayfa ailesi ve ölçüm planı dâhil. |
 | `/hizmet/teknik-seo/ankara/` | Teknik SEO — Ankara | Tardigrad Software | Teknik SEO hizmeti Ankara için: Rapor bırakıp çıkmayan; düzeltmeyi kodda yapan teknik SEO hizmeti — İç Anadolu bölgesi. İl/ilçe sayfa ailesi ve ölçüm planı. |
 | `/hizmet/teknik-seo/antalya/` | Teknik SEO — Antalya | Tardigrad Software | Teknik SEO hizmeti Antalya için: Rapor bırakıp çıkmayan; düzeltmeyi kodda yapan teknik SEO hizmeti — Akdeniz bölgesi. İl/ilçe sayfa ailesi ve ölçüm planı. |
@@ -278,6 +388,16 @@ Toplam: **159 yayına hazır route** · sitemap'te **71** URL (pilot + kurumsal 
 | `/hizmet/urun-tanitim-sitesi/kayseri/` | Ürün / Hizmet Tanıtım Sitesi — Kayseri | Tardigrad Software | Ürün tanıtım sitesi hizmeti Kayseri için: Katalog, filtre ve fiyat sorgulaması olan ürün tanıtım platformu — İç Anadolu bölgesi. İl/ilçe sayfa ailesi. |
 | `/hizmet/urun-tanitim-sitesi/kocaeli/` | Ürün / Hizmet Tanıtım Sitesi — Kocaeli | Tardigrad Software | Ürün tanıtım sitesi hizmeti Kocaeli için: Katalog, filtre ve fiyat sorgulaması olan ürün tanıtım platformu — Marmara bölgesi. İl/ilçe sayfa ailesi ve ölçüm. |
 | `/hizmet/urun-tanitim-sitesi/konya/` | Ürün / Hizmet Tanıtım Sitesi — Konya | Tardigrad Software | Ürün tanıtım sitesi hizmeti Konya için: Katalog, filtre ve fiyat sorgulaması olan ürün tanıtım platformu — İç Anadolu bölgesi. İl/ilçe sayfa ailesi ve ölçüm. |
+| `/hizmet/urun-tedarikci-yonetimi/adana/` | Ürün / Tedarikçi Yönetimi — Adana | Tardigrad Software | Ürün yönetim sistemi hizmeti Adana için: Ürün verisini tek yerden yönetip tüm kanallara aynı kaynaktan yayan sistem — Akdeniz bölgesi. İl/ilçe sayfa ailesi. |
+| `/hizmet/urun-tedarikci-yonetimi/ankara/` | Ürün / Tedarikçi Yönetimi — Ankara | Tardigrad Software | Ürün yönetim sistemi hizmeti Ankara için: Ürün verisini tek yerden yönetip tüm kanallara aynı kaynaktan yayan sistem — İç Anadolu bölgesi. İl/ilçe sayfa. |
+| `/hizmet/urun-tedarikci-yonetimi/antalya/` | Ürün / Tedarikçi Yönetimi — Antalya | Tardigrad Software | Ürün yönetim sistemi hizmeti Antalya için: Ürün verisini tek yerden yönetip tüm kanallara aynı kaynaktan yayan sistem — Akdeniz bölgesi. İl/ilçe sayfa. |
+| `/hizmet/urun-tedarikci-yonetimi/bursa/` | Ürün / Tedarikçi Yönetimi — Bursa | Tardigrad Software | Ürün yönetim sistemi hizmeti Bursa için: Ürün verisini tek yerden yönetip tüm kanallara aynı kaynaktan yayan sistem — Marmara bölgesi. İl/ilçe sayfa ailesi. |
+| `/hizmet/urun-tedarikci-yonetimi/gaziantep/` | Ürün / Tedarikçi Yönetimi — Gaziantep | Tardigrad Software | Ürün yönetim sistemi hizmeti Gaziantep için: Ürün verisini tek yerden yönetip tüm kanallara aynı kaynaktan yayan sistem — Güneydoğu Anadolu bölgesi. İl/ilçe. |
+| `/hizmet/urun-tedarikci-yonetimi/istanbul/` | Ürün / Tedarikçi Yönetimi — İstanbul | Tardigrad Software | Ürün yönetim sistemi hizmeti İstanbul için: Ürün verisini tek yerden yönetip tüm kanallara aynı kaynaktan yayan sistem — Marmara bölgesi. İl/ilçe sayfa. |
+| `/hizmet/urun-tedarikci-yonetimi/izmir/` | Ürün / Tedarikçi Yönetimi — İzmir | Tardigrad Software | Ürün yönetim sistemi hizmeti İzmir için: Ürün verisini tek yerden yönetip tüm kanallara aynı kaynaktan yayan sistem — Ege bölgesi. İl/ilçe sayfa ailesi. |
+| `/hizmet/urun-tedarikci-yonetimi/kayseri/` | Ürün / Tedarikçi Yönetimi — Kayseri | Tardigrad Software | Ürün yönetim sistemi hizmeti Kayseri için: Ürün verisini tek yerden yönetip tüm kanallara aynı kaynaktan yayan sistem — İç Anadolu bölgesi. İl/ilçe sayfa. |
+| `/hizmet/urun-tedarikci-yonetimi/kocaeli/` | Ürün / Tedarikçi Yönetimi — Kocaeli | Tardigrad Software | Ürün yönetim sistemi hizmeti Kocaeli için: Ürün verisini tek yerden yönetip tüm kanallara aynı kaynaktan yayan sistem — Marmara bölgesi. İl/ilçe sayfa. |
+| `/hizmet/urun-tedarikci-yonetimi/konya/` | Ürün / Tedarikçi Yönetimi — Konya | Tardigrad Software | Ürün yönetim sistemi hizmeti Konya için: Ürün verisini tek yerden yönetip tüm kanallara aynı kaynaktan yayan sistem — İç Anadolu bölgesi. İl/ilçe sayfa. |
 | `/hizmet/web-sitesi-yenileme/adana/` | Web Sitesi Yenileme / Modernizasyon — Adana | Web sitesi yenileme hizmeti Adana için: Eski siteyi modern stack'e alırken sıralamayı koruyan kontrollü yenileme — Akdeniz bölgesi. İl/ilçe sayfa ailesi. |
 | `/hizmet/web-sitesi-yenileme/ankara/` | Web Sitesi Yenileme / Modernizasyon — Ankara | Web sitesi yenileme hizmeti Ankara için: Eski siteyi modern stack'e alırken sıralamayı koruyan kontrollü yenileme — İç Anadolu bölgesi. İl/ilçe sayfa ailesi. |
 | `/hizmet/web-sitesi-yenileme/antalya/` | Web Sitesi Yenileme / Modernizasyon — Antalya | Web sitesi yenileme hizmeti Antalya için: Eski siteyi modern stack'e alırken sıralamayı koruyan kontrollü yenileme — Akdeniz bölgesi. İl/ilçe sayfa ailesi. |
@@ -295,9 +415,15 @@ Toplam: **159 yayına hazır route** · sitemap'te **71** URL (pilot + kurumsal 
 | `/hizmetler/firma-web-sitesi/` | Firma Web Sitesi | Tardigrad Software | Firma web sitesi kurulumu: ürün ve hizmet katalogları, bayi ve kariyer sayfaları, iletişim formları. Küçük işletmeler için hızlı ve bütçe dostu. |
 | `/hizmetler/kurumsal-web-sitesi/` | Kurumsal Web Sitesi | Tardigrad Software | Kurumsal web sitesi tasarımı ve geliştirmesi: hızlı, mobil öncelikli ve SEO uyumlu. Talep üreten sayfa mimarisi, yönetim paneli. Türkiye geneli çalışıyoruz. |
 | `/hizmetler/landing-page/` | Landing Page | Tardigrad Software | Kampanya ve reklam trafiği için landing page tasarımı: tek teklif, net CTA, hızlı yükleme ve ölçülebilir form. Reklam bütçenizin verimini artırır. |
+| `/hizmetler/musteri-yonetim-sistemi/` | Müşteri Yönetim Sistemi | Tardigrad Software | Müşteri yönetim sistemi: tekil kayıt, temas geçmişi, etiketleme, hatırlatma ve rol bazlı erişim. Dağılan Excel kayıtlarını tek gerçeğe çevirir. |
 | `/hizmetler/portfoy-sitesi/` | Portföy Sitesi | Tardigrad Software | Portfolyo web sitesi: proje vitrini, filtreli galeri, vaka anlatımı ve teklif formu. Tasarımcı, mimar ve ajanslar için çalışan bir iş geçmişi sayfası. |
+| `/hizmetler/proforma-siparis-yonetimi/` | Proforma / Sipariş Yönetimi | Tardigrad Software | Proforma ve sipariş yönetimi: siparişten sevkiyata durum takibi, stok kontrolü, irsaliye ve fatura entegrasyonu. Geciken siparişleri görünür kılar. |
+| `/hizmetler/rezervasyon-basvuru-sistemi/` | Rezervasyon ve Başvuru Sistemi | Tardigrad Software | Online rezervasyon ve başvuru sistemi: müsaitlik, kota, onay ve iptal akışı, hatırlatma mesajları ile raporlama. Telefon trafiğini azaltan, takvimi dolduran. |
+| `/hizmetler/stok-yonetimi/` | Stok Yönetimi | Tardigrad Software | Stok yönetim sistemi: depo ve birim yapısı, kritik stok uyarısı, sayım ve hareket geçmişi, barkod desteği. Olmayan ürünü satmamayı ve ani tükenmeleri. |
+| `/hizmetler/teklif-hazirlama-sistemi/` | Teklif Hazırlama Sistemi | Tardigrad Software | Teklif hazırlama sistemi: fiyat listesinden saniyeler içinde markalı PDF teklif, sürüm takibi, onay akışı ve online kabul. Cevapsız tekliflerin. |
 | `/hizmetler/teknik-seo/` | Teknik SEO | Tardigrad Software | Teknik SEO: Core Web Vitals, indeksleme ve tarama bütçesi, URL/canonical mimarisi, schema ve log analizi. Düzeltmeleri kod tarafında biz uygularız. |
 | `/hizmetler/urun-tanitim-sitesi/` | Ürün / Hizmet Tanıtım Sitesi | Tardigrad Software | Ürün ve hizmet tanıtım sitesi: kategori ve filtre yapısı, PDF katalog, fiyat sorgulama ve bayi girişi. Ürün verisini tek yerden yönetip tüm kanallara aynı. |
+| `/hizmetler/urun-tedarikci-yonetimi/` | Ürün / Tedarikçi Yönetimi | Tardigrad Software | Ürün ve tedarikçi yönetimi: merkezî katalog, varyant ve fiyat politikaları, tedarikçi puanlama ve satınalma takibi. Site, katalog, panel tek kaynak. |
 | `/hizmetler/web-sitesi-yenileme/` | Web Sitesi Yenileme / Modernizasyon | Tardigrad Software | Web sitesi yenileme: hız ve Core Web Vitals iyileştirmesi, mobil uyum, SEO koruması ve 301 planı ile içerik taşıma. Mevcut otoriteyi kaybetmeyin. |
 | `/iletisim/` | İletişim ve Teklif Formu | Tardigrad Software | Tardigrad Software iletişim: kurumsal web sitesi, özel yazılım, SaaS, SEO ve AI chatbot talepleriniz için form, e-posta ve WhatsApp. 24 saat içinde yazılı. |
 | `/kvkk/` | KVKK ve Aydınlatma Metni | Tardigrad Software | Tardigrad Software KVKK aydınlatma metni: iletişim formu ve teklif sürecinde işlenen kişisel veriler, amaçlar, aktarım, saklama süresi ve ilgili kişi hakları. |
@@ -315,11 +441,11 @@ Toplam: **159 yayına hazır route** · sitemap'te **71** URL (pilot + kurumsal 
 
 Şablon (FAZ 2) hizmet sayfalarının tam meta listesi: `docs/seo-audit.json` ve `docs/meta-dokum.txt`.
 
-**Özet metrikler:** {"pages":159,"servicePages":43,"pagesWithFaq":43,"indexablePages":126,"handWrittenServicePages":10,"avgServiceWords":1666,"maxServiceWords":1899,"minServiceWords":1584,"totalImages":114,"brokenLinks":0,"pagesWithoutJsonLd":0}
+**Özet metrikler:** {"pages":219,"servicePages":43,"pagesWithFaq":43,"indexablePages":192,"handWrittenServicePages":16,"avgServiceWords":1671,"maxServiceWords":1899,"minServiceWords":1584,"totalImages":114,"brokenLinks":0,"pagesWithoutJsonLd":0}
 
 - Kırık iç link: 0
 - JSON-LD olmayan sayfa: 0
-- Hizmet sayfaları kelime sayısı (ana içerik): min 1584 / ortalama 1666 / maks 1899
+- Hizmet sayfaları kelime sayısı (ana içerik): min 1584 / ortalama 1671 / maks 1899
 - Uyarı listesi: yok ✓
 
 ## 2c. Faz 2 içerik durumu (hizmet bazında)
@@ -332,14 +458,14 @@ Toplam: **159 yayına hazır route** · sitemap'te **71** URL (pilot + kurumsal 
 | 04 | E-Ticaret Sitesi | `e-ticaret-sitesi` | web | elle yazıldı | index, follow |
 | 05 | Ürün / Hizmet Tanıtım Sitesi | `urun-tanitim-sitesi` | web | elle yazıldı | index, follow |
 | 06 | Portföy Sitesi | `portfoy-sitesi` | web | elle yazıldı | index, follow |
-| 07 | Rezervasyon ve Başvuru Sistemi | `rezervasyon-basvuru-sistemi` | ozel-yazilim | şablon (content-factory) | noindex, follow (Faz 2) |
+| 07 | Rezervasyon ve Başvuru Sistemi | `rezervasyon-basvuru-sistemi` | ozel-yazilim | elle yazıldı | index, follow |
 | 08 | Web Sitesi Yenileme / Modernizasyon | `web-sitesi-yenileme` | web | elle yazıldı | index, follow |
 | 09 | CRM | `crm` | ozel-yazilim | elle yazıldı | index, follow |
-| 10 | Müşteri Yönetim Sistemi | `musteri-yonetim-sistemi` | ozel-yazilim | şablon (content-factory) | noindex, follow (Faz 2) |
-| 11 | Teklif Hazırlama Sistemi | `teklif-hazirlama-sistemi` | ozel-yazilim | şablon (content-factory) | noindex, follow (Faz 2) |
-| 12 | Proforma / Sipariş Yönetimi | `proforma-siparis-yonetimi` | ozel-yazilim | şablon (content-factory) | noindex, follow (Faz 2) |
-| 13 | Stok Yönetimi | `stok-yonetimi` | ozel-yazilim | şablon (content-factory) | noindex, follow (Faz 2) |
-| 14 | Ürün / Tedarikçi Yönetimi | `urun-tedarikci-yonetimi` | ozel-yazilim | şablon (content-factory) | noindex, follow (Faz 2) |
+| 10 | Müşteri Yönetim Sistemi | `musteri-yonetim-sistemi` | ozel-yazilim | elle yazıldı | index, follow |
+| 11 | Teklif Hazırlama Sistemi | `teklif-hazirlama-sistemi` | ozel-yazilim | elle yazıldı | index, follow |
+| 12 | Proforma / Sipariş Yönetimi | `proforma-siparis-yonetimi` | ozel-yazilim | elle yazıldı | index, follow |
+| 13 | Stok Yönetimi | `stok-yonetimi` | ozel-yazilim | elle yazıldı | index, follow |
+| 14 | Ürün / Tedarikçi Yönetimi | `urun-tedarikci-yonetimi` | ozel-yazilim | elle yazıldı | index, follow |
 | 15 | Personel / Kullanıcı Yönetimi | `personel-kullanici-yonetimi` | ozel-yazilim | şablon (content-factory) | noindex, follow (Faz 2) |
 | 16 | Yönetim Paneli | `yonetim-paneli` | ozel-yazilim | şablon (content-factory) | noindex, follow (Faz 2) |
 | 17 | Müşteri Paneli | `musteri-paneli` | ozel-yazilim | şablon (content-factory) | noindex, follow (Faz 2) |
@@ -370,7 +496,7 @@ Toplam: **159 yayına hazır route** · sitemap'te **71** URL (pilot + kurumsal 
 | 42 | AI Destekli İçerik / Araçlar | `ai-icerik-araclar` | it-ai | şablon (content-factory) | noindex, follow (Faz 2) |
 | 43 | Dijital Dönüşüm Süreçleri | `dijital-donusum` | it-ai | şablon (content-factory) | noindex, follow (Faz 2) |
 
-Elle yazılan hizmet sayısı: **10/43**. Pilot olmayanlar yayında ama indekslenmiyor; içerik yazıldıkça `src/data/service-contents-*.ts` dosyalarına eklenir ve otomatik olarak indekslenir hâle gelir (ayrı bir config gerekmez).
+Elle yazılan hizmet sayısı: **16/43**. Pilot olmayanlar yayında ama indekslenmiyor; içerik yazıldıkça `src/data/service-contents-*.ts` dosyalarına eklenir ve otomatik olarak indekslenir hâle gelir (ayrı bir config gerekmez).
 
 ## 3. Pilot hizmet sayfaları (elle yazılmış içerik)
 
@@ -382,12 +508,18 @@ Elle yazılan hizmet sayısı: **10/43**. Pilot olmayanlar yayında ama indeksle
 | 04 | E-Ticaret Sitesi | `e-ticaret-sitesi` | 1744 | 37 kr | tanım · neden · kapsam · süreç · fayda · kimler için · neden biz · SSS · CTA+form · iç linkler | 7 |
 | 05 | Ürün / Hizmet Tanıtım Sitesi | `urun-tanitim-sitesi` | 1895 | 49 kr | tanım · neden · kapsam · süreç · fayda · kimler için · neden biz · SSS · CTA+form · iç linkler | 6 |
 | 06 | Portföy Sitesi | `portfoy-sitesi` | 1657 | 35 kr | tanım · neden · kapsam · süreç · fayda · kimler için · neden biz · SSS · CTA+form · iç linkler | 6 |
+| 07 | Rezervasyon ve Başvuru Sistemi | `rezervasyon-basvuru-sistemi` | 1717 | 51 kr | tanım · neden · kapsam · süreç · fayda · kimler için · neden biz · SSS · CTA+form · iç linkler | 6 |
 | 08 | Web Sitesi Yenileme / Modernizasyon | `web-sitesi-yenileme` | 1816 | 56 kr | tanım · neden · kapsam · süreç · fayda · kimler için · neden biz · SSS · CTA+form · iç linkler | 7 |
 | 09 | CRM | `crm` | 1688 | 24 kr | tanım · neden · kapsam · süreç · fayda · kimler için · neden biz · SSS · CTA+form · iç linkler | 6 |
+| 10 | Müşteri Yönetim Sistemi | `musteri-yonetim-sistemi` | 1720 | 44 kr | tanım · neden · kapsam · süreç · fayda · kimler için · neden biz · SSS · CTA+form · iç linkler | 6 |
+| 11 | Teklif Hazırlama Sistemi | `teklif-hazirlama-sistemi` | 1630 | 45 kr | tanım · neden · kapsam · süreç · fayda · kimler için · neden biz · SSS · CTA+form · iç linkler | 6 |
+| 12 | Proforma / Sipariş Yönetimi | `proforma-siparis-yonetimi` | 1683 | 48 kr | tanım · neden · kapsam · süreç · fayda · kimler için · neden biz · SSS · CTA+form · iç linkler | 6 |
+| 13 | Stok Yönetimi | `stok-yonetimi` | 1722 | 34 kr | tanım · neden · kapsam · süreç · fayda · kimler için · neden biz · SSS · CTA+form · iç linkler | 6 |
+| 14 | Ürün / Tedarikçi Yönetimi | `urun-tedarikci-yonetimi` | 1703 | 46 kr | tanım · neden · kapsam · süreç · fayda · kimler için · neden biz · SSS · CTA+form · iç linkler | 6 |
 | 26 | Teknik SEO | `teknik-seo` | 1686 | 31 kr | tanım · neden · kapsam · süreç · fayda · kimler için · neden biz · SSS · CTA+form · iç linkler | 7 |
 | 41 | AI Chatbot | `ai-chatbot` | 1667 | 31 kr | tanım · neden · kapsam · süreç · fayda · kimler için · neden biz · SSS · CTA+form · iç linkler | 7 |
 
-Diğer 33 hizmet: sayfa iskeleti, meta, schema, iç linkler ve görsel fallback'i hazır; gövde metni kategori tohumlarıyla (`src/lib/content-factory.ts`) üretiliyor ve FAZ 2'de elle yazılacak. Bu sayfalar FAZ 2 bitene kadar `noindex, follow`.
+Diğer 27 hizmet: sayfa iskeleti, meta, schema, iç linkler ve görsel fallback'i hazır; gövde metni kategori tohumlarıyla (`src/lib/content-factory.ts`) üretiliyor ve FAZ 2'de elle yazılacak. Bu sayfalar FAZ 2 bitene kadar `noindex, follow`.
 
 ## 4. Görsel varlıkları
 
