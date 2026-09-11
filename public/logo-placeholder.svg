@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- LOGO SVG BURAYA -->
+<!--
+  Tardigrad Software — logo alanı (placeholder).
+  Gerçek SVG teslim edildiğinde bu dosyanın içeriği değiştirilir;
+  header/footer/favicon/OG ve Organization.logo şeması aynı dosyayı kullanır:
+  https://tardigradsoftware.com/logo-placeholder.svg
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 48" width="240" height="48" role="img" aria-label="Tardigrad Software">
+  <rect x="0" y="8" width="32" height="32" rx="9" fill="#0F2A44"/>
+  <path d="M8 19h16M16 19v13" stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="round"/>
+  <circle cx="16" cy="34.5" r="1.7" fill="#06B6D4"/>
+  <text x="42" y="27" font-family="Inter, Helvetica, Arial, sans-serif" font-size="17" font-weight="600" fill="#0F2A44">Tardigrad</text>
+  <text x="42" y="40" font-family="Inter, Helvetica, Arial, sans-serif" font-size="9.5" letter-spacing="2.4" fill="#64748B">SOFTWARE</text>
+</svg>

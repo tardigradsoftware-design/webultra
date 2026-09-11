@@ -1,0 +1,327 @@
+{
+  "generatedAt": "2026-09-11T10:18:16.781Z",
+  "images": [
+    {
+      "file": "/images/hero/hero-kurumsal-dijital-donusum-paneli.webp",
+      "width": 1280,
+      "height": 800,
+      "kb": 15,
+      "source": "(kaynak PNG repoda değil — WebP doğrudan kullanılıyor)"
+    },
+    {
+      "file": "/images/services/abonelik-yazilim-faturalandirma.webp",
+      "width": 1280,
+      "height": 720,
+      "kb": 14,
+      "source": "images/_src/abonelik-yazilim-faturalandirma.png"
+    },
+    {
+      "file": "/images/services/ai-chatbot-musteri-destek-sohbet-paneli.webp",
+      "width": 1280,
+      "height": 720,
+      "kb": 30,
+      "source": "(kaynak PNG repoda değil — WebP doğrudan kullanılıyor)"
+    },
+    {
+      "file": "/images/services/ai-icerik-araci-editoru.webp",
+      "width": 1280,
+      "height": 720,
+      "kb": 18,
+      "source": "images/_src/ai-icerik-araci-editoru.png"
+    },
+    {
+      "file": "/images/services/api-entegrasyonu-merkezi-kopru.webp",
+      "width": 1280,
+      "height": 720,
+      "kb": 10,
+      "source": "images/_src/api-entegrasyonu-merkezi-kopru.png"
+    },
+    {
+      "file": "/images/services/cloudflare-cdn-edge-noktalari.webp",
+      "width": 1280,
+      "height": 720,
+      "kb": 32,
+      "source": "images/_src/cloudflare-cdn-edge-noktalari.png"
+    },
+    {
+      "file": "/images/services/crm-musteri-iliskileri-yonetim-paneli.webp",
+      "width": 1280,
+      "height": 720,
+      "kb": 17,
+      "source": "(kaynak PNG repoda değil — WebP doğrudan kullanılıyor)"
+    },
+    {
+      "file": "/images/services/dashboard-sistemi-gercek-zamanli-ekran.webp",
+      "width": 1280,
+      "height": 720,
+      "kb": 8,
+      "source": "images/_src/dashboard-sistemi-gercek-zamanli-ekran.png"
+    },
+    {
+      "file": "/images/services/dijital-donusum-yol-haritasi.webp",
+      "width": 1280,
+      "height": 720,
+      "kb": 23,
+      "source": "images/_src/dijital-donusum-yol-haritasi.png"
+    },
+    {
+      "file": "/images/services/dijital-otomasyon-akis-tasarimi.webp",
+      "width": 1280,
+      "height": 720,
+      "kb": 7,
+      "source": "images/_src/dijital-otomasyon-akis-tasarimi.png"
+    },
+    {
+      "file": "/images/services/domain-dns-kayit-konsolu.webp",
+      "width": 1280,
+      "height": 720,
+      "kb": 21,
+      "source": "images/_src/domain-dns-kayit-konsolu.png"
+    },
+    {
+      "file": "/images/services/e-ticaret-sitesi-urun-katalog-sepet.webp",
+      "width": 1280,
+      "height": 720,
+      "kb": 29,
+      "source": "(kaynak PNG repoda değil — WebP doğrudan kullanılıyor)"
+    },
+    {
+      "file": "/images/services/firma-web-sitesi-kurumsal-tanim-arayuzu.webp",
+      "width": 1280,
+      "height": 720,
+      "kb": 10,
+      "source": "images/_src/firma-web-sitesi-kurumsal-tanim-arayuzu.png"
+    },
+    {
+      "file": "/images/services/form-basvuru-sistemi-tasarim-ariuzu.webp",
+      "width": 1280,
+      "height": 720,
+      "kb": 19,
+      "source": "images/_src/form-basvuru-sistemi-tasarim-ariuzu.png"
+    },
+    {
+      "file": "/images/services/hosting-yedekleme-paneli.webp",
+      "width": 1280,
+      "height": 720,
+      "kb": 12,
+      "source": "images/_src/hosting-yedekleme-paneli.png"
+    },
+    {
+      "file": "/images/services/is-takip-sistemi-kanban-tahtasi.webp",
+      "width": 1280,
+      "height": 720,
+      "kb": 24,
+      "source": "images/_src/is-takip-sistemi-kanban-tahtasi.png"
+    },
+    {
+      "file": "/images/services/kurumsal-email-gelen-kutusu.webp",
+      "width": 1280,
+      "height": 720,
+      "kb": 17,
+      "source": "images/_src/kurumsal-email-gelen-kutusu.png"
+    },
+    {
+      "file": "/images/services/kurumsal-web-sitesi-tasarim-mockup.webp",
+      "width": 1280,
+      "height": 720,
+      "kb": 17,
+      "source": "(kaynak PNG repoda değil — WebP doğrudan kullanılıyor)"
+    },
+    {
+      "file": "/images/services/landing-page-kampanya-donusum-tasarimi.webp",
+      "width": 1280,
+      "height": 720,
+      "kb": 19,
+      "source": "images/_src/landing-page-kampanya-donusum-tasarimi.png"
+    },
+    {
+      "file": "/images/services/lokal-seo-harita-isletme-profili.webp",
+      "width": 1280,
+      "height": 720,
+      "kb": 21,
+      "source": "images/_src/lokal-seo-harita-isletme-profili.png"
+    },
+    {
+      "file": "/images/services/multi-tenant-yapi-ve-tema-paneli.webp",
+      "width": 1280,
+      "height": 720,
+      "kb": 10,
+      "source": "images/_src/multi-tenant-yapi-ve-tema-paneli.png"
+    },
+    {
+      "file": "/images/services/musteri-paneli-talep-takip.webp",
+      "width": 1280,
+      "height": 720,
+      "kb": 16,
+      "source": "images/_src/musteri-paneli-talep-takip.png"
+    },
+    {
+      "file": "/images/services/musteri-yonetim-sistemi-kart-timeline.webp",
+      "width": 1280,
+      "height": 720,
+      "kb": 20,
+      "source": "images/_src/musteri-yonetim-sistemi-kart-timeline.png"
+    },
+    {
+      "file": "/images/services/mvp-startup-urunu-yol-haritasi.webp",
+      "width": 1280,
+      "height": 720,
+      "kb": 17,
+      "source": "images/_src/mvp-startup-urunu-yol-haritasi.png"
+    },
+    {
+      "file": "/images/services/odeme-sohbet-crm-entegrasyonu.webp",
+      "width": 1280,
+      "height": 720,
+      "kb": 12,
+      "source": "images/_src/odeme-sohbet-crm-entegrasyonu.png"
+    },
+    {
+      "file": "/images/services/personel-kullanici-yonetimi-izin-yetki.webp",
+      "width": 1280,
+      "height": 720,
+      "kb": 9,
+      "source": "images/_src/personel-kullanici-yonetimi-izin-yetki.png"
+    },
+    {
+      "file": "/images/services/portfoy-sitesi-proje-galerisi.webp",
+      "width": 1280,
+      "height": 720,
+      "kb": 17,
+      "source": "images/_src/portfoy-sitesi-proje-galerisi.png"
+    },
+    {
+      "file": "/images/services/proforma-siparis-yonetimi-belge-akisi.webp",
+      "width": 1280,
+      "height": 720,
+      "kb": 13,
+      "source": "images/_src/proforma-siparis-yonetimi-belge-akisi.png"
+    },
+    {
+      "file": "/images/services/raporlama-sistemi-bi-panosu.webp",
+      "width": 1280,
+      "height": 720,
+      "kb": 13,
+      "source": "images/_src/raporlama-sistemi-bi-panosu.png"
+    },
+    {
+      "file": "/images/services/rezervasyon-sistemi-takvim-slot-arayuzu.webp",
+      "width": 1280,
+      "height": 720,
+      "kb": 22,
+      "source": "images/_src/rezervasyon-sistemi-takvim-slot-arayuzu.png"
+    },
+    {
+      "file": "/images/services/saas-platformu-tenant-konsol.webp",
+      "width": 1280,
+      "height": 720,
+      "kb": 14,
+      "source": "images/_src/saas-platformu-tenant-konsol.png"
+    },
+    {
+      "file": "/images/services/schema-org-veri-isaretleme.webp",
+      "width": 1280,
+      "height": 720,
+      "kb": 13,
+      "source": "images/_src/schema-org-veri-isaretleme.png"
+    },
+    {
+      "file": "/images/services/search-console-performans-grafigi.webp",
+      "width": 1280,
+      "height": 720,
+      "kb": 26,
+      "source": "images/_src/search-console-performans-grafigi.png"
+    },
+    {
+      "file": "/images/services/seo-danismanligi-rapor-toplanti.webp",
+      "width": 1280,
+      "height": 720,
+      "kb": 21,
+      "source": "images/_src/seo-danismanligi-rapor-toplanti.png"
+    },
+    {
+      "file": "/images/services/seo-sayfa-mimarisi-silo-diagrami.webp",
+      "width": 1280,
+      "height": 720,
+      "kb": 10,
+      "source": "images/_src/seo-sayfa-mimarisi-silo-diagrami.png"
+    },
+    {
+      "file": "/images/services/stok-yonetimi-depo-envanter-ekrani.webp",
+      "width": 1280,
+      "height": 720,
+      "kb": 16,
+      "source": "images/_src/stok-yonetimi-depo-envanter-ekrani.png"
+    },
+    {
+      "file": "/images/services/supabase-postgresql-konsol.webp",
+      "width": 1280,
+      "height": 720,
+      "kb": 8,
+      "source": "images/_src/supabase-postgresql-konsol.png"
+    },
+    {
+      "file": "/images/services/teklif-hazirlama-sistemi-teklif-taslagi.webp",
+      "width": 1280,
+      "height": 720,
+      "kb": 7,
+      "source": "images/_src/teklif-hazirlama-sistemi-teklif-taslagi.png"
+    },
+    {
+      "file": "/images/services/teknik-seo-arama-motori-buyume-grafigi.webp",
+      "width": 1280,
+      "height": 720,
+      "kb": 33,
+      "source": "(kaynak PNG repoda değil — WebP doğrudan kullanılıyor)"
+    },
+    {
+      "file": "/images/services/urun-tanitim-sitesi-urun-galerisi.webp",
+      "width": 1280,
+      "height": 720,
+      "kb": 9,
+      "source": "images/_src/urun-tanitim-sitesi-urun-galerisi.png"
+    },
+    {
+      "file": "/images/services/urun-tedarikci-yonetimi-karsilastirma.webp",
+      "width": 1280,
+      "height": 720,
+      "kb": 13,
+      "source": "images/_src/urun-tedarikci-yonetimi-karsilastirma.png"
+    },
+    {
+      "file": "/images/services/vercel-deployment-hatti.webp",
+      "width": 1280,
+      "height": 720,
+      "kb": 13,
+      "source": "images/_src/vercel-deployment-hatti.png"
+    },
+    {
+      "file": "/images/services/web-sitesi-yenileme-once-sonra.webp",
+      "width": 1280,
+      "height": 720,
+      "kb": 21,
+      "source": "images/_src/web-sitesi-yenileme-once-sonra.png"
+    },
+    {
+      "file": "/images/services/yonetim-paneli-admin-ekrani.webp",
+      "width": 1280,
+      "height": 720,
+      "kb": 15,
+      "source": "images/_src/yonetim-paneli-admin-ekrani.png"
+    },
+    {
+      "file": "/images/shared/dijital-donusum-excel-den-webe.webp",
+      "width": 1280,
+      "height": 720,
+      "kb": 10,
+      "source": "(kaynak PNG repoda değil — WebP doğrudan kullanılıyor)"
+    },
+    {
+      "file": "/images/shared/surec-9-adim-akisi.webp",
+      "width": 1280,
+      "height": 720,
+      "kb": 18,
+      "source": "(kaynak PNG repoda değil — WebP doğrudan kullanılıyor)"
+    }
+  ]
+}

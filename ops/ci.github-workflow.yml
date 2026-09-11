@@ -1,0 +1,48 @@
+name: CI
+
+# Kabul kriteri tek komutta: npm run verify (typecheck + lint + build + seo-check + kopya denetimi)
+on:
+  push:
+    branches: [main, "arena/**"]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+
+      - name: Bağımlılıklar
+        run: npm ci --no-audit --fund=false
+
+      - name: Doğrulama (tsc + lint + build + seo-check + copy)
+        run: npm run verify
+
+      - name: Özet metrikler
+        if: always()
+        run: |
+          if [ -f docs/seo-audit.json ]; then
+            node -e "const s=require('./docs/seo-audit.json').summary||require('./docs/seo-audit.json').stats;console.table([s])"
+          else
+            echo "docs/seo-audit.json yok — verify adımı başarısız olmuş olabilir"
+          fi
+
+      - name: Raporu artifact olarak yükle
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: seo-raporu
+          path: |
+            docs/seo-audit.json
+            docs/FAZ-1-RAPOR.md
+          if-no-files-found: warn
