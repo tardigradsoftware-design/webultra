@@ -298,3 +298,9 @@ Faz 1 sayfa sayısı: **11** · Görsel: **8** · shadcn primitive: **13** · Pi
 2. **Uzun içeriği tek seferde yazma:** her `write_file` çağrısı 2-3 hizmetle (≈300-450 satır) sınırlı; toplu yazımdan sonra `grep -P "[\x{4e00}-\x{9fff}]" src/data/*.ts` (karakter kaçağı) ve `node scripts/check-desc-endings.mjs` (kesik cümle) zorunlu.
 3. **Her adımın sonunda kaydet:** `npm run save -- "özet"` → commit + push; push reddedilirse script işleri `backup/<zaman>-<sha>` dalına yazar. Sandbox tur ortasında kendini eski anlık görüntüye alabiliyor (yaşandı: commit'ler ve dosyalar silindi, geri getirilemedi) → commit'ler küçük, sınır: her hizmet grubu.
 4. `contentCopy`/`intro` zorunlu değil; `hazirlik` 3-4 madde, `ciktilar` 3-4 madde, `sss` 6 soru (Q1 = kapsam).
+
+## Faz 2 görsel ayağı — tamamlandı (43/43 hizmet kapağı)
+- Her kapak için 2 aday üretildi, seçimi kullanıcı yaptı; kaynak PNG'ler `public/images/_src/` (gitignore), ürün WebP'ler `public/images/services/` (1280×720, beyaz letterbox → CLS 0, ort. ~16 KB).
+- Hat: `generate_image` → `npm run imgs` → `npm run wire:img <slug> <dosya> "<alt>"` → `npx tsc --noEmit` → `npx next build` → `npm run report` → `node scripts/image-queue.mjs` → `npm run save`.
+- Doğrulama: `seo-check` artık JSON-LD içindeki görsel yollarını da diskte arıyor (`imageRefs 46`, `eksikGorselDosyasi 0`); bu kontrol `Organization.image` alanındaki bayat `hero/kurumsal-dijital-donusum-dashboard.webp` referansını yakaladı ve `hero-kurumsal-dijital-donusum-paneli.webp` olarak düzeltildi.
+- Bu turda 3 kez yaşanan sandbox geri yüklemesi sonrası `node_modules`/`.env.local`/`_src` içeriği silindi; `sharp` yeniden kuruldu ve `build-images.mjs` artık kaynak PNG olmasa da diskteki WebP'leri manifest'e yazıyor (envanter rollback'e dayanıklı).

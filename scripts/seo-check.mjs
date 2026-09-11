@@ -190,6 +190,18 @@ for (const key of ["title", "canonical"]) {
   for (const [v, n] of seen) if (n > 1 && key === "title") problems.push(`title çakışması (${n}x): ${v}`)
 }
 
+/**
+ * /images/** referanslarının diskte varlığı — <img> ve JSON-LD (Organization.image vb.) dâhil.
+ * Schema alanları tarayıcıda kırık görsel üretmez ama Search Console/OG önizlemesinde sorun olur.
+ */
+const gorselYollari = new Set()
+for (const f of htmlFiles) {
+  const html = readFileSync(f, "utf8")
+  for (const m of html.matchAll(/\/images\/[A-Za-z0-9._\-\/]+\.(?:webp|png|jpe?g|svg)/g)) gorselYollari.add(m[0])
+}
+const eksikGorsel = [...gorselYollari].filter((u) => !existsSync(path.join("public", u.replace(/^\//, ""))))
+for (const u of eksikGorsel) problems.push(`diskte olmayan görsel referansı → ${u}`)
+
 const services = rows.filter((r) => r.route.startsWith("/hizmetler/") && r.route !== "/hizmetler/")
 const summary = {
   pages: rows.length,
@@ -202,6 +214,8 @@ const summary = {
   minServiceWords: Math.min(...services.map((r) => r.words)),
   totalImages: rows.reduce((a, r) => a + r.imgs, 0),
   brokenLinks: rows.filter((r) => r.broken).length,
+  imageRefs: gorselYollari.size,
+  eksikGorselDosyasi: eksikGorsel.length,
   pagesWithoutJsonLd: rows.filter((r) => !r.ldTypes && !r.route.includes("sitemap")).length,
 }
 

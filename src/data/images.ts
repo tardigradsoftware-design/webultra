@@ -253,6 +253,42 @@ export const SERVICE_IMAGES: Record<string, ServiceImage> = {
     width: 1280,
     height: 720,
   },
+  "supabase-postgresql": {
+    src: "/images/services/supabase-postgresql-konsol.webp",
+    alt: "Veritabanı ve backend konsolu: tablo görünümü, sorgu editörü, varlık ilişkileri şeması ve yetki anahtarları",
+    width: 1280,
+    height: 720,
+  },
+  "kurumsal-email": {
+    src: "/images/services/kurumsal-email-gelen-kutusu.webp",
+    alt: "Kurumsal e-posta arayüzü: klasör ağacı, mesaj listesi, okuma bölmesi ve alan doğrulama kartı",
+    width: 1280,
+    height: 720,
+  },
+  "api-entegrasyonu": {
+    src: "/images/services/api-entegrasyonu-merkezi-kopru.webp",
+    alt: "API entegrasyon merkezi: bağlantı düğümü, uygulama kutucukları, istek yanıt paneli ve webhook listesi",
+    width: 1280,
+    height: 720,
+  },
+  "odeme-whatsapp-crm-entegrasyonu": {
+    src: "/images/services/odeme-sohbet-crm-entegrasyonu.webp",
+    alt: "Ödeme, sohbet ve CRM entegrasyon şeması: merkezi bağlantı kartı, ödeme ekranı, mesaj balonları ve müşteri kartı",
+    width: 1280,
+    height: 720,
+  },
+  "ai-icerik-araclar": {
+    src: "/images/services/ai-icerik-araci-editoru.webp",
+    alt: "Yapay zekâ destekli içerik editörü: istek satırı, öneri kartları, ton ve uzunluk ayarları, mobil görünüm",
+    width: 1280,
+    height: 720,
+  },
+  "dijital-donusum": {
+    src: "/images/services/dijital-donusum-yol-haritasi.webp",
+    alt: "Dijital dönüşüm yol haritası: eski tablo düzeninden modern panele geçiş ve dört aşamalı ilerleme şeridi",
+    width: 1280,
+    height: 720,
+  },
 }
 
 export function serviceImage(slug: string): ServiceImage | undefined {

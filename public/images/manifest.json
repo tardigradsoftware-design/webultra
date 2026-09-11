@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T08:19:02.921Z",
+  "generatedAt": "2026-09-11T08:58:57.380Z",
   "images": [
     {
       "file": "/images/hero/hero-kurumsal-dijital-donusum-paneli.webp",
@@ -23,6 +23,20 @@
       "source": "(kaynak PNG repoda değil — WebP doğrudan kullanılıyor)"
     },
     {
+      "file": "/images/services/ai-icerik-araci-editoru.webp",
+      "width": 1280,
+      "height": 720,
+      "kb": 18,
+      "source": "images/_src/ai-icerik-araci-editoru.png"
+    },
+    {
+      "file": "/images/services/api-entegrasyonu-merkezi-kopru.webp",
+      "width": 1280,
+      "height": 720,
+      "kb": 10,
+      "source": "images/_src/api-entegrasyonu-merkezi-kopru.png"
+    },
+    {
       "file": "/images/services/cloudflare-cdn-edge-noktalari.webp",
       "width": 1280,
       "height": 720,
@@ -42,6 +56,13 @@
       "height": 720,
       "kb": 8,
       "source": "images/_src/dashboard-sistemi-gercek-zamanli-ekran.png"
+    },
+    {
+      "file": "/images/services/dijital-donusum-yol-haritasi.webp",
+      "width": 1280,
+      "height": 720,
+      "kb": 23,
+      "source": "images/_src/dijital-donusum-yol-haritasi.png"
     },
     {
       "file": "/images/services/dijital-otomasyon-akis-tasarimi.webp",
@@ -93,6 +114,13 @@
       "source": "images/_src/is-takip-sistemi-kanban-tahtasi.png"
     },
     {
+      "file": "/images/services/kurumsal-email-gelen-kutusu.webp",
+      "width": 1280,
+      "height": 720,
+      "kb": 17,
+      "source": "images/_src/kurumsal-email-gelen-kutusu.png"
+    },
+    {
       "file": "/images/services/kurumsal-web-sitesi-tasarim-mockup.webp",
       "width": 1280,
       "height": 720,
@@ -140,6 +168,13 @@
       "height": 720,
       "kb": 17,
       "source": "images/_src/mvp-startup-urunu-yol-haritasi.png"
+    },
+    {
+      "file": "/images/services/odeme-sohbet-crm-entegrasyonu.webp",
+      "width": 1280,
+      "height": 720,
+      "kb": 12,
+      "source": "images/_src/odeme-sohbet-crm-entegrasyonu.png"
     },
     {
       "file": "/images/services/personel-kullanici-yonetimi-izin-yetki.webp",
@@ -217,6 +252,13 @@
       "height": 720,
       "kb": 16,
       "source": "images/_src/stok-yonetimi-depo-envanter-ekrani.png"
+    },
+    {
+      "file": "/images/services/supabase-postgresql-konsol.webp",
+      "width": 1280,
+      "height": 720,
+      "kb": 8,
+      "source": "images/_src/supabase-postgresql-konsol.png"
     },
     {
       "file": "/images/services/teklif-hazirlama-sistemi-teklif-taslagi.webp",

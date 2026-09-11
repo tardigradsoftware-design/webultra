@@ -19,7 +19,7 @@ const OUT_ROOT = "public/images"
 /** isim kalıbı → hedef klasör + boyut */
 const rules = [
   { test: /^hero-/, dir: "hero", width: 1280, height: 800 },
-  { test: /^(surec|dijital-donusum)/, dir: "shared", width: 1280, height: 720 },
+  { test: /^(surec-|dijital-donusum-excel)/, dir: "shared", width: 1280, height: 720 },
   { test: /.*/, dir: "services", width: 1280, height: 720 },
 ]
 
