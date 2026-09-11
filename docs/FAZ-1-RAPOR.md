@@ -284,16 +284,16 @@ Toplam: **489 yayına hazır route** · sitemap'te **71** URL (pilot + kurumsal 
 | `/hizmet/personel-kullanici-yonetimi/kayseri/` | Hizmet × İl | 60 | 157 | 1544 | 0 | 61 | 5 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
 | `/hizmet/personel-kullanici-yonetimi/kocaeli/` | Hizmet × İl | 60 | 154 | 1541 | 0 | 62 | 5 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
 | `/hizmet/personel-kullanici-yonetimi/konya/` | Hizmet × İl | 58 | 155 | 1546 | 0 | 61 | 5 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
-| `/hizmet/portfoy-sitesi/adana/` | Hizmet × İl | 43 | 157 | 1532 | 0 | 60 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
-| `/hizmet/portfoy-sitesi/ankara/` | Hizmet × İl | 44 | 152 | 1532 | 0 | 61 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
-| `/hizmet/portfoy-sitesi/antalya/` | Hizmet × İl | 45 | 150 | 1530 | 0 | 61 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
-| `/hizmet/portfoy-sitesi/bursa/` | Hizmet × İl | 43 | 157 | 1530 | 0 | 61 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
-| `/hizmet/portfoy-sitesi/gaziantep/` | Hizmet × İl | 47 | 155 | 1531 | 0 | 60 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
-| `/hizmet/portfoy-sitesi/istanbul/` | Hizmet × İl | 46 | 151 | 1536 | 0 | 61 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
-| `/hizmet/portfoy-sitesi/izmir/` | Hizmet × İl | 43 | 153 | 1536 | 0 | 61 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
-| `/hizmet/portfoy-sitesi/kayseri/` | Hizmet × İl | 45 | 153 | 1532 | 0 | 60 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
-| `/hizmet/portfoy-sitesi/kocaeli/` | Hizmet × İl | 45 | 150 | 1529 | 0 | 61 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
-| `/hizmet/portfoy-sitesi/konya/` | Hizmet × İl | 43 | 151 | 1534 | 0 | 60 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
+| `/hizmet/portfoy-sitesi/adana/` | Hizmet × İl | 43 | 157 | 1540 | 2 | 60 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
+| `/hizmet/portfoy-sitesi/ankara/` | Hizmet × İl | 44 | 152 | 1540 | 2 | 61 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
+| `/hizmet/portfoy-sitesi/antalya/` | Hizmet × İl | 45 | 150 | 1538 | 2 | 61 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
+| `/hizmet/portfoy-sitesi/bursa/` | Hizmet × İl | 43 | 157 | 1538 | 2 | 61 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
+| `/hizmet/portfoy-sitesi/gaziantep/` | Hizmet × İl | 47 | 155 | 1539 | 2 | 60 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
+| `/hizmet/portfoy-sitesi/istanbul/` | Hizmet × İl | 46 | 151 | 1544 | 2 | 61 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
+| `/hizmet/portfoy-sitesi/izmir/` | Hizmet × İl | 43 | 153 | 1544 | 2 | 61 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
+| `/hizmet/portfoy-sitesi/kayseri/` | Hizmet × İl | 45 | 153 | 1540 | 2 | 60 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
+| `/hizmet/portfoy-sitesi/kocaeli/` | Hizmet × İl | 45 | 150 | 1537 | 2 | 61 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
+| `/hizmet/portfoy-sitesi/konya/` | Hizmet × İl | 43 | 151 | 1542 | 2 | 60 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
 | `/hizmet/proforma-siparis-yonetimi/adana/` | Hizmet × İl | 56 | 152 | 1600 | 0 | 60 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
 | `/hizmet/proforma-siparis-yonetimi/ankara/` | Hizmet × İl | 57 | 156 | 1602 | 0 | 61 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
 | `/hizmet/proforma-siparis-yonetimi/antalya/` | Hizmet × İl | 58 | 154 | 1600 | 0 | 61 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
@@ -314,16 +314,16 @@ Toplam: **489 yayına hazır route** · sitemap'te **71** URL (pilot + kurumsal 
 | `/hizmet/raporlama-sistemi/kayseri/` | Hizmet × İl | 48 | 150 | 1497 | 0 | 62 | 5 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
 | `/hizmet/raporlama-sistemi/kocaeli/` | Hizmet × İl | 48 | 156 | 1496 | 0 | 62 | 5 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
 | `/hizmet/raporlama-sistemi/konya/` | Hizmet × İl | 46 | 157 | 1501 | 0 | 63 | 5 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
-| `/hizmet/rezervasyon-basvuru-sistemi/adana/` | Hizmet × İl | 59 | 154 | 1624 | 0 | 63 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
-| `/hizmet/rezervasyon-basvuru-sistemi/ankara/` | Hizmet × İl | 60 | 151 | 1625 | 0 | 64 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
-| `/hizmet/rezervasyon-basvuru-sistemi/antalya/` | Hizmet × İl | 40 | 156 | 1624 | 0 | 64 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
-| `/hizmet/rezervasyon-basvuru-sistemi/bursa/` | Hizmet × İl | 59 | 154 | 1622 | 0 | 64 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
-| `/hizmet/rezervasyon-basvuru-sistemi/gaziantep/` | Hizmet × İl | 42 | 155 | 1624 | 0 | 63 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
-| `/hizmet/rezervasyon-basvuru-sistemi/istanbul/` | Hizmet × İl | 41 | 157 | 1630 | 0 | 64 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
-| `/hizmet/rezervasyon-basvuru-sistemi/izmir/` | Hizmet × İl | 59 | 150 | 1628 | 0 | 64 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
-| `/hizmet/rezervasyon-basvuru-sistemi/kayseri/` | Hizmet × İl | 40 | 152 | 1625 | 0 | 63 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
-| `/hizmet/rezervasyon-basvuru-sistemi/kocaeli/` | Hizmet × İl | 40 | 156 | 1623 | 0 | 64 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
-| `/hizmet/rezervasyon-basvuru-sistemi/konya/` | Hizmet × İl | 59 | 157 | 1628 | 0 | 63 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
+| `/hizmet/rezervasyon-basvuru-sistemi/adana/` | Hizmet × İl | 59 | 154 | 1631 | 2 | 63 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
+| `/hizmet/rezervasyon-basvuru-sistemi/ankara/` | Hizmet × İl | 60 | 151 | 1632 | 2 | 64 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
+| `/hizmet/rezervasyon-basvuru-sistemi/antalya/` | Hizmet × İl | 40 | 156 | 1631 | 2 | 64 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
+| `/hizmet/rezervasyon-basvuru-sistemi/bursa/` | Hizmet × İl | 59 | 154 | 1629 | 2 | 64 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
+| `/hizmet/rezervasyon-basvuru-sistemi/gaziantep/` | Hizmet × İl | 42 | 155 | 1631 | 2 | 63 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
+| `/hizmet/rezervasyon-basvuru-sistemi/istanbul/` | Hizmet × İl | 41 | 157 | 1637 | 2 | 64 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
+| `/hizmet/rezervasyon-basvuru-sistemi/izmir/` | Hizmet × İl | 59 | 150 | 1635 | 2 | 64 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
+| `/hizmet/rezervasyon-basvuru-sistemi/kayseri/` | Hizmet × İl | 40 | 152 | 1632 | 2 | 63 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
+| `/hizmet/rezervasyon-basvuru-sistemi/kocaeli/` | Hizmet × İl | 40 | 156 | 1630 | 2 | 64 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
+| `/hizmet/rezervasyon-basvuru-sistemi/konya/` | Hizmet × İl | 59 | 157 | 1635 | 2 | 63 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
 | `/hizmet/saas-platformu/adana/` | Hizmet × İl | 43 | 157 | 1620 | 0 | 60 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
 | `/hizmet/saas-platformu/ankara/` | Hizmet × İl | 44 | 155 | 1621 | 0 | 61 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
 | `/hizmet/saas-platformu/antalya/` | Hizmet × İl | 45 | 153 | 1619 | 0 | 61 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
@@ -434,16 +434,16 @@ Toplam: **489 yayına hazır route** · sitemap'te **71** URL (pilot + kurumsal 
 | `/hizmet/vercel-deployment/kayseri/` | Hizmet × İl | 48 | 156 | 1534 | 0 | 60 | 5 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
 | `/hizmet/vercel-deployment/kocaeli/` | Hizmet × İl | 48 | 153 | 1531 | 0 | 61 | 5 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
 | `/hizmet/vercel-deployment/konya/` | Hizmet × İl | 46 | 154 | 1536 | 0 | 60 | 5 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
-| `/hizmet/web-sitesi-yenileme/adana/` | Hizmet × İl | 43 | 153 | 1718 | 0 | 60 | 7 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
-| `/hizmet/web-sitesi-yenileme/ankara/` | Hizmet × İl | 44 | 157 | 1720 | 0 | 61 | 7 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
-| `/hizmet/web-sitesi-yenileme/antalya/` | Hizmet × İl | 45 | 155 | 1718 | 0 | 61 | 7 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
-| `/hizmet/web-sitesi-yenileme/bursa/` | Hizmet × İl | 43 | 153 | 1716 | 0 | 61 | 7 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
-| `/hizmet/web-sitesi-yenileme/gaziantep/` | Hizmet × İl | 47 | 154 | 1718 | 0 | 60 | 7 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
-| `/hizmet/web-sitesi-yenileme/istanbul/` | Hizmet × İl | 46 | 156 | 1724 | 0 | 61 | 7 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
-| `/hizmet/web-sitesi-yenileme/izmir/` | Hizmet × İl | 43 | 149 | 1722 | 0 | 61 | 7 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
-| `/hizmet/web-sitesi-yenileme/kayseri/` | Hizmet × İl | 45 | 151 | 1719 | 0 | 60 | 7 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
-| `/hizmet/web-sitesi-yenileme/kocaeli/` | Hizmet × İl | 45 | 155 | 1717 | 0 | 61 | 7 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
-| `/hizmet/web-sitesi-yenileme/konya/` | Hizmet × İl | 43 | 156 | 1722 | 0 | 60 | 7 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
+| `/hizmet/web-sitesi-yenileme/adana/` | Hizmet × İl | 43 | 153 | 1724 | 2 | 60 | 7 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
+| `/hizmet/web-sitesi-yenileme/ankara/` | Hizmet × İl | 44 | 157 | 1726 | 2 | 61 | 7 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
+| `/hizmet/web-sitesi-yenileme/antalya/` | Hizmet × İl | 45 | 155 | 1724 | 2 | 61 | 7 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
+| `/hizmet/web-sitesi-yenileme/bursa/` | Hizmet × İl | 43 | 153 | 1722 | 2 | 61 | 7 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
+| `/hizmet/web-sitesi-yenileme/gaziantep/` | Hizmet × İl | 47 | 154 | 1724 | 2 | 60 | 7 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
+| `/hizmet/web-sitesi-yenileme/istanbul/` | Hizmet × İl | 46 | 156 | 1730 | 2 | 61 | 7 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
+| `/hizmet/web-sitesi-yenileme/izmir/` | Hizmet × İl | 43 | 149 | 1728 | 2 | 61 | 7 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
+| `/hizmet/web-sitesi-yenileme/kayseri/` | Hizmet × İl | 45 | 151 | 1725 | 2 | 60 | 7 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
+| `/hizmet/web-sitesi-yenileme/kocaeli/` | Hizmet × İl | 45 | 155 | 1723 | 2 | 61 | 7 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
+| `/hizmet/web-sitesi-yenileme/konya/` | Hizmet × İl | 43 | 156 | 1728 | 2 | 60 | 7 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
 | `/hizmet/yonetim-paneli/adana/` | Hizmet × İl | 43 | 156 | 1498 | 0 | 61 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
 | `/hizmet/yonetim-paneli/ankara/` | Hizmet × İl | 44 | 154 | 1499 | 0 | 62 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
 | `/hizmet/yonetim-paneli/antalya/` | Hizmet × İl | 45 | 158 | 1498 | 0 | 62 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
@@ -481,10 +481,10 @@ Toplam: **489 yayına hazır route** · sitemap'te **71** URL (pilot + kurumsal 
 | `/hizmetler/mvp-startup-urunu/` | Hizmet sayfası | 40 | 145 | 1612 | 0 | 58 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
 | `/hizmetler/odeme-whatsapp-crm-entegrasyonu/` | Hizmet sayfası | 56 | 156 | 1695 | 0 | 59 | 5 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
 | `/hizmetler/personel-kullanici-yonetimi/` | Hizmet sayfası | 50 | 150 | 1619 | 0 | 59 | 5 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
-| `/hizmetler/portfoy-sitesi/` | Hizmet sayfası | 35 | 150 | 1657 | 0 | 58 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
+| `/hizmetler/portfoy-sitesi/` | Hizmet sayfası | 35 | 150 | 1665 | 2 | 58 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
 | `/hizmetler/proforma-siparis-yonetimi/` | Hizmet sayfası | 48 | 147 | 1683 | 0 | 58 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
 | `/hizmetler/raporlama-sistemi/` | Hizmet sayfası | 38 | 148 | 1570 | 0 | 59 | 5 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
-| `/hizmetler/rezervasyon-basvuru-sistemi/` | Hizmet sayfası | 51 | 157 | 1717 | 0 | 61 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
+| `/hizmetler/rezervasyon-basvuru-sistemi/` | Hizmet sayfası | 51 | 157 | 1724 | 2 | 61 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
 | `/hizmetler/saas-platformu/` | Hizmet sayfası | 35 | 146 | 1727 | 0 | 58 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
 | `/hizmetler/schema-org-structured-data/` | Hizmet sayfası | 49 | 151 | 1623 | 0 | 58 | 5 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
 | `/hizmetler/seo-danismanligi/` | Hizmet sayfası | 37 | 146 | 1694 | 0 | 60 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
@@ -496,7 +496,7 @@ Toplam: **489 yayına hazır route** · sitemap'te **71** URL (pilot + kurumsal 
 | `/hizmetler/urun-tanitim-sitesi/` | Hizmet sayfası | 49 | 155 | 1904 | 2 | 58 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
 | `/hizmetler/urun-tedarikci-yonetimi/` | Hizmet sayfası | 46 | 148 | 1703 | 0 | 58 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
 | `/hizmetler/vercel-deployment/` | Hizmet sayfası | 38 | 153 | 1604 | 0 | 58 | 5 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
-| `/hizmetler/web-sitesi-yenileme/` | Hizmet sayfası | 56 | 145 | 1816 | 0 | 58 | 7 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
+| `/hizmetler/web-sitesi-yenileme/` | Hizmet sayfası | 56 | 145 | 1822 | 2 | 58 | 7 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
 | `/hizmetler/yonetim-paneli/` | Hizmet sayfası | 35 | 148 | 1576 | 0 | 59 | 6 | BreadcrumbList+FAQPage+Organization+ProfessionalService+Service+WebSite | index, follow |
 | `/iletisim/` | Kurumsal | 45 | 155 | 373 | 0 | 52 | - | Organization+ProfessionalService+WebSite | index, follow |
 | `/kvkk/` | Kurumsal | 45 | 158 | 299 | 0 | 52 | - | Organization+ProfessionalService+WebSite | index, follow |
@@ -1008,11 +1008,11 @@ Toplam: **489 yayına hazır route** · sitemap'te **71** URL (pilot + kurumsal 
 
 Şablon (FAZ 2) hizmet sayfalarının tam meta listesi: `docs/seo-audit.json` ve `docs/meta-dokum.txt`.
 
-**Özet metrikler:** {"pages":489,"servicePages":43,"pagesWithFaq":43,"indexablePages":489,"handWrittenServicePages":43,"avgServiceWords":1673,"maxServiceWords":1911,"minServiceWords":1546,"totalImages":180,"brokenLinks":0,"pagesWithoutJsonLd":0}
+**Özet metrikler:** {"pages":489,"servicePages":43,"pagesWithFaq":43,"indexablePages":489,"handWrittenServicePages":43,"avgServiceWords":1674,"maxServiceWords":1911,"minServiceWords":1546,"totalImages":246,"brokenLinks":0,"pagesWithoutJsonLd":0}
 
 - Kırık iç link: 0
 - JSON-LD olmayan sayfa: 0
-- Hizmet sayfaları kelime sayısı (ana içerik): min 1546 / ortalama 1673 / maks 1911
+- Hizmet sayfaları kelime sayısı (ana içerik): min 1546 / ortalama 1674 / maks 1911
 - Uyarı listesi: yok ✓
 
 ## 2c. Faz 2 içerik durumu (hizmet bazında)
@@ -1074,9 +1074,9 @@ Elle yazılan hizmet sayısı: **43/43**. Pilot olmayanlar yayında ama indeksle
 | 03 | Landing Page | `landing-page` | 1819 | 33 kr | tanım · neden · kapsam · süreç · fayda · kimler için · neden biz · SSS · CTA+form · iç linkler | 6 |
 | 04 | E-Ticaret Sitesi | `e-ticaret-sitesi` | 1744 | 37 kr | tanım · neden · kapsam · süreç · fayda · kimler için · neden biz · SSS · CTA+form · iç linkler | 7 |
 | 05 | Ürün / Hizmet Tanıtım Sitesi | `urun-tanitim-sitesi` | 1904 | 49 kr | tanım · neden · kapsam · süreç · fayda · kimler için · neden biz · SSS · CTA+form · iç linkler | 6 |
-| 06 | Portföy Sitesi | `portfoy-sitesi` | 1657 | 35 kr | tanım · neden · kapsam · süreç · fayda · kimler için · neden biz · SSS · CTA+form · iç linkler | 6 |
-| 07 | Rezervasyon ve Başvuru Sistemi | `rezervasyon-basvuru-sistemi` | 1717 | 51 kr | tanım · neden · kapsam · süreç · fayda · kimler için · neden biz · SSS · CTA+form · iç linkler | 6 |
-| 08 | Web Sitesi Yenileme / Modernizasyon | `web-sitesi-yenileme` | 1816 | 56 kr | tanım · neden · kapsam · süreç · fayda · kimler için · neden biz · SSS · CTA+form · iç linkler | 7 |
+| 06 | Portföy Sitesi | `portfoy-sitesi` | 1665 | 35 kr | tanım · neden · kapsam · süreç · fayda · kimler için · neden biz · SSS · CTA+form · iç linkler | 6 |
+| 07 | Rezervasyon ve Başvuru Sistemi | `rezervasyon-basvuru-sistemi` | 1724 | 51 kr | tanım · neden · kapsam · süreç · fayda · kimler için · neden biz · SSS · CTA+form · iç linkler | 6 |
+| 08 | Web Sitesi Yenileme / Modernizasyon | `web-sitesi-yenileme` | 1822 | 56 kr | tanım · neden · kapsam · süreç · fayda · kimler için · neden biz · SSS · CTA+form · iç linkler | 7 |
 | 09 | CRM | `crm` | 1688 | 24 kr | tanım · neden · kapsam · süreç · fayda · kimler için · neden biz · SSS · CTA+form · iç linkler | 6 |
 | 10 | Müşteri Yönetim Sistemi | `musteri-yonetim-sistemi` | 1720 | 44 kr | tanım · neden · kapsam · süreç · fayda · kimler için · neden biz · SSS · CTA+form · iç linkler | 6 |
 | 11 | Teklif Hazırlama Sistemi | `teklif-hazirlama-sistemi` | 1630 | 45 kr | tanım · neden · kapsam · süreç · fayda · kimler için · neden biz · SSS · CTA+form · iç linkler | 6 |
@@ -1128,8 +1128,11 @@ Kaynak PNG'ler `public/images/_src/` (gitignore'da), yayın formatı WebP + `loa
 | `/images/services/firma-web-sitesi-kurumsal-tanim-arayuzu.webp` | 1280×720 · 10 KB | `images/_src/firma-web-sitesi-kurumsal-tanim-arayuzu.png` |
 | `/images/services/kurumsal-web-sitesi-tasarim-mockup.webp` | 1280×720 · 17 KB | `(kaynak PNG repoda değil — WebP doğrudan kullanılıyor)` |
 | `/images/services/landing-page-kampanya-donusum-tasarimi.webp` | 1280×720 · 19 KB | `images/_src/landing-page-kampanya-donusum-tasarimi.png` |
+| `/images/services/portfoy-sitesi-proje-galerisi.webp` | 1280×720 · 17 KB | `images/_src/portfoy-sitesi-proje-galerisi.png` |
+| `/images/services/rezervasyon-sistemi-takvim-slot-arayuzu.webp` | 1280×720 · 22 KB | `images/_src/rezervasyon-sistemi-takvim-slot-arayuzu.png` |
 | `/images/services/teknik-seo-arama-motori-buyume-grafigi.webp` | 1280×720 · 33 KB | `(kaynak PNG repoda değil — WebP doğrudan kullanılıyor)` |
 | `/images/services/urun-tanitim-sitesi-urun-galerisi.webp` | 1280×720 · 9 KB | `images/_src/urun-tanitim-sitesi-urun-galerisi.png` |
+| `/images/services/web-sitesi-yenileme-once-sonra.webp` | 1280×720 · 21 KB | `images/_src/web-sitesi-yenileme-once-sonra.png` |
 | `/images/shared/dijital-donusum-excel-den-webe.webp` | 1280×720 · 10 KB | `(kaynak PNG repoda değil — WebP doğrudan kullanılıyor)` |
 | `/images/shared/surec-9-adim-akisi.webp` | 1280×720 · 18 KB | `(kaynak PNG repoda değil — WebP doğrudan kullanılıyor)` |
 
