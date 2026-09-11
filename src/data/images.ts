@@ -223,6 +223,36 @@ export const SERVICE_IMAGES: Record<string, ServiceImage> = {
     width: 1280,
     height: 720,
   },
+  "dijital-otomasyon": {
+    src: "/images/services/dijital-otomasyon-akis-tasarimi.webp",
+    alt: "İş akışı otomasyon kurucusu: tetikleyici ve aksiyon blokları, etkin düğüm vurgusu ve çalıştırma geçmişi",
+    width: 1280,
+    height: 720,
+  },
+  "domain-dns-yonetimi": {
+    src: "/images/services/domain-dns-kayit-konsolu.webp",
+    alt: "Domain ve DNS kayıt konsolu: domain kartları, kayıt tablosu ve yeni kayıt çekmecesi",
+    width: 1280,
+    height: 720,
+  },
+  "hosting-yedekleme": {
+    src: "/images/services/hosting-yedekleme-paneli.webp",
+    alt: "Hosting ve yedekleme paneli: sunucu dolabı, kaynak ölçerleri ve anlık görüntü zaman çizelgesi",
+    width: 1280,
+    height: 720,
+  },
+  "cloudflare-cdn": {
+    src: "/images/services/cloudflare-cdn-edge-noktalari.webp",
+    alt: "CDN ve kenar nokta ağı şeması: dünya üzerindeki sunucu noktaları, önbellek isabet oranı ve gecikme çubukları",
+    width: 1280,
+    height: 720,
+  }
+  "vercel-deployment": {
+    src: "/images/services/vercel-deployment-hatti.webp",
+    alt: "Sürekli dağıtım hattı: commit, build ve deploy aşamaları ile önizleme ortamı şeridi",
+    width: 1280,
+    height: 720,
+  },
 }
 
 export function serviceImage(slug: string): ServiceImage | undefined {

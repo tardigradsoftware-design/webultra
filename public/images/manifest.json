@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T07:51:27.768Z",
+  "generatedAt": "2026-09-11T08:19:02.921Z",
   "images": [
     {
       "file": "/images/hero/hero-kurumsal-dijital-donusum-paneli.webp",
@@ -23,6 +23,13 @@
       "source": "(kaynak PNG repoda değil — WebP doğrudan kullanılıyor)"
     },
     {
+      "file": "/images/services/cloudflare-cdn-edge-noktalari.webp",
+      "width": 1280,
+      "height": 720,
+      "kb": 32,
+      "source": "images/_src/cloudflare-cdn-edge-noktalari.png"
+    },
+    {
       "file": "/images/services/crm-musteri-iliskileri-yonetim-paneli.webp",
       "width": 1280,
       "height": 720,
@@ -35,6 +42,20 @@
       "height": 720,
       "kb": 8,
       "source": "images/_src/dashboard-sistemi-gercek-zamanli-ekran.png"
+    },
+    {
+      "file": "/images/services/dijital-otomasyon-akis-tasarimi.webp",
+      "width": 1280,
+      "height": 720,
+      "kb": 7,
+      "source": "images/_src/dijital-otomasyon-akis-tasarimi.png"
+    },
+    {
+      "file": "/images/services/domain-dns-kayit-konsolu.webp",
+      "width": 1280,
+      "height": 720,
+      "kb": 21,
+      "source": "images/_src/domain-dns-kayit-konsolu.png"
     },
     {
       "file": "/images/services/e-ticaret-sitesi-urun-katalog-sepet.webp",
@@ -56,6 +77,13 @@
       "height": 720,
       "kb": 19,
       "source": "images/_src/form-basvuru-sistemi-tasarim-ariuzu.png"
+    },
+    {
+      "file": "/images/services/hosting-yedekleme-paneli.webp",
+      "width": 1280,
+      "height": 720,
+      "kb": 12,
+      "source": "images/_src/hosting-yedekleme-paneli.png"
     },
     {
       "file": "/images/services/is-takip-sistemi-kanban-tahtasi.webp",
@@ -217,6 +245,13 @@
       "height": 720,
       "kb": 13,
       "source": "images/_src/urun-tedarikci-yonetimi-karsilastirma.png"
+    },
+    {
+      "file": "/images/services/vercel-deployment-hatti.webp",
+      "width": 1280,
+      "height": 720,
+      "kb": 13,
+      "source": "images/_src/vercel-deployment-hatti.png"
     },
     {
       "file": "/images/services/web-sitesi-yenileme-once-sonra.webp",
