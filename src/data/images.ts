@@ -205,6 +205,24 @@ export const SERVICE_IMAGES: Record<string, ServiceImage> = {
     width: 1280,
     height: 720,
   },
+  "schema-org-structured-data": {
+    src: "/images/services/schema-org-veri-isaretleme.webp",
+    alt: "Yapılandırılmış veri görselleştirmesi: zengin sonuç kartı, işaretleme paneli ve doğrulama rozeti",
+    width: 1280,
+    height: 720,
+  },
+  "google-search-console-kurulumu": {
+    src: "/images/services/search-console-performans-grafigi.webp",
+    alt: "Arama konsolu performans ekranı: tıklama ve gösterim eğrileri, metrik kutuları ve sorgu tablosu",
+    width: 1280,
+    height: 720,
+  },
+  "seo-danismanligi": {
+    src: "/images/services/seo-danismanligi-rapor-toplanti.webp",
+    alt: "SEO danışmanlık paketi: strateji raporu, denetim çıktısı ve kelime araştırma paneli",
+    width: 1280,
+    height: 720,
+  },
 }
 
 export function serviceImage(slug: string): ServiceImage | undefined {
