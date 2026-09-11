@@ -75,8 +75,9 @@ docs/                 # plan + FAZ 1 raporu
   (self-hosted, variable) + `@fontsource-variable/inter`. Başlıklar Geist, gövde Inter.
 - **Sitemap/robots**: `next-sitemap` yerine Next 14 native `app/sitemap.ts` + `app/robots.ts`
   kullanıldı — tek kaynak `src/data/*` olduğu için sürükleme/kayma riski yok, ek postbuild adımı yok.
-- **Görseller**: her hizmet sayfasında 1 kapak görseli; dosya yoksa CSS/SVG mockup fallback.
-  Kaynak PNG'ler `public/images/_src/` (repoda tutulmaz), yayın formatı WebP (1280px, quality 82).
+- **Görseller**: 43/43 hizmet sayfasında 1 kapak görseli; dosya yoksa CSS/SVG mockup fallback.
+  Yayın formatı WebP (1280×720, q82, beyaz letterbox → CLS 0); **kaynak PNG'ler `public/images/_src/`
+  klasöründe repoda tutuluyor** (sandbox/CI geri yüklemeleri ignore edilen dosyaları silebildiği için).
 - **Form**: gönderim hatası durumunda bile talep `data/leads.jsonl` dosyasına yazılır
   (kayıp yok). Resend'de `from` alanının doğrulanmış bir domaine bağlı olması gerekir.
 - **Sunucu**: `next dev -H 0.0.0.0`; dev çıktı izole olsun diye `distDir=.next-dev`,
@@ -91,3 +92,29 @@ docs/                 # plan + FAZ 1 raporu
 | `RESEND_FROM` / `RESEND_TO` / `RESEND_CC` | Bildirim adresleri (virgülle çoklu) |
 | `LEAD_RATE_LIMIT_PER_IP_PER_HOUR` | IP başına saatlik talep sınırı (vars. 6) |
 | `RESEND_MOCK` | `0` zorla gerçek, `1` zorla mock, `auto` key yoksa mock |
+
+## Kayıt disiplini — her adımın sonunda GitHub'a
+
+Bu ortamda sandbox, tur ortasında kendini eski anlık görüntüye alabiliyor ve **ignore edilen
+dosyalarla birlikte `.git` dizinini de sıfırlayabiliyor** (3 kez yaşandı). Bu yüzden kural:
+her iş adımı biter bitmez kaydet.
+
+```bash
+npm run save -- "özet mesaj"     # add -A → commit → push (tek komut)
+```
+
+`scripts/git-save.sh` şunları yapar:
+1. Ignore edilmiş ama `src/`, `scripts/`, `docs/`, `public/images/_src/` altında duran kaynak
+   dosyaları bulursa **uyarır** (sessizce kaybolmasınlar).
+2. `git add -A` + commit (değişiklik yoksa commit atlanır).
+3. `origin/arena/<session>` dalına push eder ve **uzak ucu okuyarak birebir aynı olduğunu doğrular**
+   (`✓ kayıtlı: origin/... = <sha>`).
+4. Push reddedilirse (uzak dallanmış / `.git` tazelenmiş): önce işi `backup/<zaman>-<sha>` dalına
+   push edip **güvenceye alır**, sonra `fetch` + `git reset --soft origin/<dal>` ile uzak ucun
+   üzerine delta commit'i atar, push eder ve başarılıysa yedek dalı siler. Uzakta olan ama bizde
+   olmayan dosyalar varsa silme uyarısı basar.
+
+Bilinçli olarak repoda **olmayanlar**: `.env.local` (gizli anahtarlar — şablon `.env.example`),
+`node_modules/`, `.next/`, `.next-dev/`, `data/leads.jsonl` (çalışan zamanında gelen talepler).
+`node_modules` silinirse `npm install`, `.env.local` silinirse `.env.example`'dan kopyala-doldur
+yeterli.

@@ -41,5 +41,7 @@ next-env.d.ts
 /tmp-imgs/
 data/leads.jsonl
 
-# görsel üretim kaynakları (WebP asıl üründür; PNG kaynakları repoda tutulmaz)
-public/images/_src/
+# görsel üretim kaynakları: repoda TUTULUYOR (sandbox geri yüklemeleri ignore edilen dosyaları siliyor;
+# PNG'ler olmadan görseli yeniden üretmek/seçmek zorunda kalıyoruz). 14 dosya ≈ 13 MB.
+# Depo boyutu sorun olursa: git lfs ya da WebP'yi tek kaynak yapıp buradan çıkarmak.
+# public/images/_src/
