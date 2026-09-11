@@ -16,6 +16,11 @@ cd "$(git rev-parse --show-toplevel)" || exit 1
 IGNORED_SRC=$(git status --ignored --short 2>/dev/null | grep '^!!' | grep -E 'public/images/_src|src/|scripts/|docs/' | head -5)
 [ -n "$IGNORED_SRC" ] && echo "! uyarı: ignore edilen kaynak dosyalar var: $IGNORED_SRC"
 
+# 0b) araç zinciri eksikse haber ver (verify/build bu ortamda sessizce 127 vermesin)
+if [ ! -x node_modules/.bin/next ]; then
+  echo "! uyarı: node_modules/.bin/next yok — çalıştırmadan önce: npm install"
+fi
+
 # 1) commit
 git add -A
 if git diff --cached --quiet; then

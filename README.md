@@ -118,3 +118,25 @@ Bilinçli olarak repoda **olmayanlar**: `.env.local` (gizli anahtarlar — şabl
 `node_modules/`, `.next/`, `.next-dev/`, `data/leads.jsonl` (çalışan zamanında gelen talepler).
 `node_modules` silinirse `npm install`, `.env.local` silinirse `.env.example`'dan kopyala-doldur
 yeterli.
+
+## Ajan/geliştirici el kitabı
+
+Bu depoya sonradan çalışmaya gelen biri (veya bir AI ajanı) için **tek kaynak: [`AGENTS.md`](AGENTS.md)** —
+zorunlu tasarım kuralları, mimari harita, yeni hizmet/görsel ekleme reçeteleri, kabul kriterleri
+(`npm run verify`), kayıt disiplini ve "denenmiş ve reddedilmiş" yaklaşımlar orada.
+
+**CI:** doğrulama adımı hazır — `npm run ci:enable` `.github/workflows/ci.yml` dosyasını oluşturur
+(tanım `ops/ci.github-workflow.yml` içinde; GitHub App'inde `workflows` izni yoksa dosyayı arayüzden ekle).
+
+Kısa versiyon:
+
+```bash
+npm install && cp .env.example .env.local   # anahtarlar repoda yok
+npm run dev                                 # http://localhost:3000
+npm run verify                              # typecheck + lint + build + seo-check + kopya denetimi
+npm run save -- "özet"                      # commit + push + uzak SHA doğrulaması
+```
+
+Durum: **Faz 1 + Faz 2 bitti** — 43/43 hizmetin içeriği elle yazıldı, 43/43 kapağı var,
+489 indekslenebilir URL, build 496 rota. Sırada **Faz 3**: `/blog/` + 10 yazı, logo SVG entegrasyonu,
+Resend alan adı doğrulaması. Detaylı envanter: `docs/FAZ-1-RAPOR.md`, plan/geçmiş: `docs/FAZ-1-PLAN.md`.

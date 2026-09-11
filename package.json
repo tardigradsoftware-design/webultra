@@ -16,7 +16,10 @@
     "seo:check": "node scripts/seo-check.mjs",
     "check:copy": "node scripts/check-desc-endings.mjs",
     "save": "bash scripts/git-save.sh",
-    "report": "node scripts/seo-check.mjs --json && node scripts/make-report.mjs"
+    "ci:enable": "bash scripts/enable-ci.sh",
+    "report": "node scripts/seo-check.mjs --json && node scripts/make-report.mjs",
+    "preverify": "node scripts/ensure-deps.mjs",
+    "verify": "npm run typecheck && npm run lint && npm run build && npm run seo:check && npm run check:copy"
   },
   "dependencies": {
     "@fontsource-variable/inter": "^5.1.0",
