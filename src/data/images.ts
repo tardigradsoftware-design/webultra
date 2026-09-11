@@ -29,7 +29,7 @@ export const PROCESS_IMG: ServiceImage = {
   height: 720,
 }
 
-/** Hizmet kapağı olanlar (17 kayıt: 5 pilot + web kategorisi + özel yazılımın ilk yedisi). Olmayanlar CSS/SVG mockup fallback kullanır. */
+/** Hizmet kapağı olanlar (20 kayıt: 5 pilot + web kategorisi + özel yazılımın ilk onu). Olmayanlar CSS/SVG mockup fallback kullanır. */
 export const SERVICE_IMAGES: Record<string, ServiceImage> = {
   "kurumsal-web-sitesi": {
     src: "/images/services/kurumsal-web-sitesi-tasarim-mockup.webp",
@@ -130,6 +130,24 @@ export const SERVICE_IMAGES: Record<string, ServiceImage> = {
   "personel-kullanici-yonetimi": {
     src: "/images/services/personel-kullanici-yonetimi-izin-yetki.webp",
     alt: "Personel ve yetki yönetimi paneli: çalışan kartları, rol bazlı yetki matrisi ve izin takvimi",
+    width: 1280,
+    height: 720,
+  },
+  "yonetim-paneli": {
+    src: "/images/services/yonetim-paneli-admin-ekrani.webp",
+    alt: "Özel yönetim paneli arayüzü: lacivert kenar menü, özet KPI kartları, kayıt tablosu ve ayar çekmecesi",
+    width: 1280,
+    height: 720,
+  },
+  "musteri-paneli": {
+    src: "/images/services/musteri-paneli-talep-takip.webp",
+    alt: "Müşteri paneli ekranı: talep durumu adımları, açık talep kartları, belge ve fatura bölümü, mobil talep formu",
+    width: 1280,
+    height: 720,
+  },
+  "is-takip-sistemi": {
+    src: "/images/services/is-takip-sistemi-kanban-tahtasi.webp",
+    alt: "İş takip sistemi arayüzü: sürükle bırak kartlarla kanban sütunları ve zaman çizelgesi şeridi",
     width: 1280,
     height: 720,
   },

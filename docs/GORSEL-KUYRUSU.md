@@ -6,7 +6,7 @@
 
 **Stil sabiti:** beyaz #FFFFFF zemin · lacivert #0F2A44 / #1E3A5F · cyan/yeşil yalnız küçük vurgu · rounded-xl · ince slate-200 kenarlık · okunabilir metin yok (soyut çubuklar) · koyu zemin yok · 16:9 · flat vector UI illüstrasyon.
 
-## Tamamlanan (17/43)
+## Tamamlanan (20/43)
 
 - [x] `kurumsal-web-sitesi` — web
 - [x] `firma-web-sitesi` — web
@@ -23,15 +23,15 @@
 - [x] `stok-yonetimi` — ozel-yazilim
 - [x] `urun-tedarikci-yonetimi` — ozel-yazilim
 - [x] `personel-kullanici-yonetimi` — ozel-yazilim
+- [x] `yonetim-paneli` — ozel-yazilim
+- [x] `musteri-paneli` — ozel-yazilim
+- [x] `is-takip-sistemi` — ozel-yazilim
 - [x] `teknik-seo` — seo
 - [x] `ai-chatbot` — it-ai
 
-## Bekleyen (26/43) — bu sırayla işlenecek
+## Bekleyen (23/43) — bu sırayla işlenecek
 
-1. `yonetim-paneli` — ozel-yazilim
-2. `musteri-paneli` — ozel-yazilim
-3. `is-takip-sistemi` — ozel-yazilim
-4. `raporlama-sistemi` — ozel-yazilim
+1. `2. `3. `4. `raporlama-sistemi` — ozel-yazilim
 5. `form-basvuru-sistemi` — ozel-yazilim
 6. `saas-platformu` — saas
 7. `abonelik-tabanli-yazilim` — saas

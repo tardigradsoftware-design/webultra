@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T06:20:45.567Z",
+  "generatedAt": "2026-09-11T06:33:09.477Z",
   "images": [
     {
       "file": "/images/hero/hero-kurumsal-dijital-donusum-paneli.webp",
@@ -37,6 +37,13 @@
       "source": "images/_src/firma-web-sitesi-kurumsal-tanim-arayuzu.png"
     },
     {
+      "file": "/images/services/is-takip-sistemi-kanban-tahtasi.webp",
+      "width": 1280,
+      "height": 720,
+      "kb": 24,
+      "source": "images/_src/is-takip-sistemi-kanban-tahtasi.png"
+    },
+    {
       "file": "/images/services/kurumsal-web-sitesi-tasarim-mockup.webp",
       "width": 1280,
       "height": 720,
@@ -49,6 +56,13 @@
       "height": 720,
       "kb": 19,
       "source": "images/_src/landing-page-kampanya-donusum-tasarimi.png"
+    },
+    {
+      "file": "/images/services/musteri-paneli-talep-takip.webp",
+      "width": 1280,
+      "height": 720,
+      "kb": 16,
+      "source": "images/_src/musteri-paneli-talep-takip.png"
     },
     {
       "file": "/images/services/musteri-yonetim-sistemi-kart-timeline.webp",
@@ -126,6 +140,13 @@
       "height": 720,
       "kb": 21,
       "source": "images/_src/web-sitesi-yenileme-once-sonra.png"
+    },
+    {
+      "file": "/images/services/yonetim-paneli-admin-ekrani.webp",
+      "width": 1280,
+      "height": 720,
+      "kb": 15,
+      "source": "images/_src/yonetim-paneli-admin-ekrani.png"
     },
     {
       "file": "/images/shared/dijital-donusum-excel-den-webe.webp",
