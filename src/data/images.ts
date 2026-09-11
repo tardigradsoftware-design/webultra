@@ -29,7 +29,7 @@ export const PROCESS_IMG: ServiceImage = {
   height: 720,
 }
 
-/** Hizmet kapağı olanlar (14 kayıt: 5 pilot + web kategorisi + özel yazılımın ilk bölüğü). Olmayanlar CSS/SVG mockup fallback kullanır. */
+/** Hizmet kapağı olanlar (17 kayıt: 5 pilot + web kategorisi + özel yazılımın ilk yedisi). Olmayanlar CSS/SVG mockup fallback kullanır. */
 export const SERVICE_IMAGES: Record<string, ServiceImage> = {
   "kurumsal-web-sitesi": {
     src: "/images/services/kurumsal-web-sitesi-tasarim-mockup.webp",
@@ -112,6 +112,24 @@ export const SERVICE_IMAGES: Record<string, ServiceImage> = {
   "proforma-siparis-yonetimi": {
     src: "/images/services/proforma-siparis-yonetimi-belge-akisi.webp",
     alt: "Teklif, proforma fatura ve sipariş belgelerinin akışı ile sipariş takip panosu",
+    width: 1280,
+    height: 720,
+  },
+  "stok-yonetimi": {
+    src: "/images/services/stok-yonetimi-depo-envanter-ekrani.webp",
+    alt: "Stok ve envanter yönetim ekranı: ürün satırları, stok hareket listesi ve kritik seviye uyarıları",
+    width: 1280,
+    height: 720,
+  },
+  "urun-tedarikci-yonetimi": {
+    src: "/images/services/urun-tedarikci-yonetimi-karsilastirma.webp",
+    alt: "Ürün ve tedarikçi yönetimi arayüzü: ürün kartları ve tedarikçi fiyat karşılaştırma tablosu",
+    width: 1280,
+    height: 720,
+  },
+  "personel-kullanici-yonetimi": {
+    src: "/images/services/personel-kullanici-yonetimi-izin-yetki.webp",
+    alt: "Personel ve yetki yönetimi paneli: çalışan kartları, rol bazlı yetki matrisi ve izin takvimi",
     width: 1280,
     height: 720,
   },

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T06:16:40.666Z",
+  "generatedAt": "2026-09-11T06:20:45.567Z",
   "images": [
     {
       "file": "/images/hero/hero-kurumsal-dijital-donusum-paneli.webp",
@@ -58,6 +58,13 @@
       "source": "images/_src/musteri-yonetim-sistemi-kart-timeline.png"
     },
     {
+      "file": "/images/services/personel-kullanici-yonetimi-izin-yetki.webp",
+      "width": 1280,
+      "height": 720,
+      "kb": 9,
+      "source": "images/_src/personel-kullanici-yonetimi-izin-yetki.png"
+    },
+    {
       "file": "/images/services/portfoy-sitesi-proje-galerisi.webp",
       "width": 1280,
       "height": 720,
@@ -79,6 +86,13 @@
       "source": "images/_src/rezervasyon-sistemi-takvim-slot-arayuzu.png"
     },
     {
+      "file": "/images/services/stok-yonetimi-depo-envanter-ekrani.webp",
+      "width": 1280,
+      "height": 720,
+      "kb": 16,
+      "source": "images/_src/stok-yonetimi-depo-envanter-ekrani.png"
+    },
+    {
       "file": "/images/services/teklif-hazirlama-sistemi-teklif-taslagi.webp",
       "width": 1280,
       "height": 720,
@@ -98,6 +112,13 @@
       "height": 720,
       "kb": 9,
       "source": "images/_src/urun-tanitim-sitesi-urun-galerisi.png"
+    },
+    {
+      "file": "/images/services/urun-tedarikci-yonetimi-karsilastirma.webp",
+      "width": 1280,
+      "height": 720,
+      "kb": 13,
+      "source": "images/_src/urun-tedarikci-yonetimi-karsilastirma.png"
     },
     {
       "file": "/images/services/web-sitesi-yenileme-once-sonra.webp",
