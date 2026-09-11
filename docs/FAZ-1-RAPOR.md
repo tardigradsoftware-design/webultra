@@ -2,7 +2,7 @@
 
 > Bu rapor `npm run report` betiğiyle üretilir: build çıktısındaki HTML'den
 > title/description/kelime/schema/görsel/link metrikleri okunur, veri katmanıyla eşleştirilir.
-> Üretim tarihi: 2026-09-10 · Branch: `arena/01a08ac0-webultra`
+> Üretim tarihi: 2026-09-11 · Branch: `arena/01a08ac0-webultra`
 
 ## 1. Kurulum durumu
 

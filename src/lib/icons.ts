@@ -119,7 +119,8 @@ import {
   MailWarning,
   MapPinned,
   RotateCcw,
-  ShieldAlert,} from "lucide-react"
+  ShieldAlert,
+} from "lucide-react"
 
 /** Hizmet/veri dosyalarındaki ikon adlarını bileşene çevirir (string → component). */
 export const iconRegistry: Record<string, LucideIcon> = {

@@ -12,6 +12,8 @@
     "typecheck": "tsc --noEmit",
     "imgs": "node scripts/build-images.mjs",
     "seo:check": "node scripts/seo-check.mjs",
+    "check:copy": "node scripts/check-desc-endings.mjs",
+    "save": "bash scripts/git-save.sh",
     "report": "node scripts/seo-check.mjs --json && node scripts/make-report.mjs"
   },
   "dependencies": {

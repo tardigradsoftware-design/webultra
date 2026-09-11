@@ -264,3 +264,37 @@ Faz 1 sayfa sayısı: **11** · Görsel: **8** · shadcn primitive: **13** · Pi
 - **Doğrulama:** `npx tsc --noEmit` ✓ · `npx next lint` ✓ (0 uyarı) · `npx next build` ✓ 116 sayfa · `node scripts/seo-check.mjs` ✓ (0 uyarı: title ≤60, description 128-158, JSON-LD parse, kırık iç link 0, WebP/alt/width-height, koyu tema yok) · `node scripts/check-desc-endings.mjs` ✓.
 - **Bekleyen:** Resend alan adı (`tardigradsoftware.com`) doğrulanmadığı için bu ortamda e-posta `application_error` dönüyor → yedek log devrede. Üretim öncesi SPF/DKIM/DMARC eklenip `RESEND_FROM` bu domaine alınmalı.
 - Detaylı envanter: **`docs/FAZ-1-RAPOR.md`** (tüm URL'ler + meta'lar + görsel yerleri), ham veri: `docs/seo-audit.json`, `docs/meta-dokum.txt`.
+
+---
+
+# FAZ 2 — KALAN 38 HİZMETİN ELLE İÇERİĞİ (onaylandı ve tamamlandı)
+
+## Onaylanan varsayılanlar (Faz 2)
+| # | Konu | Karar |
+|---|---|---|
+| 1 | Derinlik | Pilotlarla aynı: 10 bölüm, ~1.500-1.900 kelime, her bölüm 2-4 cümle, somut örnekler |
+| 2 | Şehir varyantları | Yalnız elle yazılmış hizmet × 10 il; `cityPriority` ile 4 şehir çapraz link |
+| 3 | Görsel | Elle yazılan hizmetlere kapak görseli (her görselde 2 aday → seçim), diğerlerinde CSS/SVG arayüz mockup fallback |
+| 4 | Blog | Hizmetler bittikten sonra (Faz 3) |
+
+## Uygulama sırası (5 grup, her biri ayrı commit + push)
+| Grup | Kategori | Hizmet | Dosya |
+|---|---|---|---|
+| 1 | Web | firma web sitesi, landing page, ürün tanıtım sayfası, portfolyu, site yenileme | `service-contents-web.ts`, `-web-2.ts` |
+| 2 | Özel yazılım | rezervasyon, müşteri yönetim, teklif/proforma, sipariş/tedarik, stok, ürün/tedarikçi bilgi | `service-contents-yazilim.ts`, `-2.ts` |
+| 3 | İç yönetim | personel/izin, yönetim paneli, müşteri paneli, iş takip, raporlama, online form | `service-contents-yazilim-3.ts`, `-4.ts` |
+| 4a/4b | SaaS + SEO | SaaS platformu, abonelik, multi-tenant, dashboard, MVP · lokal SEO, sayfa mimarisi, Schema, Search Console/GA4, danışmanlık | `service-contents-saas.ts`, `-seo.ts`, `-seo-2.ts`, `-seo-3.ts` |
+| 5 | BT & AI | otomasyon, domain/DNS, hosting/yedekleme, Cloudflare CDN, Vercel deploy, Supabase/PostgreSQL, kurumsal e-posta, API/ödeme/WhatsApp/CRM, yapay zekâ araçları, dijital dönüşüm | `service-contents-itai.ts`, `-itai-2.ts` |
+
+## Faz 2 sonucu (build + denetim)
+- **43/43 hizmet sayfası elle yazıldı** — kategori şablonu (`content-factory.ts`) artık hiçbir hizmet için devreye girmiyor.
+- Site genelinde **0 `noindex`**; indekslenebilir URL: **489** (6 ana sayfa + 43 hizmet + 10 il + 430 hizmet×il).
+- Kelime sayısı: min 1.546 / ortalama 1.668 / maks 1.895 — 0 kesik cümle (645 tanesi düzeltilmişti), CJK/karakter kaçağı 0.
+- Build: **496 statik sayfa** · lint/tip temiz · kırık iç link 0 · JSON-LD (Service + FAQPage + BreadcrumbList) her hizmet sayfasında eksiksiz.
+- Rapor: `docs/FAZ-1-RAPOR.md` (489 URL'nin tamamı) · ham veri `docs/seo-audit.json`.
+
+## Kalıcı çalışma kuralları
+1. **`noindex` politikası:** içeriği elle yazılmamış hizmet sayfası `noindex` + `status:"index"` kalır ve sitemap'e girmez (`src/data/services.ts` → `pilotContentsBySlug`/`pilotServiceSlugs` tek kaynak; yeni içerik dosyası eklemek = `services.ts`'te import + spread). Şehir varyantları yalnız bu listedeki slugs için üretilir (`dynamicParams = false`). İçerik bitince `noindex` kendiliğinden kalkar.
+2. **Uzun içeriği tek seferde yazma:** her `write_file` çağrısı 2-3 hizmetle (≈300-450 satır) sınırlı; toplu yazımdan sonra `grep -P "[\x{4e00}-\x{9fff}]" src/data/*.ts` (karakter kaçağı) ve `node scripts/check-desc-endings.mjs` (kesik cümle) zorunlu.
+3. **Her adımın sonunda kaydet:** `npm run save -- "özet"` → commit + push; push reddedilirse script işleri `backup/<zaman>-<sha>` dalına yazar. Sandbox tur ortasında kendini eski anlık görüntüye alabiliyor (yaşandı: commit'ler ve dosyalar silindi, geri getirilemedi) → commit'ler küçük, sınır: her hizmet grubu.
+4. `contentCopy`/`intro` zorunlu değil; `hazirlik` 3-4 madde, `ciktilar` 3-4 madde, `sss` 6 soru (Q1 = kapsam).
