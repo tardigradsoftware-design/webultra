@@ -29,7 +29,7 @@ export const PROCESS_IMG: ServiceImage = {
   height: 720,
 }
 
-/** Hizmet kapağı olanlar (Faz 1: 5 pilot). Olmayanlar CSS mockup fallback kullanır. */
+/** Hizmet kapağı olanlar (5 pilot + web kategorisi: 8 kayıt). Olmayanlar CSS/SVG mockup fallback kullanır. */
 export const SERVICE_IMAGES: Record<string, ServiceImage> = {
   "kurumsal-web-sitesi": {
     src: "/images/services/kurumsal-web-sitesi-tasarim-mockup.webp",
@@ -58,6 +58,24 @@ export const SERVICE_IMAGES: Record<string, ServiceImage> = {
   "ai-chatbot": {
     src: "/images/services/ai-chatbot-musteri-destek-sohbet-paneli.webp",
     alt: "Web sitesi ve WhatsApp üzerinde çalışan AI chatbot destek paneli arayüzü",
+    width: 1280,
+    height: 720,
+  },
+  "firma-web-sitesi": {
+    src: "/images/services/firma-web-sitesi-kurumsal-tanim-arayuzu.webp",
+    alt: "Kurumsal tanıtım sitesi için masaüstü ve mobil arayüz mockup: lacivert üst bar, açılış bandı ve üç özellik kartı",
+    width: 1280,
+    height: 720,
+  },
+  "landing-page": {
+    src: "/images/services/landing-page-kampanya-donusum-tasarimi.webp",
+    alt: "Kampanya açılış sayfası tasarımı: form alanları, yeşil gönderim butonu, fayda ikonları ve dönüşüm grafiği",
+    width: 1280,
+    height: 720,
+  },
+  "urun-tanitim-sitesi": {
+    src: "/images/services/urun-tanitim-sitesi-urun-galerisi.webp",
+    alt: "Ürün tanıtım sitesi arayüzü: lacivert başlık ve alt bar, ürün galerisi kartları, özellik paneli ve mobil görünüm",
     width: 1280,
     height: 720,
   },
