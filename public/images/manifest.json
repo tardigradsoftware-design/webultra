@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T06:33:09.477Z",
+  "generatedAt": "2026-09-11T06:41:57.981Z",
   "images": [
     {
       "file": "/images/hero/hero-kurumsal-dijital-donusum-paneli.webp",
@@ -35,6 +35,13 @@
       "height": 720,
       "kb": 10,
       "source": "images/_src/firma-web-sitesi-kurumsal-tanim-arayuzu.png"
+    },
+    {
+      "file": "/images/services/form-basvuru-sistemi-tasarim-ariuzu.webp",
+      "width": 1280,
+      "height": 720,
+      "kb": 19,
+      "source": "images/_src/form-basvuru-sistemi-tasarim-ariuzu.png"
     },
     {
       "file": "/images/services/is-takip-sistemi-kanban-tahtasi.webp",
@@ -93,11 +100,25 @@
       "source": "images/_src/proforma-siparis-yonetimi-belge-akisi.png"
     },
     {
+      "file": "/images/services/raporlama-sistemi-bi-panosu.webp",
+      "width": 1280,
+      "height": 720,
+      "kb": 13,
+      "source": "images/_src/raporlama-sistemi-bi-panosu.png"
+    },
+    {
       "file": "/images/services/rezervasyon-sistemi-takvim-slot-arayuzu.webp",
       "width": 1280,
       "height": 720,
       "kb": 22,
       "source": "images/_src/rezervasyon-sistemi-takvim-slot-arayuzu.png"
+    },
+    {
+      "file": "/images/services/saas-platformu-tenant-konsol.webp",
+      "width": 1280,
+      "height": 720,
+      "kb": 14,
+      "source": "images/_src/saas-platformu-tenant-konsol.png"
     },
     {
       "file": "/images/services/stok-yonetimi-depo-envanter-ekrani.webp",

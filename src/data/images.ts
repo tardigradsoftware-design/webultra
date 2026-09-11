@@ -29,7 +29,7 @@ export const PROCESS_IMG: ServiceImage = {
   height: 720,
 }
 
-/** Hizmet kapağı olanlar (20 kayıt: 5 pilot + web kategorisi + özel yazılımın ilk onu). Olmayanlar CSS/SVG mockup fallback kullanır. */
+/** Hizmet kapağı olanlar (23 kayıt: 5 pilot + web + özel yazılımın tamamına yakını + ilk SaaS). Olmayanlar CSS/SVG mockup fallback kullanır. */
 export const SERVICE_IMAGES: Record<string, ServiceImage> = {
   "kurumsal-web-sitesi": {
     src: "/images/services/kurumsal-web-sitesi-tasarim-mockup.webp",
@@ -148,6 +148,24 @@ export const SERVICE_IMAGES: Record<string, ServiceImage> = {
   "is-takip-sistemi": {
     src: "/images/services/is-takip-sistemi-kanban-tahtasi.webp",
     alt: "İş takip sistemi arayüzü: sürükle bırak kartlarla kanban sütunları ve zaman çizelgesi şeridi",
+    width: 1280,
+    height: 720,
+  },
+  "raporlama-sistemi": {
+    src: "/images/services/raporlama-sistemi-bi-panosu.webp",
+    alt: "Raporlama ve iş zekâsı panosu: KPI kartları, çizgi ve halka grafikler, özet tablo ve rapor oluşturucu paneli",
+    width: 1280,
+    height: 720,
+  },
+  "form-basvuru-sistemi": {
+    src: "/images/services/form-basvuru-sistemi-tasarim-ariuzu.webp",
+    alt: "Online form ve başvuru sistemi arayüzü: alan paleti, form tuvali, mobil önizleme ve onay kartı",
+    width: 1280,
+    height: 720,
+  },
+  "saas-platformu": {
+    src: "/images/services/saas-platformu-tenant-konsol.webp",
+    alt: "Multi tenant SaaS yönetim konsolu: plan kartları, kullanım çubukları, tenant listesi ve API anahtarı paneli",
     width: 1280,
     height: 720,
   },
