@@ -95,6 +95,7 @@ async function main() {
     try {
       const { size } = await stat(disk)
       manifest.push({ ...e, source: e.source ?? "(kaynak PNG repoda değil — WebP doğrudan kullanılıyor)", kb: Math.round(size / 1024) })
+      seen.add(disk)
     } catch {
       /* dosya silinmiş → manifest'ten düşer */
     }

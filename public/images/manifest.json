@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T05:45:17.807Z",
+  "generatedAt": "2026-09-11T06:10:27.963Z",
   "images": [
     {
       "file": "/images/hero/hero-kurumsal-dijital-donusum-paneli.webp",
@@ -51,6 +51,20 @@
       "source": "images/_src/landing-page-kampanya-donusum-tasarimi.png"
     },
     {
+      "file": "/images/services/portfoy-sitesi-proje-galerisi.webp",
+      "width": 1280,
+      "height": 720,
+      "kb": 17,
+      "source": "images/_src/portfoy-sitesi-proje-galerisi.png"
+    },
+    {
+      "file": "/images/services/rezervasyon-sistemi-takvim-slot-arayuzu.webp",
+      "width": 1280,
+      "height": 720,
+      "kb": 22,
+      "source": "images/_src/rezervasyon-sistemi-takvim-slot-arayuzu.png"
+    },
+    {
       "file": "/images/services/teknik-seo-arama-motori-buyume-grafigi.webp",
       "width": 1280,
       "height": 720,
@@ -63,6 +77,13 @@
       "height": 720,
       "kb": 9,
       "source": "images/_src/urun-tanitim-sitesi-urun-galerisi.png"
+    },
+    {
+      "file": "/images/services/web-sitesi-yenileme-once-sonra.webp",
+      "width": 1280,
+      "height": 720,
+      "kb": 21,
+      "source": "images/_src/web-sitesi-yenileme-once-sonra.png"
     },
     {
       "file": "/images/shared/dijital-donusum-excel-den-webe.webp",

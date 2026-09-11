@@ -29,7 +29,7 @@ export const PROCESS_IMG: ServiceImage = {
   height: 720,
 }
 
-/** Hizmet kapağı olanlar (5 pilot + web kategorisi: 8 kayıt). Olmayanlar CSS/SVG mockup fallback kullanır. */
+/** Hizmet kapağı olanlar (11 kayıt: 5 pilot + web kategorisi + ilk özel yazılım hizmetleri). Olmayanlar CSS/SVG mockup fallback kullanır. */
 export const SERVICE_IMAGES: Record<string, ServiceImage> = {
   "kurumsal-web-sitesi": {
     src: "/images/services/kurumsal-web-sitesi-tasarim-mockup.webp",
@@ -76,6 +76,24 @@ export const SERVICE_IMAGES: Record<string, ServiceImage> = {
   "urun-tanitim-sitesi": {
     src: "/images/services/urun-tanitim-sitesi-urun-galerisi.webp",
     alt: "Ürün tanıtım sitesi arayüzü: lacivert başlık ve alt bar, ürün galerisi kartları, özellik paneli ve mobil görünüm",
+    width: 1280,
+    height: 720,
+  },
+  "portfoy-sitesi": {
+    src: "/images/services/portfoy-sitesi-proje-galerisi.webp",
+    alt: "Portfolyu sitesi arayüzü: proje galerisi kartları, filtre sekmeleri ve vaka çalışması metrik grafiği",
+    width: 1280,
+    height: 720,
+  },
+  "rezervasyon-basvuru-sistemi": {
+    src: "/images/services/rezervasyon-sistemi-takvim-slot-arayuzu.webp",
+    alt: "Rezervasyon ve randevu sistemi arayüzü: takvimde dolu boş slotlar, saat seçimi ve onay kartı",
+    width: 1280,
+    height: 720,
+  },
+  "web-sitesi-yenileme": {
+    src: "/images/services/web-sitesi-yenileme-once-sonra.webp",
+    alt: "Eski ve yeni web sitesi düzeninin yan yana karşılaştırması, yenilenmiş tasarımda performans metrik kartları",
     width: 1280,
     height: 720,
   },
