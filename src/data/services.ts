@@ -5,6 +5,14 @@ import { webContents } from "@/data/service-contents-web"
 import { webContents2 } from "@/data/service-contents-web-2"
 import { yazilimContents } from "@/data/service-contents-yazilim"
 import { yazilimContents2 } from "@/data/service-contents-yazilim-2"
+import { yazilimContents3 } from "@/data/service-contents-yazilim-3"
+import { yazilimContents4 } from "@/data/service-contents-yazilim-4"
+import { saasContents } from "@/data/service-contents-saas"
+import { seoContents } from "@/data/service-contents-seo"
+import { seoContents2 } from "@/data/service-contents-seo-2"
+import { seoContents3 } from "@/data/service-contents-seo-3"
+import { itaiContents } from "@/data/service-contents-itai"
+import { itaiContents2 } from "@/data/service-contents-itai-2"
 
 /**
  * 43 hizmet — tek kaynak.
@@ -236,6 +244,7 @@ export const services: Service[] = [
     icon: "IdCard",
     status: "index",
     related: ["yonetim-paneli", "is-takip-sistemi", "multi-tenant-uygulama", "musteri-yonetim-sistemi"],
+    cityPriority: ["istanbul", "ankara", "izmir", "kocaeli"],
   },
   {
     no: "16",
@@ -250,6 +259,7 @@ export const services: Service[] = [
     icon: "LayoutDashboard",
     status: "index",
     related: ["musteri-paneli", "dashboard-sistemi", "kurumsal-web-sitesi", "personel-kullanici-yonetimi"],
+    cityPriority: ["istanbul", "ankara", "izmir", "bursa"],
   },
   {
     no: "17",
@@ -264,6 +274,7 @@ export const services: Service[] = [
     icon: "MonitorSmartphone",
     status: "index",
     related: ["yonetim-paneli", "rezervasyon-basvuru-sistemi", "odeme-whatsapp-crm-entegrasyonu", "is-takip-sistemi"],
+    cityPriority: ["istanbul", "izmir", "ankara", "antalya"],
   },
   {
     no: "18",
@@ -278,6 +289,7 @@ export const services: Service[] = [
     icon: "Kanban",
     status: "index",
     related: ["raporlama-sistemi", "yonetim-paneli", "dashboard-sistemi", "dijital-otomasyon"],
+    cityPriority: ["istanbul", "kocaeli", "bursa", "izmir"],
   },
   {
     no: "19",
@@ -292,6 +304,7 @@ export const services: Service[] = [
     icon: "BarChart3",
     status: "index",
     related: ["dashboard-sistemi", "is-takip-sistemi", "crm", "api-entegrasyonu"],
+    cityPriority: ["istanbul", "ankara", "izmir", "konya"],
   },
   {
     no: "20",
@@ -306,6 +319,7 @@ export const services: Service[] = [
     icon: "FormInput",
     status: "index",
     related: ["rezervasyon-basvuru-sistemi", "landing-page", "dijital-otomasyon", "api-entegrasyonu"],
+    cityPriority: ["istanbul", "ankara", "izmir", "gaziantep"],
   },
   {
     no: "21",
@@ -320,6 +334,7 @@ export const services: Service[] = [
     icon: "Cloud",
     status: "index",
     related: ["abonelik-tabanli-yazilim", "multi-tenant-uygulama", "mvp-startup-urunu", "yonetim-paneli"],
+    cityPriority: ["istanbul", "ankara", "izmir"],
   },
   {
     no: "22",
@@ -334,6 +349,7 @@ export const services: Service[] = [
     icon: "Repeat",
     status: "index",
     related: ["saas-platformu", "odeme-whatsapp-crm-entegrasyonu", "musteri-paneli", "raporlama-sistemi"],
+    cityPriority: ["istanbul", "izmir", "ankara"],
   },
   {
     no: "23",
@@ -348,6 +364,7 @@ export const services: Service[] = [
     icon: "Network",
     status: "index",
     related: ["saas-platformu", "personel-kullanici-yonetimi", "yonetim-paneli", "supabase-postgresql"],
+    cityPriority: ["istanbul", "ankara", "kocaeli"],
   },
   {
     no: "24",
@@ -362,6 +379,7 @@ export const services: Service[] = [
     icon: "LineChart",
     status: "index",
     related: ["raporlama-sistemi", "yonetim-paneli", "is-takip-sistemi", "supabase-postgresql"],
+    cityPriority: ["istanbul", "ankara", "izmir", "bursa"],
   },
   {
     no: "25",
@@ -376,6 +394,7 @@ export const services: Service[] = [
     icon: "Zap",
     status: "index",
     related: ["saas-platformu", "abonelik-tabanli-yazilim", "dashboard-sistemi", "vercel-deployment"],
+    cityPriority: ["istanbul", "ankara", "izmir"],
   },
   {
     no: "26",
@@ -405,6 +424,7 @@ export const services: Service[] = [
     icon: "MapPin",
     status: "index",
     related: ["teknik-seo", "seo-uyumlu-sayfa-mimarisi", "schema-org-structured-data", "kurumsal-web-sitesi"],
+    cityPriority: ["istanbul", "ankara", "izmir", "antalya"],
   },
   {
     no: "28",
@@ -419,6 +439,7 @@ export const services: Service[] = [
     icon: "ListTree",
     status: "index",
     related: ["teknik-seo", "lokal-seo", "kurumsal-web-sitesi", "schema-org-structured-data"],
+    cityPriority: ["istanbul", "izmir", "ankara", "bursa"],
   },
   {
     no: "29",
@@ -433,6 +454,7 @@ export const services: Service[] = [
     icon: "Code2",
     status: "index",
     related: ["teknik-seo", "google-search-console-kurulumu", "seo-uyumlu-sayfa-mimarisi", "lokal-seo"],
+    cityPriority: ["istanbul", "ankara", "izmir"],
   },
   {
     no: "30",
@@ -447,6 +469,7 @@ export const services: Service[] = [
     icon: "Gauge",
     status: "index",
     related: ["teknik-seo", "schema-org-structured-data", "seo-uyumlu-sayfa-mimarisi", "raporlama-sistemi"],
+    cityPriority: ["istanbul", "ankara", "izmir", "kocaeli"],
   },
   {
     no: "31",
@@ -461,6 +484,7 @@ export const services: Service[] = [
     icon: "Lightbulb",
     status: "index",
     related: ["teknik-seo", "lokal-seo", "ai-icerik-araclar", "dijital-donusum"],
+    cityPriority: ["istanbul", "izmir", "ankara", "adana"],
   },
   {
     no: "32",
@@ -475,6 +499,7 @@ export const services: Service[] = [
     icon: "Workflow",
     status: "index",
     related: ["api-entegrasyonu", "form-basvuru-sistemi", "dijital-donusum", "ai-icerik-araclar"],
+    cityPriority: ["istanbul", "kocaeli", "ankara", "izmir"],
   },
   {
     no: "33",
@@ -489,6 +514,7 @@ export const services: Service[] = [
     icon: "Server",
     status: "index",
     related: ["kurumsal-email", "cloudflare-cdn", "hosting-yedekleme", "vercel-deployment"],
+    cityPriority: ["istanbul", "ankara", "izmir"],
   },
   {
     no: "34",
@@ -503,6 +529,7 @@ export const services: Service[] = [
     icon: "HardDrive",
     status: "index",
     related: ["cloudflare-cdn", "domain-dns-yonetimi", "vercel-deployment", "supabase-postgresql"],
+    cityPriority: ["istanbul", "ankara", "izmir"],
   },
   {
     no: "35",
@@ -517,6 +544,7 @@ export const services: Service[] = [
     icon: "Shield",
     status: "index",
     related: ["hosting-yedekleme", "domain-dns-yonetimi", "teknik-seo", "vercel-deployment"],
+    cityPriority: ["istanbul", "izmir", "ankara"],
   },
   {
     no: "36",
@@ -531,6 +559,7 @@ export const services: Service[] = [
     icon: "Upload",
     status: "index",
     related: ["cloudflare-cdn", "saas-platformu", "mvp-startup-urunu", "hosting-yedekleme"],
+    cityPriority: ["istanbul", "ankara", "izmir"],
   },
   {
     no: "37",
@@ -545,6 +574,7 @@ export const services: Service[] = [
     icon: "Database",
     status: "index",
     related: ["api-entegrasyonu", "yonetim-paneli", "multi-tenant-uygulama", "hosting-yedekleme"],
+    cityPriority: ["istanbul", "ankara", "izmir"],
   },
   {
     no: "38",
@@ -559,6 +589,7 @@ export const services: Service[] = [
     icon: "Mail",
     status: "index",
     related: ["domain-dns-yonetimi", "dijital-otomasyon", "kurumsal-web-sitesi", "api-entegrasyonu"],
+    cityPriority: ["istanbul", "ankara", "izmir", "bursa"],
   },
   {
     no: "39",
@@ -573,6 +604,7 @@ export const services: Service[] = [
     icon: "Plug",
     status: "index",
     related: ["odeme-whatsapp-crm-entegrasyonu", "dijital-otomasyon", "e-ticaret-sitesi", "supabase-postgresql"],
+    cityPriority: ["istanbul", "kocaeli", "ankara", "izmir"],
   },
   {
     no: "40",
@@ -587,6 +619,7 @@ export const services: Service[] = [
     icon: "MessageCircle",
     status: "index",
     related: ["crm", "api-entegrasyonu", "e-ticaret-sitesi", "musteri-paneli"],
+    cityPriority: ["istanbul", "izmir", "ankara", "antalya"],
   },
   {
     no: "41",
@@ -616,6 +649,7 @@ export const services: Service[] = [
     icon: "Sparkles",
     status: "index",
     related: ["ai-chatbot", "dijital-otomasyon", "seo-uyumlu-sayfa-mimarisi", "landing-page"],
+    cityPriority: ["istanbul", "ankara", "izmir"],
   },
   {
     no: "43",
@@ -630,6 +664,7 @@ export const services: Service[] = [
     icon: "Compass",
     status: "index",
     related: ["dijital-otomasyon", "is-takip-sistemi", "yonetim-paneli", "raporlama-sistemi"],
+    cityPriority: ["istanbul", "kocaeli", "izmir", "bursa"],
   },
 ]
 
@@ -644,6 +679,14 @@ export const pilotContentsBySlug: Record<string, ServiceContent> = {
   ...webContents2,
   ...yazilimContents,
   ...yazilimContents2,
+  ...yazilimContents3,
+  ...yazilimContents4,
+  ...saasContents,
+  ...seoContents,
+  ...seoContents2,
+  ...seoContents3,
+  ...itaiContents,
+  ...itaiContents2,
 }
 
 for (const svc of services) {

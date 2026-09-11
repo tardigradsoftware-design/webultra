@@ -26,7 +26,7 @@ const byKind = (r) => {
 }
 
 const md = []
-md.push(`# Tardigrad Software — Uygulama Raporu (Faz 1 + Faz 2 grup 1)
+md.push(`# Tardigrad Software — Uygulama Raporu (Faz 1 + Faz 2: 43/43 hizmet elle yazıldı)
 
 > Bu rapor \`npm run report\` betiğiyle üretilir: build çıktısındaki HTML'den
 > title/description/kelime/schema/görsel/link metrikleri okunur, veri katmanıyla eşleştirilir.
