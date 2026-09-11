@@ -187,6 +187,24 @@ export const SERVICE_IMAGES: Record<string, ServiceImage> = {
     width: 1280,
     height: 720,
   },
+  "mvp-startup-urunu": {
+    src: "/images/services/mvp-startup-urunu-yol-haritasi.webp",
+    alt: "Startup MVP çıktısı: dizüstü ekranında ürün arayüzü, üç sütunlu yol haritası panosu ve doğrulama kontrol listesi",
+    width: 1280,
+    height: 720,
+  },
+  "lokal-seo": {
+    src: "/images/services/lokal-seo-harita-isletme-profili.webp",
+    alt: "Lokal SEO paneli: harita üzerinde işletme konumları, profil kartı, dizin kayıtları ve mobil sonuç listesi",
+    width: 1280,
+    height: 720,
+  },
+  "seo-uyumlu-sayfa-mimarisi": {
+    src: "/images/services/seo-sayfa-mimarisi-silo-diagrami.webp",
+    alt: "SEO uyumlu sayfa mimarisi diyagramı: ana sayfa, kategori ve detay sayfaları ile çapraz iç linkler",
+    width: 1280,
+    height: 720,
+  },
 }
 
 export function serviceImage(slug: string): ServiceImage | undefined {

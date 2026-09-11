@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T06:49:16.200Z",
+  "generatedAt": "2026-09-11T07:03:53.195Z",
   "images": [
     {
       "file": "/images/hero/hero-kurumsal-dijital-donusum-paneli.webp",
@@ -79,6 +79,13 @@
       "source": "images/_src/landing-page-kampanya-donusum-tasarimi.png"
     },
     {
+      "file": "/images/services/lokal-seo-harita-isletme-profili.webp",
+      "width": 1280,
+      "height": 720,
+      "kb": 21,
+      "source": "images/_src/lokal-seo-harita-isletme-profili.png"
+    },
+    {
       "file": "/images/services/multi-tenant-yapi-ve-tema-paneli.webp",
       "width": 1280,
       "height": 720,
@@ -98,6 +105,13 @@
       "height": 720,
       "kb": 20,
       "source": "images/_src/musteri-yonetim-sistemi-kart-timeline.png"
+    },
+    {
+      "file": "/images/services/mvp-startup-urunu-yol-haritasi.webp",
+      "width": 1280,
+      "height": 720,
+      "kb": 17,
+      "source": "images/_src/mvp-startup-urunu-yol-haritasi.png"
     },
     {
       "file": "/images/services/personel-kullanici-yonetimi-izin-yetki.webp",
@@ -140,6 +154,13 @@
       "height": 720,
       "kb": 14,
       "source": "images/_src/saas-platformu-tenant-konsol.png"
+    },
+    {
+      "file": "/images/services/seo-sayfa-mimarisi-silo-diagrami.webp",
+      "width": 1280,
+      "height": 720,
+      "kb": 10,
+      "source": "images/_src/seo-sayfa-mimarisi-silo-diagrami.png"
     },
     {
       "file": "/images/services/stok-yonetimi-depo-envanter-ekrani.webp",
