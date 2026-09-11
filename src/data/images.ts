@@ -169,6 +169,24 @@ export const SERVICE_IMAGES: Record<string, ServiceImage> = {
     width: 1280,
     height: 720,
   },
+  "abonelik-tabanli-yazilim": {
+    src: "/images/services/abonelik-yazilim-faturalandirma.webp",
+    alt: "Abonelik ve faturalandırma ekranı: plan kartları, dönem anahtarı, fatura geçmişi ve ödeme yöntemi kartı",
+    width: 1280,
+    height: 720,
+  },
+  "multi-tenant-uygulama": {
+    src: "/images/services/multi-tenant-yapi-ve-tema-paneli.webp",
+    alt: "Multi tenant uygulama paneli: tenant listesi, tema/renk ayarları ve ortak çekirdek mimari şeması",
+    width: 1280,
+    height: 720,
+  },
+  "dashboard-sistemi": {
+    src: "/images/services/dashboard-sistemi-gercek-zamanli-ekran.webp",
+    alt: "Gerçek zamanlı yönetim ekranı: KPI kutuları, alan grafiği, gösterge halkaları ve uyarı listesi bileşenleri",
+    width: 1280,
+    height: 720,
+  },
 }
 
 export function serviceImage(slug: string): ServiceImage | undefined {

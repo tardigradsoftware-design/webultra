@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T06:41:57.981Z",
+  "generatedAt": "2026-09-11T06:49:16.200Z",
   "images": [
     {
       "file": "/images/hero/hero-kurumsal-dijital-donusum-paneli.webp",
@@ -7,6 +7,13 @@
       "height": 800,
       "kb": 15,
       "source": "(kaynak PNG repoda değil — WebP doğrudan kullanılıyor)"
+    },
+    {
+      "file": "/images/services/abonelik-yazilim-faturalandirma.webp",
+      "width": 1280,
+      "height": 720,
+      "kb": 14,
+      "source": "images/_src/abonelik-yazilim-faturalandirma.png"
     },
     {
       "file": "/images/services/ai-chatbot-musteri-destek-sohbet-paneli.webp",
@@ -21,6 +28,13 @@
       "height": 720,
       "kb": 17,
       "source": "(kaynak PNG repoda değil — WebP doğrudan kullanılıyor)"
+    },
+    {
+      "file": "/images/services/dashboard-sistemi-gercek-zamanli-ekran.webp",
+      "width": 1280,
+      "height": 720,
+      "kb": 8,
+      "source": "images/_src/dashboard-sistemi-gercek-zamanli-ekran.png"
     },
     {
       "file": "/images/services/e-ticaret-sitesi-urun-katalog-sepet.webp",
@@ -63,6 +77,13 @@
       "height": 720,
       "kb": 19,
       "source": "images/_src/landing-page-kampanya-donusum-tasarimi.png"
+    },
+    {
+      "file": "/images/services/multi-tenant-yapi-ve-tema-paneli.webp",
+      "width": 1280,
+      "height": 720,
+      "kb": 10,
+      "source": "images/_src/multi-tenant-yapi-ve-tema-paneli.png"
     },
     {
       "file": "/images/services/musteri-paneli-talep-takip.webp",

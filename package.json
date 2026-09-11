@@ -12,6 +12,7 @@
     "typecheck": "tsc --noEmit",
     "imgs": "node scripts/build-images.mjs",
     "queue": "node scripts/image-queue.mjs",
+    "wire:img": "node scripts/wire-image.mjs",
     "seo:check": "node scripts/seo-check.mjs",
     "check:copy": "node scripts/check-desc-endings.mjs",
     "save": "bash scripts/git-save.sh",
