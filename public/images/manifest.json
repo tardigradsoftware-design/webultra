@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T07:03:53.195Z",
+  "generatedAt": "2026-09-11T07:51:27.768Z",
   "images": [
     {
       "file": "/images/hero/hero-kurumsal-dijital-donusum-paneli.webp",
@@ -154,6 +154,27 @@
       "height": 720,
       "kb": 14,
       "source": "images/_src/saas-platformu-tenant-konsol.png"
+    },
+    {
+      "file": "/images/services/schema-org-veri-isaretleme.webp",
+      "width": 1280,
+      "height": 720,
+      "kb": 13,
+      "source": "images/_src/schema-org-veri-isaretleme.png"
+    },
+    {
+      "file": "/images/services/search-console-performans-grafigi.webp",
+      "width": 1280,
+      "height": 720,
+      "kb": 26,
+      "source": "images/_src/search-console-performans-grafigi.png"
+    },
+    {
+      "file": "/images/services/seo-danismanligi-rapor-toplanti.webp",
+      "width": 1280,
+      "height": 720,
+      "kb": 21,
+      "source": "images/_src/seo-danismanligi-rapor-toplanti.png"
     },
     {
       "file": "/images/services/seo-sayfa-mimarisi-silo-diagrami.webp",
