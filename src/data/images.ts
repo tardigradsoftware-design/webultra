@@ -246,7 +246,7 @@ export const SERVICE_IMAGES: Record<string, ServiceImage> = {
     alt: "CDN ve kenar nokta ağı şeması: dünya üzerindeki sunucu noktaları, önbellek isabet oranı ve gecikme çubukları",
     width: 1280,
     height: 720,
-  }
+  },
   "vercel-deployment": {
     src: "/images/services/vercel-deployment-hatti.webp",
     alt: "Sürekli dağıtım hattı: commit, build ve deploy aşamaları ile önizleme ortamı şeridi",

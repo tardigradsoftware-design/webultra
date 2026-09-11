@@ -26,7 +26,7 @@ const entry = [
 
 const keyRe = new RegExp(`^  "?${slug}"?: \\{[\\s\\S]*?^  \\},`, "m")
 if (keyRe.test(s)) {
-  s = s.replace(keyRe, entry.replace(/,$/, ""))
+  s = s.replace(keyRe, entry)
   console.log(`[wire] ${slug} kaydı güncellendi`)
 } else {
   const i = s.indexOf("export const SERVICE_IMAGES")
