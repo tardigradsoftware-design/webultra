@@ -29,7 +29,7 @@ export const PROCESS_IMG: ServiceImage = {
   height: 720,
 }
 
-/** Hizmet kapağı olanlar (11 kayıt: 5 pilot + web kategorisi + ilk özel yazılım hizmetleri). Olmayanlar CSS/SVG mockup fallback kullanır. */
+/** Hizmet kapağı olanlar (14 kayıt: 5 pilot + web kategorisi + özel yazılımın ilk bölüğü). Olmayanlar CSS/SVG mockup fallback kullanır. */
 export const SERVICE_IMAGES: Record<string, ServiceImage> = {
   "kurumsal-web-sitesi": {
     src: "/images/services/kurumsal-web-sitesi-tasarim-mockup.webp",
@@ -94,6 +94,24 @@ export const SERVICE_IMAGES: Record<string, ServiceImage> = {
   "web-sitesi-yenileme": {
     src: "/images/services/web-sitesi-yenileme-once-sonra.webp",
     alt: "Eski ve yeni web sitesi düzeninin yan yana karşılaştırması, yenilenmiş tasarımda performans metrik kartları",
+    width: 1280,
+    height: 720,
+  },
+  "musteri-yonetim-sistemi": {
+    src: "/images/services/musteri-yonetim-sistemi-kart-timeline.webp",
+    alt: "Müşteri yönetim sistemi ekranı: özet kartları, müşteri listesi ve etkileşim zaman çizelgesi, mobil görünümle birlikte",
+    width: 1280,
+    height: 720,
+  },
+  "teklif-hazirlama-sistemi": {
+    src: "/images/services/teklif-hazirlama-sistemi-teklif-taslagi.webp",
+    alt: "Teklif hazırlama arayüzü: satır kalemleri, seçili kalem vurgusu, toplam tutar bandı ve onay rozeti",
+    width: 1280,
+    height: 720,
+  },
+  "proforma-siparis-yonetimi": {
+    src: "/images/services/proforma-siparis-yonetimi-belge-akisi.webp",
+    alt: "Teklif, proforma fatura ve sipariş belgelerinin akışı ile sipariş takip panosu",
     width: 1280,
     height: 720,
   },

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T06:10:27.963Z",
+  "generatedAt": "2026-09-11T06:16:40.666Z",
   "images": [
     {
       "file": "/images/hero/hero-kurumsal-dijital-donusum-paneli.webp",
@@ -51,6 +51,13 @@
       "source": "images/_src/landing-page-kampanya-donusum-tasarimi.png"
     },
     {
+      "file": "/images/services/musteri-yonetim-sistemi-kart-timeline.webp",
+      "width": 1280,
+      "height": 720,
+      "kb": 20,
+      "source": "images/_src/musteri-yonetim-sistemi-kart-timeline.png"
+    },
+    {
       "file": "/images/services/portfoy-sitesi-proje-galerisi.webp",
       "width": 1280,
       "height": 720,
@@ -58,11 +65,25 @@
       "source": "images/_src/portfoy-sitesi-proje-galerisi.png"
     },
     {
+      "file": "/images/services/proforma-siparis-yonetimi-belge-akisi.webp",
+      "width": 1280,
+      "height": 720,
+      "kb": 13,
+      "source": "images/_src/proforma-siparis-yonetimi-belge-akisi.png"
+    },
+    {
       "file": "/images/services/rezervasyon-sistemi-takvim-slot-arayuzu.webp",
       "width": 1280,
       "height": 720,
       "kb": 22,
       "source": "images/_src/rezervasyon-sistemi-takvim-slot-arayuzu.png"
+    },
+    {
+      "file": "/images/services/teklif-hazirlama-sistemi-teklif-taslagi.webp",
+      "width": 1280,
+      "height": 720,
+      "kb": 7,
+      "source": "images/_src/teklif-hazirlama-sistemi-teklif-taslagi.png"
     },
     {
       "file": "/images/services/teknik-seo-arama-motori-buyume-grafigi.webp",
