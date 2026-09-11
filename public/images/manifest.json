@@ -1,12 +1,47 @@
 {
-  "generatedAt": "2026-09-11T05:43:12.596Z",
+  "generatedAt": "2026-09-11T05:45:17.807Z",
   "images": [
+    {
+      "file": "/images/hero/hero-kurumsal-dijital-donusum-paneli.webp",
+      "width": 1280,
+      "height": 800,
+      "kb": 15,
+      "source": "(kaynak PNG repoda değil — WebP doğrudan kullanılıyor)"
+    },
+    {
+      "file": "/images/services/ai-chatbot-musteri-destek-sohbet-paneli.webp",
+      "width": 1280,
+      "height": 720,
+      "kb": 30,
+      "source": "(kaynak PNG repoda değil — WebP doğrudan kullanılıyor)"
+    },
+    {
+      "file": "/images/services/crm-musteri-iliskileri-yonetim-paneli.webp",
+      "width": 1280,
+      "height": 720,
+      "kb": 17,
+      "source": "(kaynak PNG repoda değil — WebP doğrudan kullanılıyor)"
+    },
+    {
+      "file": "/images/services/e-ticaret-sitesi-urun-katalog-sepet.webp",
+      "width": 1280,
+      "height": 720,
+      "kb": 29,
+      "source": "(kaynak PNG repoda değil — WebP doğrudan kullanılıyor)"
+    },
     {
       "file": "/images/services/firma-web-sitesi-kurumsal-tanim-arayuzu.webp",
       "width": 1280,
       "height": 720,
       "kb": 10,
       "source": "images/_src/firma-web-sitesi-kurumsal-tanim-arayuzu.png"
+    },
+    {
+      "file": "/images/services/kurumsal-web-sitesi-tasarim-mockup.webp",
+      "width": 1280,
+      "height": 720,
+      "kb": 17,
+      "source": "(kaynak PNG repoda değil — WebP doğrudan kullanılıyor)"
     },
     {
       "file": "/images/services/landing-page-kampanya-donusum-tasarimi.webp",
@@ -16,11 +51,32 @@
       "source": "images/_src/landing-page-kampanya-donusum-tasarimi.png"
     },
     {
+      "file": "/images/services/teknik-seo-arama-motori-buyume-grafigi.webp",
+      "width": 1280,
+      "height": 720,
+      "kb": 33,
+      "source": "(kaynak PNG repoda değil — WebP doğrudan kullanılıyor)"
+    },
+    {
       "file": "/images/services/urun-tanitim-sitesi-urun-galerisi.webp",
       "width": 1280,
       "height": 720,
       "kb": 9,
       "source": "images/_src/urun-tanitim-sitesi-urun-galerisi.png"
+    },
+    {
+      "file": "/images/shared/dijital-donusum-excel-den-webe.webp",
+      "width": 1280,
+      "height": 720,
+      "kb": 10,
+      "source": "(kaynak PNG repoda değil — WebP doğrudan kullanılıyor)"
+    },
+    {
+      "file": "/images/shared/surec-9-adim-akisi.webp",
+      "width": 1280,
+      "height": 720,
+      "kb": 18,
+      "source": "(kaynak PNG repoda değil — WebP doğrudan kullanılıyor)"
     }
   ]
 }
